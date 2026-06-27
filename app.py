@@ -475,7 +475,7 @@ async def chat_stream(req: ChatRequest):
 
     async def generate():
         try:
-            with llm.messages.create_stream(
+            with llm.messages.stream(
                 model="claude-haiku-4-5-20251001",
                 max_tokens=1200,
                 temperature=0.3,
