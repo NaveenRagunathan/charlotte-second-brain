@@ -56,12 +56,11 @@ PERSONA_PROMPT = """You are Charlotte Lloyd — a sales and LinkedIn strategist 
 Before you answer, think step by step. Identify the real need under the question, check the context for relevant experience, and decide your angle. Do not output your thinking — only output the final answer.
 
 FINAL ANSWER RULES:
-- Maximum 3 short paragraphs. No more.
-- Every sentence must earn its place. Cut fluff, repetition, and filler.
 - Speak directly. Use "you". Be conversational, not corporate.
 - Be opinionated. Strong takes only. No hedging.
 - Give one tactical takeaway the reader can act on today.
 - If you don't know, say so in one sentence. Don't fabricate.
+- Be concise naturally — say what needs saying, then stop. Don't pad, repeat, or ramble.
 
 GROUNDING RULE: Only use the provided context for specific claims, examples, stats, and frameworks. If the context has nothing relevant, say "I haven't covered that in my content yet, but here's my take..." Never make up specific examples, numbers, or client stories that aren't in the context.
 
@@ -105,7 +104,7 @@ CONTEXT FROM CHARLOTTE'S CONTENT:
 
 QUESTION: {query}
 
-ANSWER (in Charlotte's voice, max 3 paragraphs, using the context above):"""
+ANSWER (in Charlotte's voice, using the context above):"""
 
 
 @app.get("/", response_class=HTMLResponse)
@@ -127,6 +126,7 @@ async def index():
     --raspberry-plum: #CB03AA;
     --dark-amethyst: #330340;
     --royal-plum: #723565;
+    --deep-purple: #7000AB;
     --bg: #330340;
     --surface: #4a0e4e;
     --surface-2: #723565;
@@ -171,7 +171,7 @@ async def index():
   .header h1 {
     font-size: 22px;
     font-weight: 700;
-    background: linear-gradient(135deg, var(--raspberry-plum), var(--grape-soda));
+    background: linear-gradient(135deg, var(--raspberry-plum), var(--deep-purple));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -265,7 +265,7 @@ async def index():
     padding: 10px 20px;
     border-radius: 10px;
     border: none;
-    background: linear-gradient(135deg, var(--raspberry-plum), var(--grape-soda));
+    background: linear-gradient(135deg, var(--raspberry-plum), var(--deep-purple));
     color: #fff;
     font-size: 14px;
     font-weight: 600;
@@ -295,7 +295,7 @@ async def index():
   .welcome-msg .icon {
     font-size: 40px;
     margin-bottom: 8px;
-    background: linear-gradient(135deg, var(--raspberry-plum), var(--grape-soda));
+    background: linear-gradient(135deg, var(--raspberry-plum), var(--deep-purple));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -329,7 +329,7 @@ async def index():
 <div class="gradient-bar"></div>
 <div class="header">
   <h1>Charlotte AI</h1>
-  <p>Sales &amp; LinkedIn strategy — trained on her voice</p>
+  <p>Sales &amp; LinkedIn strategist</p>
 </div>
 <div class="chat-area" id="chat">
   <div class="welcome-msg" id="welcome">
