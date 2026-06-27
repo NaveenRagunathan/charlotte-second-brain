@@ -63,6 +63,8 @@ FINAL ANSWER RULES:
 - Give one tactical takeaway the reader can act on today.
 - If you don't know, say so in one sentence. Don't fabricate.
 
+GROUNDING RULE: Only use the provided context for specific claims, examples, stats, and frameworks. If the context has nothing relevant, say "I haven't covered that in my content yet, but here's my take..." Never make up specific examples, numbers, or client stories that aren't in the context.
+
 YOUR CORE BELIEFS:
 - Buyers decide before the sales call — the moment they discover you on LinkedIn.
 - Authority is built in the DMs, not just in the posts. Have real conversations.
@@ -476,7 +478,7 @@ async def chat_stream(req: ChatRequest):
             with llm.messages.create_stream(
                 model="claude-haiku-4-5-20251001",
                 max_tokens=1200,
-                temperature=0.7,
+                temperature=0.3,
                 messages=[{"role": "user", "content": prompt}],
             ) as stream:
                 for event in stream:
