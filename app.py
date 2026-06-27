@@ -8,10 +8,11 @@ import os
 import glob
 import numpy as np
 from fastapi import FastAPI
-from fastapi.responses import HTMLResponse, JSONResponse
+from fastapi.responses import HTMLResponse, JSONResponse, StreamingResponse
 from pydantic import BaseModel
 from sklearn.feature_extraction.text import TfidfVectorizer
 from anthropic import Anthropic
+import json
 
 BASE_DIR = os.environ.get("CONTENT_DIR", os.path.dirname(os.path.abspath(__file__)))
 
@@ -278,29 +279,6 @@ async def index():
   .input-wrap button:active { transform: scale(0.97); }
   .input-wrap button:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 
-  .typing {
-    color: var(--text-muted);
-    font-size: 13px;
-    padding: 8px 20px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
-
-  .typing::after {
-    content: '';
-    width: 6px;
-    height: 6px;
-    background: var(--pink);
-    border-radius: 50%;
-    animation: pulse-dot 1.2s ease-in-out infinite;
-  }
-
-  @keyframes pulse-dot {
-    0%, 100% { opacity: 0.3; transform: scale(0.8); }
-    50% { opacity: 1; transform: scale(1.2); }
-  }
-
   pre { white-space: pre-wrap; font-family: inherit; margin: 0; }
 
   .welcome-msg {
@@ -402,21 +380,6 @@ function addMessage(text, role) {
   chat.scrollTop = chat.scrollHeight;
 }
 
-function addTyping() {
-  hideWelcome();
-  const div = document.createElement('div');
-  div.className = 'msg bot typing';
-  div.id = 'typing';
-  div.textContent = 'thinking';
-  chat.appendChild(div);
-  chat.scrollTop = chat.scrollHeight;
-}
-
-function removeTyping() {
-  const el = document.getElementById('typing');
-  if (el) el.remove();
-}
-
 function escapeHtml(text) {
   const d = document.createElement('div');
   d.textContent = text;
@@ -428,20 +391,62 @@ async function send() {
   if (!msg) return;
   input.value = '';
   btn.disabled = true;
+  hideWelcome();
   addMessage(msg, 'user');
-  addTyping();
+
+  const botDiv = document.createElement('div');
+  botDiv.className = 'msg bot';
+  botDiv.style.opacity = '0';
+  botDiv.style.transform = 'translateY(8px)';
+  botDiv.style.transition = 'opacity 0.25s ease, transform 0.25s ease';
+  const pre = document.createElement('pre');
+  botDiv.appendChild(pre);
+  chat.appendChild(botDiv);
+  requestAnimationFrame(() => {
+    botDiv.style.opacity = '1';
+    botDiv.style.transform = 'translateY(0)';
+  });
+
   try {
-    const res = await fetch('/chat', {
+    const res = await fetch('/chat/stream', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({message: msg})
     });
-    const data = await res.json();
-    removeTyping();
-    addMessage(data.answer, 'bot');
+    if (!res.ok) {
+      pre.textContent = 'Error: ' + (await res.json()).error;
+      btn.disabled = false;
+      input.focus();
+      return;
+    }
+    const reader = res.body.getReader();
+    const decoder = new TextDecoder();
+    let buffer = '';
+
+    while (true) {
+      const {done, value} = await reader.read();
+      if (done) break;
+      buffer += decoder.decode(value, {stream: true});
+      const lines = buffer.split('\n');
+      buffer = lines.pop() || '';
+      for (const line of lines) {
+        if (line.startsWith('data: ')) {
+          const data = line.slice(6);
+          if (data === '[DONE]') continue;
+          try {
+            const parsed = JSON.parse(data);
+            if (parsed.error) {
+              pre.textContent = 'Error: ' + parsed.error;
+            } else if (parsed.token) {
+              pre.textContent += parsed.token;
+            }
+            chat.scrollTop = chat.scrollHeight;
+          } catch(e) {}
+        }
+      }
+    }
   } catch(e) {
-    removeTyping();
-    addMessage('Error: ' + e.message, 'bot');
+    pre.textContent = 'Error: ' + e.message;
   }
   btn.disabled = false;
   input.focus();
@@ -452,8 +457,8 @@ async function send() {
     return HTMLResponse(content=html)
 
 
-@app.post("/chat")
-async def chat(req: ChatRequest):
+@app.post("/chat/stream")
+async def chat_stream(req: ChatRequest):
     if not llm:
         return JSONResponse(
             status_code=500,
@@ -467,19 +472,24 @@ async def chat(req: ChatRequest):
     relevant = find_relevant_docs(query, top_k=5)
     prompt = build_prompt(query, relevant)
 
-    try:
-        resp = llm.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=2000,
-            temperature=0.7,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        answer = resp.content[0].text.strip()
-        answer = answer.replace("*", "")
-    except Exception as e:
-        return JSONResponse(status_code=500, content={"error": str(e)})
+    async def generate():
+        try:
+            with llm.messages.create_stream(
+                model="claude-haiku-4-5-20251001",
+                max_tokens=2000,
+                temperature=0.7,
+                messages=[{"role": "user", "content": prompt}],
+            ) as stream:
+                for event in stream:
+                    if event.type == "content_block_delta" and event.delta.type == "text_delta":
+                        text = event.delta.text.replace("*", "")
+                        if text:
+                            yield f"data: {json.dumps({'token': text})}\n\n"
+        except Exception as e:
+            yield f"data: {json.dumps({'error': str(e)})}\n\n"
+        yield "data: [DONE]\n\n"
 
-    return JSONResponse({"answer": answer})
+    return StreamingResponse(generate(), media_type="text/event-stream")
 
 
 if __name__ == "__main__":
