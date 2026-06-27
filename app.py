@@ -113,82 +113,255 @@ async def index():
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Charlotte's Second Brain</title>
+<title>Charlotte AI</title>
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
   * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --pink: #f472b6;
+    --pink-dark: #ec4899;
+    --pink-deep: #db2777;
+    --blue: #38bdf8;
+    --blue-dark: #0ea5e9;
+    --blue-deep: #0284c7;
+    --bg: #0f0a14;
+    --surface: #15101e;
+    --surface-2: #1c152a;
+    --border: #2a1f3d;
+    --text: #e2d8f0;
+    --text-muted: #8b7db0;
+    --text-dim: #5d4f7a;
+  }
+
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: #0a0a0a;
-    color: #e0e0e0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
     height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
+
+  .gradient-bar {
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, var(--pink), var(--blue), var(--pink));
+    background-size: 200% 100%;
+    animation: shimmer 4s ease-in-out infinite;
+    flex-shrink: 0;
+  }
+
+  @keyframes shimmer {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+
   .header {
-    padding: 16px 24px;
-    border-bottom: 1px solid #1a1a1a;
-    background: #0d0d0d;
+    width: 100%;
+    max-width: 740px;
+    padding: 24px 24px 12px;
+    text-align: center;
+    flex-shrink: 0;
   }
-  .header h1 { font-size: 18px; font-weight: 600; color: #fff; }
-  .header p { font-size: 13px; color: #666; margin-top: 2px; }
-  .chat {
-    flex: 1; overflow-y: auto; padding: 24px;
-    display: flex; flex-direction: column; gap: 16px;
+
+  .header h1 {
+    font-size: 22px;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--pink), var(--blue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
+
+  .header p {
+    font-size: 13px;
+    color: var(--text-dim);
+    margin-top: 4px;
+    font-weight: 400;
+  }
+
+  .chat-area {
+    flex: 1;
+    width: 100%;
+    max-width: 740px;
+    overflow-y: auto;
+    padding: 8px 24px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+
+  .chat-area::-webkit-scrollbar { width: 4px; }
+  .chat-area::-webkit-scrollbar-track { background: transparent; }
+  .chat-area::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
   .msg {
-    max-width: 680px; padding: 14px 18px; border-radius: 10px;
-    line-height: 1.6; font-size: 14px;
+    max-width: 620px;
+    padding: 14px 20px;
+    border-radius: 14px;
+    line-height: 1.65;
+    font-size: 14px;
+    letter-spacing: 0.01em;
   }
+
   .msg.user {
-    background: #2a1a3a; color: #d4b8e6;
-    align-self: flex-end; border-bottom-right-radius: 4px;
+    background: linear-gradient(135deg, var(--pink-deep), var(--blue-deep));
+    color: #fff;
+    align-self: flex-end;
+    border-bottom-right-radius: 4px;
   }
+
   .msg.bot {
-    background: #141414; color: #d0d0d0;
-    align-self: flex-start; border-bottom-left-radius: 4px;
-    border: 1px solid #1f1f1f;
+    background: var(--surface);
+    color: var(--text);
+    align-self: flex-start;
+    border-bottom-left-radius: 4px;
+    border: 1px solid var(--border);
   }
+
   .input-area {
-    padding: 16px 24px; border-top: 1px solid #1a1a1a;
-    background: #0d0d0d;
+    width: 100%;
+    max-width: 740px;
+    padding: 12px 24px 24px;
+    flex-shrink: 0;
   }
-  .input-row {
-    display: flex; gap: 10px; max-width: 720px; margin: 0 auto;
+
+  .input-wrap {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 4px 4px 4px 18px;
+    transition: border-color 0.25s, box-shadow 0.25s;
   }
-  .input-row input {
-    flex: 1; padding: 12px 16px; border-radius: 8px; border: 1px solid #222;
-    background: #111; color: #e0e0e0; font-size: 14px; outline: none;
+
+  .input-wrap:focus-within {
+    border-color: var(--pink);
+    box-shadow: 0 0 0 3px rgba(244, 114, 182, 0.12), 0 0 20px rgba(244, 114, 182, 0.06);
   }
-  .input-row input:focus { border-color: #a84ad4; }
-  .input-row input::placeholder { color: #444; }
-  .input-row button {
-    padding: 12px 24px; border-radius: 8px; border: none;
-    background: #6a1a8a; color: #fff; font-size: 14px; font-weight: 500;
-    cursor: pointer; transition: background 0.2s;
+
+  .input-wrap input {
+    flex: 1;
+    padding: 10px 0;
+    border: none;
+    background: transparent;
+    color: var(--text);
+    font-size: 14px;
+    font-family: inherit;
+    outline: none;
   }
-  .input-row button:hover { background: #8a2aaa; }
-  .input-row button:disabled { background: #333; cursor: not-allowed; }
-  .typing { color: #555; font-size: 13px; padding: 8px 18px; }
+
+  .input-wrap input::placeholder { color: var(--text-dim); }
+
+  .input-wrap button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(135deg, var(--pink), var(--blue));
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0.15s;
+    white-space: nowrap;
+  }
+
+  .input-wrap button:hover { opacity: 0.9; transform: scale(1.02); }
+  .input-wrap button:active { transform: scale(0.97); }
+  .input-wrap button:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
+
+  .typing {
+    color: var(--text-muted);
+    font-size: 13px;
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .typing::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: var(--pink);
+    border-radius: 50%;
+    animation: pulse-dot 1.2s ease-in-out infinite;
+  }
+
+  @keyframes pulse-dot {
+    0%, 100% { opacity: 0.3; transform: scale(0.8); }
+    50% { opacity: 1; transform: scale(1.2); }
+  }
+
   pre { white-space: pre-wrap; font-family: inherit; margin: 0; }
+
+  .welcome-msg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    padding: 40px 24px;
+    gap: 8px;
+  }
+
+  .welcome-msg .icon {
+    font-size: 40px;
+    margin-bottom: 8px;
+    background: linear-gradient(135deg, var(--pink), var(--blue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .welcome-msg h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .welcome-msg p {
+    font-size: 13px;
+    color: var(--text-dim);
+    max-width: 400px;
+    line-height: 1.5;
+  }
+
   @media (max-width: 600px) {
-    .chat { padding: 16px; }
-    .msg { max-width: 100%; font-size: 13px; }
-    .input-area { padding: 12px 16px; }
+    .header { padding: 20px 16px 8px; }
+    .header h1 { font-size: 19px; }
+    .chat-area { padding: 8px 16px 0; }
+    .msg { max-width: 100%; font-size: 13px; padding: 12px 16px; }
+    .input-area { padding: 12px 16px 20px; }
+    .input-wrap { padding: 3px 3px 3px 14px; }
+    .input-wrap button { padding: 8px 16px; font-size: 13px; }
   }
 </style>
 </head>
 <body>
+<div class="gradient-bar"></div>
 <div class="header">
-  <h1>Charlotte's Second Brain</h1>
-  <p>Trained on 136 LinkedIn posts, 7 website pages, and 3 podcast interviews</p>
+  <h1>Charlotte AI</h1>
+  <p>Sales &amp; LinkedIn strategy — trained on her voice</p>
 </div>
-<div class="chat" id="chat">
-  <div class="msg bot">
-    Hey — ask me anything about LinkedIn, sales, DM strategy, or building a client pipeline. I'll answer like I would on a call.
+<div class="chat-area" id="chat">
+  <div class="welcome-msg" id="welcome">
+    <div class="icon">&#9670;</div>
+    <h2>Ask Charlotte anything</h2>
+    <p>LinkedIn strategy, sales conversations, DM playbooks, client pipeline — get answers in her voice.</p>
   </div>
 </div>
 <div class="input-area">
-  <div class="input-row">
+  <div class="input-wrap">
     <input type="text" id="input" placeholder="Ask Charlotte..." autofocus>
     <button id="sendBtn" onclick="send()">Send</button>
   </div>
@@ -197,24 +370,44 @@ async def index():
 const chat = document.getElementById('chat');
 const input = document.getElementById('input');
 const btn = document.getElementById('sendBtn');
+const welcome = document.getElementById('welcome');
+let started = false;
 
 input.addEventListener('keydown', function(e) {
   if (e.key === 'Enter') send();
 });
 
+function hideWelcome() {
+  if (started) return;
+  started = true;
+  welcome.style.transition = 'opacity 0.3s, transform 0.3s';
+  welcome.style.opacity = '0';
+  welcome.style.transform = 'translateY(-8px)';
+  setTimeout(() => welcome.remove(), 300);
+}
+
 function addMessage(text, role) {
+  hideWelcome();
   const div = document.createElement('div');
   div.className = 'msg ' + role;
+  div.style.opacity = '0';
+  div.style.transform = 'translateY(8px)';
+  div.style.transition = 'opacity 0.25s ease, transform 0.25s ease';
   div.innerHTML = '<pre>' + escapeHtml(text) + '</pre>';
   chat.appendChild(div);
+  requestAnimationFrame(() => {
+    div.style.opacity = '1';
+    div.style.transform = 'translateY(0)';
+  });
   chat.scrollTop = chat.scrollHeight;
 }
 
 function addTyping() {
+  hideWelcome();
   const div = document.createElement('div');
   div.className = 'msg bot typing';
   div.id = 'typing';
-  div.textContent = 'thinking...';
+  div.textContent = 'thinking';
   chat.appendChild(div);
   chat.scrollTop = chat.scrollHeight;
 }
