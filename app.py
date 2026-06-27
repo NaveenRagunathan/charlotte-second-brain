@@ -11,7 +11,7 @@ from fastapi import FastAPI
 from fastapi.responses import HTMLResponse, JSONResponse, StreamingResponse
 from pydantic import BaseModel
 from sklearn.feature_extraction.text import TfidfVectorizer
-from anthropic import Anthropic
+from anthropic import AsyncAnthropic
 import json
 
 BASE_DIR = os.environ.get("CONTENT_DIR", os.path.dirname(os.path.abspath(__file__)))
@@ -49,7 +49,7 @@ if not api_key:
                 if line.startswith("ANTHROPIC_API_KEY="):
                     api_key = line.strip().split("=", 1)[1]
 
-llm = Anthropic(api_key=api_key) if api_key else None
+llm = AsyncAnthropic(api_key=api_key) if api_key else None
 
 PERSONA_PROMPT = """You are Charlotte Lloyd — a sales and LinkedIn strategist who helps entrepreneurs, coaches, and consultants build a client pipeline and close high-value deals.
 
@@ -122,19 +122,18 @@ async def index():
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
   :root {
-    --pink: #f472b6;
-    --pink-dark: #ec4899;
-    --pink-deep: #db2777;
-    --blue: #38bdf8;
-    --blue-dark: #0ea5e9;
-    --blue-deep: #0284c7;
-    --bg: #0f0a14;
-    --surface: #15101e;
-    --surface-2: #1c152a;
-    --border: #2a1f3d;
-    --text: #e2d8f0;
-    --text-muted: #8b7db0;
-    --text-dim: #5d4f7a;
+    --grape-soda: #8E518A;
+    --crimson-violet: #59033E;
+    --raspberry-plum: #CB03AA;
+    --dark-amethyst: #330340;
+    --royal-plum: #723565;
+    --bg: #330340;
+    --surface: #4a0e4e;
+    --surface-2: #723565;
+    --border: #8E518A;
+    --text: #ffffff;
+    --text-muted: #d4a8d0;
+    --text-dim: #b07aaa;
   }
 
   body {
@@ -150,7 +149,7 @@ async def index():
   .gradient-bar {
     width: 100%;
     height: 3px;
-    background: linear-gradient(90deg, var(--pink), var(--blue), var(--pink));
+    background: linear-gradient(90deg, var(--raspberry-plum), var(--grape-soda), var(--raspberry-plum));
     background-size: 200% 100%;
     animation: shimmer 4s ease-in-out infinite;
     flex-shrink: 0;
@@ -172,7 +171,7 @@ async def index():
   .header h1 {
     font-size: 22px;
     font-weight: 700;
-    background: linear-gradient(135deg, var(--pink), var(--blue));
+    background: linear-gradient(135deg, var(--raspberry-plum), var(--grape-soda));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -212,7 +211,7 @@ async def index():
   }
 
   .msg.user {
-    background: linear-gradient(135deg, var(--pink-deep), var(--blue-deep));
+    background: linear-gradient(135deg, var(--crimson-violet), var(--royal-plum));
     color: #fff;
     align-self: flex-end;
     border-bottom-right-radius: 4px;
@@ -245,7 +244,7 @@ async def index():
   }
 
   .input-wrap:focus-within {
-    border-color: var(--pink);
+    border-color: var(--raspberry-plum);
     box-shadow: 0 0 0 3px rgba(244, 114, 182, 0.12), 0 0 20px rgba(244, 114, 182, 0.06);
   }
 
@@ -266,7 +265,7 @@ async def index():
     padding: 10px 20px;
     border-radius: 10px;
     border: none;
-    background: linear-gradient(135deg, var(--pink), var(--blue));
+    background: linear-gradient(135deg, var(--raspberry-plum), var(--grape-soda));
     color: #fff;
     font-size: 14px;
     font-weight: 600;
@@ -296,7 +295,7 @@ async def index():
   .welcome-msg .icon {
     font-size: 40px;
     margin-bottom: 8px;
-    background: linear-gradient(135deg, var(--pink), var(--blue));
+    background: linear-gradient(135deg, var(--raspberry-plum), var(--grape-soda));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -475,13 +474,13 @@ async def chat_stream(req: ChatRequest):
 
     async def generate():
         try:
-            with llm.messages.stream(
+            async with llm.messages.stream(
                 model="claude-haiku-4-5-20251001",
                 max_tokens=1200,
                 temperature=0.3,
                 messages=[{"role": "user", "content": prompt}],
             ) as stream:
-                for event in stream:
+                async for event in stream:
                     if event.type == "content_block_delta" and event.delta.type == "text_delta":
                         text = event.delta.text.replace("*", "")
                         if text:
