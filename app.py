@@ -101,14 +101,24 @@ class ChatRequest(BaseModel):
     message: str
 
 
-def find_relevant_docs(query, top_k=5):
+def find_relevant_docs(query, top_k=3):
+    query_tokens = set(query.lower().split())
     query_vec = vectorizer.transform([query])
     scores = np.dot(embeddings, query_vec.T).toarray().flatten()
-    top_idx = np.argsort(scores)[-top_k:][::-1]
-    results = []
+    candidate_count = min(15, len(all_docs))
+    top_idx = np.argsort(scores)[-candidate_count:][::-1]
+    candidates = []
     for idx in top_idx:
+        doc_text = all_docs[idx]["text"].lower()
+        matched = sum(1 for t in query_tokens if t in doc_text)
+        overlap = matched / len(query_tokens) if query_tokens else 0
+        hybrid = 0.7 * float(scores[idx]) + 0.3 * overlap
+        candidates.append((hybrid, idx))
+    candidates.sort(key=lambda x: x[0], reverse=True)
+    results = []
+    for hybrid, idx in candidates[:top_k]:
         results.append({
-            "score": float(scores[idx]),
+            "score": hybrid,
             "file": all_docs[idx]["file"],
             "text": all_docs[idx]["text"],
         })
@@ -116,7 +126,7 @@ def find_relevant_docs(query, top_k=5):
 
 
 def build_context(query):
-    docs = find_relevant_docs(query, top_k=5)
+    docs = find_relevant_docs(query, top_k=3)
     context = ""
     for i, d in enumerate(docs, 1):
         context += f"Source {i} ({d['file']}):\n{d['text']}\n\n"
