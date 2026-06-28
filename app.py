@@ -367,7 +367,7 @@ async def chat_stream(req: ChatRequest):
 
     payload = {
         "system_instruction": {"parts": [{"text": SYSTEM_INSTRUCTION}]},
-        "contents": [{"parts": [{"text": f"CHARLOTTE'S CONTENT:\n{context}\nQUESTION: {query}\n\nANSWER (in Charlotte's voice, using the content above):"}]}],
+        "contents": [{"role": "user", "parts": [{"text": f"CHARLOTTE'S CONTENT:\n{context}\nQUESTION: {query}\n\nANSWER (in Charlotte's voice, using the content above):"}]}],
         "generationConfig": {
             "temperature": 0.3,
             "maxOutputTokens": 1200,
@@ -443,7 +443,7 @@ async def chat_sync(req: ChatRequest):
     context = build_context(query)
     payload = {
         "system_instruction": {"parts": [{"text": SYSTEM_INSTRUCTION}]},
-        "contents": [{"parts": [{"text": f"CHARLOTTE'S CONTENT:\n{context}\nQUESTION: {query}\n\nANSWER (in Charlotte's voice, using the content above):"}]}],
+        "contents": [{"role": "user", "parts": [{"text": f"CHARLOTTE'S CONTENT:\n{context}\nQUESTION: {query}\n\nANSWER (in Charlotte's voice, using the content above):"}]}],
         "generationConfig": {"temperature": 0.3, "maxOutputTokens": 1200}
     }
     try:
