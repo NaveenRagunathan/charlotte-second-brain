@@ -6,7 +6,6 @@ Trained on LinkedIn posts, website content, and podcast transcripts.
 
 import os
 import glob
-import tempfile
 import json
 import numpy as np
 from fastapi import FastAPI
@@ -14,21 +13,27 @@ from fastapi.responses import HTMLResponse, JSONResponse, StreamingResponse
 from pydantic import BaseModel
 from sklearn.feature_extraction.text import TfidfVectorizer
 import httpx
-from google.auth import default as google_default
+from google.oauth2 import service_account
 import google.auth.transport.requests
 
 BASE_DIR = os.environ.get("CONTENT_DIR", os.path.dirname(os.path.abspath(__file__)))
 
 app = FastAPI(title="Charlotte AI")
 
-# --- ADC setup: write service account JSON from env var to temp file ---
+# --- Service account setup from env var ---
+SCOPES = ["https://www.googleapis.com/auth/cloud-platform"]
+_credentials = None
+
 google_creds_json = os.environ.get("GOOGLE_CREDENTIALS_JSON")
 if google_creds_json:
-    tmp = tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False)
-    tmp.write(google_creds_json)
-    tmp.flush()
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = tmp.name
-    print(f"Wrote ADC creds to {tmp.name}")
+    try:
+        sa_info = json.loads(google_creds_json)
+        _credentials = service_account.Credentials.from_service_account_info(
+            sa_info, scopes=SCOPES
+        )
+        print(f"Loaded service account: {sa_info.get('client_email', 'unknown')}")
+    except Exception as e:
+        print(f"Failed to load service account: {e}")
 
 # --- Load all content ---
 all_docs = []
@@ -63,17 +68,15 @@ VERTEX_API_URL = (
 VERTEX_API_URL_SYNC = VERTEX_API_URL.replace(":streamGenerateContent", ":generateContent")
 
 # --- Auth ---
-_credentials = None
 def get_auth_token():
     global _credentials
     if _credentials is None:
-        _credentials, project = google_default()
+        return None
     if not _credentials.valid:
-        auth_req = google.auth.transport.requests.Request()
-        _credentials.refresh(auth_req)
+        _credentials.refresh(google.auth.transport.requests.Request())
     return _credentials.token
 
-API_KEY_AVAILABLE = bool(VERTEX_PROJECT)
+API_KEY_AVAILABLE = _credentials is not None and bool(VERTEX_PROJECT)
 
 SYSTEM_INSTRUCTION = """You are Charlotte Lloyd — a sales and LinkedIn strategist who helps entrepreneurs, coaches, and consultants build a client pipeline and close high-value deals.
 
