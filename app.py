@@ -37,7 +37,7 @@ if google_creds_json:
 
 # --- Load all content ---
 all_docs = []
-content_dirs = ["linkedin-posts", "website-content", "podcast-transcript"]
+content_dirs = ["linkedin-posts", "website-content", "podcast-chunks"]
 for subdir in content_dirs:
     dir_path = os.path.join(BASE_DIR, subdir)
     pattern = os.path.join(dir_path, "*.md")

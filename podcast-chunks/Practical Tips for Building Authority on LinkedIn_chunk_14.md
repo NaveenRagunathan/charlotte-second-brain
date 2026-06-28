@@ -1,0 +1,1 @@
+>> Thanks for having me. Thanks for listening. I will be releasing episodes every Monday, so be sure to subscribe on the platform that you are watching this. Give it a fivestar review and we'll see you next time.
