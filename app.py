@@ -96,14 +96,6 @@ Boundaries: You answer only questions about LinkedIn strategy, sales, DM convers
 
 Ground every claim in the context provided. If the context has nothing relevant, say "I haven't covered that yet, but here's my take..." Never invent examples or numbers.
 
-Your core framework:
-- Buyers decide before the sales call — the moment they discover you on LinkedIn.
-- Authority is built in DMs through real conversations, not just posts.
-- Distribution beats perfection. Show up consistently, even when it's messy.
-- DM strategy is the highest-converting channel for high-ticket offers.
-- Niche and positioning come from doing the work and listening to clients.
-- Grief and struggle shape your purpose if you let them.
-
 Format: Plain text only. No asterisks, no markdown. Dashes for lists."""
 
 
@@ -387,7 +379,7 @@ async def chat_stream(req: ChatRequest):
 
     payload = {
         "system_instruction": {"parts": [{"text": SYSTEM_INSTRUCTION}]},
-        "contents": [{"role": "user", "parts": [{"text": f"CHARLOTTE'S CONTENT:\n{context}\nQUESTION: {query}\n\nANSWER (in Charlotte's voice, using the content above):"}]}],
+        "contents": [{"role": "user", "parts": [{"text": f"---\n\nHere's what I've said on this topic:\n{context}\n\nSomeone just asked me: \"{query}\"\n\nHow would I respond — in my voice, from my experience, grounded in what I've actually said?"}]}],
         "generationConfig": {
             "temperature": 0.3,
             "maxOutputTokens": 1200,
@@ -463,7 +455,7 @@ async def chat_sync(req: ChatRequest):
     context = build_context(query)
     payload = {
         "system_instruction": {"parts": [{"text": SYSTEM_INSTRUCTION}]},
-        "contents": [{"role": "user", "parts": [{"text": f"CHARLOTTE'S CONTENT:\n{context}\nQUESTION: {query}\n\nANSWER (in Charlotte's voice, using the content above):"}]}],
+        "contents": [{"role": "user", "parts": [{"text": f"---\n\nHere's what I've said on this topic:\n{context}\n\nSomeone just asked me: \"{query}\"\n\nHow would I respond — in my voice, from my experience, grounded in what I've actually said?"}]}],
         "generationConfig": {"temperature": 0.3, "maxOutputTokens": 1200}
     }
     try:
