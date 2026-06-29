@@ -63,7 +63,7 @@ VERTEX_PROJECT = os.environ.get("VERTEX_PROJECT", "")
 VERTEX_API_URL = (
     f"https://{VERTEX_REGION}-aiplatform.googleapis.com/v1"
     f"/projects/{VERTEX_PROJECT}/locations/{VERTEX_REGION}"
-    f"/publishers/google/models/{GEMINI_MODEL}:streamGenerateContent"
+    f"/publishers/google/models/{GEMINI_MODEL}:streamGenerateContent?alt=sse"
 )
 VERTEX_API_URL_SYNC = VERTEX_API_URL.replace(":streamGenerateContent", ":generateContent")
 
@@ -408,15 +408,18 @@ async def chat_stream(req: ChatRequest):
                     buffer = ""
                     async for chunk in response.aiter_bytes():
                         buffer += chunk.decode()
-                        while "\n\n" in buffer:
-                            event, buffer = buffer.split("\n\n", 1)
+                        while "\r\n\r\n" in buffer or "\n\n" in buffer:
+                            if "\r\n\r\n" in buffer:
+                                event, buffer = buffer.split("\r\n\r\n", 1)
+                            else:
+                                event, buffer = buffer.split("\n\n", 1)
                             for line in event.split("\n"):
+                                line = line.strip()
                                 if line.startswith("data: "):
                                     data_str = line[6:]
                                     if not data_str.strip():
                                         continue
                                     try:
-                                        # Vertex AI can return array or single object
                                         data_obj = json.loads(data_str)
                                         if isinstance(data_obj, list):
                                             data_obj = data_obj[0] if data_obj else {}
@@ -427,9 +430,6 @@ async def chat_stream(req: ChatRequest):
                                                 text = part.get("text", "")
                                                 if text:
                                                     yield f"data: {json.dumps({'token': text.replace('*', '')})}\n\n"
-                                        # Check for safety blocks
-                                        if candidates and candidates[0].get("finishReason") == "SAFETY":
-                                            yield f"data: {json.dumps({'token': ' [Response blocked by safety filter]'})}\n\n"
                                     except json.JSONDecodeError:
                                         pass
         except Exception as e:
