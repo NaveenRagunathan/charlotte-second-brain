@@ -1,0 +1,140 @@
+{
+  "persona_id": "persona_02",
+  "persona_profile": {
+    "id": "persona_02",
+    "name": "Priya Sharma",
+    "role": "Solopreneur Executive Coach",
+    "experience_level": "beginner",
+    "primary_goal": "Get first 5 coaching clients from scratch with zero LinkedIn presence",
+    "communication_style": "anxious",
+    "topic_focus": {
+      "coaching": 0.4,
+      "linkedin": 0.3,
+      "business": 0.2,
+      "sales": 0.05,
+      "content": 0.05
+    }
+  },
+  "test_started_at": "2026-06-28T16:02:16.629331+00:00",
+  "test_ended_at": "2026-06-28T16:03:55.518824+00:00",
+  "questions": [
+    {
+      "index": 1,
+      "topic": "coaching",
+      "question": "I just created my LinkedIn profile and have 12 followers. Where do I even start to get my first coaching client?",
+      "timestamp_sent": "2026-06-28T16:02:16.657700+00:00",
+      "timestamp_received": "2026-06-28T16:02:24.599404+00:00",
+      "latency_ms": 7941,
+      "http_status": 200,
+      "response_text": "You're asking about getting your first coaching client with a brand new profile and 12 followers. This is where most people get stuck, but it's actually simpler than you think.\n\nYou need to start by creating content. Don't worry about having a huge following or perfect posts. When I started, I was just posting about lessons from client calls, with no intention of making money. People started DMing me because they found value in what I was sharing. That's how you get noticed.\n\nYour tactical takeaway for today is this: Post one piece of content that shares a lesson learned from a past client interaction or a common challenge you see in your niche. Focus on providing value, not on getting likes.",
+      "error": null
+    },
+    {
+      "index": 2,
+      "topic": "linkedin",
+      "question": "I'm a certified coach but I feel like a fraud reaching out to strangers on LinkedIn. How do I get over this?",
+      "timestamp_sent": "2026-06-28T16:02:29.601083+00:00",
+      "timestamp_received": "2026-06-28T16:02:36.195987+00:00",
+      "latency_ms": 6594,
+      "http_status": 200,
+      "response_text": "You're feeling like a fraud because you're not seeing LinkedIn as the powerful sales tool it is. Buyers decide to work with you the moment they discover you on LinkedIn, not on a sales call. Your content and your DMs are where you build authority and connect with potential clients.\n\nYou need to shift your mindset from \"reaching out to strangers\" to \"connecting with people who need your expertise.\" Think about it this way: you have a skill, a certification, and experience that can help someone. LinkedIn is simply the platform where you find those people and start a conversation.\n\nYour content is already doing the work for you, acting as a 24-hour salesperson (Source 2). When people engage with your posts, they're signaling interest. Your job then is to continue that conversation in the DMs.\n\nHere's your tactical takeaway for today: Stop thinking about \"cold outreach.\" Instead, focus on \"warm engagement.\" When you see someone has engaged with your content or has a profile that aligns with your ideal client, send them a personalized connection request. Mention something specific you noticed on their profile, like how long they've been running their business or a shared interest. This isn't about being pushy; it's about starting a genuine conversation.\n\nI haven't covered the \"imposter syndrome\" aspect directly in my content, but my take is that your expertise is valid, and LinkedIn is the place to demonstrate it.",
+      "error": null
+    },
+    {
+      "index": 3,
+      "topic": "linkedin",
+      "question": "What should my first 5 LinkedIn posts be about if nobody knows who I am yet?",
+      "timestamp_sent": "2026-06-28T16:02:41.196825+00:00",
+      "timestamp_received": "2026-06-28T16:02:47.902866+00:00",
+      "latency_ms": 6706,
+      "http_status": 200,
+      "response_text": "If nobody knows who you are yet, your first five LinkedIn posts should focus on solving a specific problem for your ideal client.\n\nHere's the breakdown based on what I've covered:\n\n1.  Identify a Big Pain Point: What's one major problem your clients face? For example, if you help coaches get clients, a pain point might be not getting enough conversations with the right quality prospects.\n2.  Highlight the Negative Consequence: What happens if they don't solve this problem? For the coach example, the consequence is no money, stress, and feeling like giving up.\n3.  Present Your Solution: How do you solve this exact problem? Share a story about how you solved it for yourself or a client, focusing on the outcome.\n4.  Show Social Proof: Elaborate on a specific problem and the positive outcome you achieved for someone else. This builds trust.\n5.  Repeat with a Different Angle or Problem: You can cycle through these three post types, addressing different pain points or consequences your ideal clients experience.\n\nThe key is to post for conversion, not just growth. Don't get caught up in chasing likes and follows. Your goal is to attract clients, so your content needs to speak directly to their needs and show them you have the solution.\n\nYour tactical takeaway today: Pick one significant pain point your ideal client has and craft a post around the negative consequences of not solving it.",
+      "error": null
+    },
+    {
+      "index": 4,
+      "topic": "coaching",
+      "question": "I messaged someone I used to work with and they said 'not right now.' Should I follow up or let it go?",
+      "timestamp_sent": "2026-06-28T16:02:52.905697+00:00",
+      "timestamp_received": "2026-06-28T16:02:59.236529+00:00",
+      "latency_ms": 6330,
+      "http_status": 200,
+      "response_text": "You absolutely follow up. \"Not right now\" is not a hard no. It's a \"not right now.\" Source 2 talks about the SPICE framework for DMs, and the first step is to start the conversation by identifying a struggle or offering a compliment. Even if they're not ready to buy, you can still build rapport and stay on their radar.\n\nHere's your tactical takeaway for today: Send a follow-up message that acknowledges their \"not right now\" and offers value without asking for anything. Something like, \"No problem at all, I understand. Just wanted to share this article I saw on [relevant topic] that made me think of you. Hope you're doing well!\" This keeps the door open and positions you as helpful, not pushy.",
+      "error": null
+    },
+    {
+      "index": 5,
+      "topic": "coaching",
+      "question": "How do I charge $500/session when I've never had a single client? That feels insane.",
+      "timestamp_sent": "2026-06-28T16:03:04.237330+00:00",
+      "timestamp_received": "2026-06-28T16:03:07.105574+00:00",
+      "latency_ms": 2868,
+      "http_status": 200,
+      "response_text": "You're asking about charging $500 a session when you're new, and that feels like a huge leap. I get it. But here's the thing: your pricing isn't about how many clients you've had. It's about the value you deliver and the problem you solve.\n\nThink about the leaking roof example. The roofer isn't charging $500 because they've fixed a thousand roofs. They're charging $500 because that's the cost to stop the immediate damage. If you delay, that $500 problem becomes a $3,500 problem. The cost compounds.\n\nYour potential clients are facing problems right now \u2013 weak positioning, inconsistent lead flow, poor conversion. These aren't just minor annoyances; they're costing them money and growth every single week. The \"cost of waiting\" is often far greater than the investment in a solution.\n\nYou need to sell the water damage, not just the roof repair. Focus on the pain your clients are experiencing and the transformation you can provide. When you can clearly articulate that, the price becomes secondary to the solution.\n\nYour tactical takeaway for today: Instead of focusing on your lack of past clients, focus on the future value you can bring. What is the cost of your ideal client not working with you? Quantify that pain. That's where your $500 session fee finds its justification.",
+      "error": null
+    },
+    {
+      "index": 6,
+      "topic": "coaching",
+      "question": "Should I offer free sessions first to build credibility or is that a trap?",
+      "timestamp_sent": "2026-06-28T16:03:12.106729+00:00",
+      "timestamp_received": "2026-06-28T16:03:14.170552+00:00",
+      "latency_ms": 2063,
+      "http_status": 200,
+      "response_text": "Offering free sessions to build credibility is absolutely a trap. Source 1 spells it out clearly: \"Building before selling is a trap.\" You're already established, you bring years of expertise, and your reputation should be filling your diary. If it's not, the problem isn't your expertise, it's your system for attracting clients.\n\nYou need to be having conversations and proving your value, not giving it away for free. Source 1 says, \"Get on calls, help them for free to prove your value.\" That's not what I teach. I teach you to build authority in the DMs and close on one call. Giving away free sessions just delays the inevitable and leaves money on the table, especially if that person could have been a higher-ticket client.\n\nYour tactical takeaway for today is this: Stop offering free sessions. Instead, focus on having discovery calls where you diagnose their needs and prescribe the right part of your offer, just like a doctor. Source 2 explains this perfectly \u2013 you can't assess what they truly need in the DMs, and you certainly can't do it for free.",
+      "error": null
+    },
+    {
+      "index": 7,
+      "topic": "coaching",
+      "question": "I have an ICF certification but no corporate coaching experience. Does that matter for LinkedIn positioning?",
+      "timestamp_sent": "2026-06-28T16:03:19.171778+00:00",
+      "timestamp_received": "2026-06-28T16:03:23.522755+00:00",
+      "latency_ms": 4350,
+      "http_status": 200,
+      "response_text": "Your ICF certification is a credential, but it's not your positioning. What matters on LinkedIn is the results you help people achieve, not just the letters after your name.\n\nYou've got a certification, which is great. But my content shows that people are drawn to what you do and the lessons you teach. I started creating content based on my sales experiences, not with a business idea in mind, and people started reaching out because they saw the value in my insights.\n\nYour positioning on LinkedIn should be about the transformation you provide for your clients. Forget the corporate experience for now. Focus on the problems you solve and the outcomes you deliver.\n\nTactical takeaway: Instead of leading with your ICF certification, create a post that highlights a specific challenge your ideal coaching client faces and how you help them overcome it. Share a lesson learned from a coaching engagement (without revealing client specifics, of course) that demonstrates your expertise.",
+      "error": null
+    },
+    {
+      "index": 8,
+      "topic": "linkedin",
+      "question": "What's the smallest possible daily action on LinkedIn that actually moves the needle for a complete beginner?",
+      "timestamp_sent": "2026-06-28T16:03:28.523568+00:00",
+      "timestamp_received": "2026-06-28T16:03:35.603245+00:00",
+      "latency_ms": 7079,
+      "http_status": 200,
+      "response_text": "For a complete beginner on LinkedIn, the smallest daily action that moves the needle is to get in the DMs and have conversations. You need to be actively engaging with people, not just posting. The goal is to book one meeting a day, Monday to Friday. If you qualify well in those DMs, even one meeting a day can lead to significant results.",
+      "error": null
+    },
+    {
+      "index": 9,
+      "topic": "linkedin",
+      "question": "I'm terrified of posting and getting no engagement. How do you handle that feeling?",
+      "timestamp_sent": "2026-06-28T16:03:40.605260+00:00",
+      "timestamp_received": "2026-06-28T16:03:48.470101+00:00",
+      "latency_ms": 7864,
+      "http_status": 200,
+      "response_text": "I haven't covered that in my content yet, but here's my take.\n\nYou're terrified of posting and getting no engagement. That's a common fear, but let me tell you, focusing on likes and follows is a trap. Most coaches and consultants get stuck in the content loop, believing more posts equals more clients. But you've seen it yourself, right? Posts get traction, but the pipeline stays empty.\n\nThe problem isn't a lack of posting; it's posting the wrong kind of content. You need to stop optimizing for growth and start optimizing for clients. If you're posting five times a week and not getting traction, I'd rather you post three times a week with the right message.\n\nHere's your tactical takeaway for today: Shift your content focus. Instead of general posts, create content that addresses a specific pain point your clients have. Then, highlight the negative consequences of not solving that problem. Finally, share how you solve it, either through your own experience or a client's success story. This three-post structure focuses on conversion, not just visibility.",
+      "error": null
+    },
+    {
+      "index": 10,
+      "topic": "coaching",
+      "question": "How long does it realistically take a beginner to land their first client on LinkedIn?",
+      "timestamp_sent": "2026-06-28T16:03:53.471762+00:00",
+      "timestamp_received": "2026-06-28T16:03:55.518398+00:00",
+      "latency_ms": 2046,
+      "http_status": 200,
+      "response_text": "I haven't covered that in my content yet, but here's my take.\n\nYou're only one good DM away from your next best client. It's not about how long it takes, it's about the consistency of your actions. You need to make it part of your routine, a habit. If your goal is to get one client a week, you need to create the habit that will create that goal. It's a marathon, not a sprint.\n\nTactical takeaway: Send one DM today to a potential client.",
+      "error": null
+    }
+  ],
+  "summary": {
+    "total_questions": 10,
+    "successful": 10,
+    "failed": 0,
+    "avg_latency_ms": 5384,
+    "max_latency_ms": 7941,
+    "min_latency_ms": 2046
+  }
+}

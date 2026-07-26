@@ -1,0 +1,512 @@
+[
+  {
+    "id": "persona_01", "name": "Alex Moreno", "role": "B2B SaaS Sales Director",
+    "experience_level": "advanced", "primary_goal": "Close $50K+ enterprise deals through LinkedIn executive outreach",
+    "communication_style": "direct", "topic_focus": {"sales": 0.5, "linkedin": 0.3, "content": 0.1, "coaching": 0.05, "business": 0.05},
+    "questions": [
+      "I'm reaching out to VPs of Sales at mid-market tech companies. My DM open rate is around 30% but only 1 in 20 turns into a call. Where's the leak?",
+      "What's the exact DM sequence you'd use to engage a VP who's never heard of me? First message, follow-up, close for the call.",
+      "My LinkedIn content gets traction with junior reps but not decision-makers. How do I shift the positioning upward?",
+      "I closed a $120K deal last quarter entirely through LinkedIn DMs. How do I systematize this so it's repeatable across my team?",
+      "When a prospect goes dark after 3 thoughtful DMs, do I persist or move on? What's your cutoff rule?",
+      "How do I use my existing client roster as social proof in DMs without sounding like I'm name-dropping?",
+      "Should I have my SDRs operate my LinkedIn outreach or keep it founder-led? What scales better?",
+      "What's the one metric on LinkedIn you'd track if you could only watch one?",
+      "I'm spending 2 hours a day on LinkedIn engagement. Is that too much or too little for a director-level seller?",
+      "How do I handle the 'send me a deck' brush-off in a DM and turn it into a real conversation?"
+    ]
+  },
+  {
+    "id": "persona_02", "name": "Priya Sharma", "role": "Solopreneur Executive Coach",
+    "experience_level": "beginner", "primary_goal": "Get first 5 coaching clients from scratch with zero LinkedIn presence",
+    "communication_style": "anxious", "topic_focus": {"coaching": 0.4, "linkedin": 0.3, "business": 0.2, "sales": 0.05, "content": 0.05},
+    "questions": [
+      "I just created my LinkedIn profile and have 12 followers. Where do I even start to get my first coaching client?",
+      "I'm a certified coach but I feel like a fraud reaching out to strangers on LinkedIn. How do I get over this?",
+      "What should my first 5 LinkedIn posts be about if nobody knows who I am yet?",
+      "I messaged someone I used to work with and they said 'not right now.' Should I follow up or let it go?",
+      "How do I charge $500/session when I've never had a single client? That feels insane.",
+      "Should I offer free sessions first to build credibility or is that a trap?",
+      "I have an ICF certification but no corporate coaching experience. Does that matter for LinkedIn positioning?",
+      "What's the smallest possible daily action on LinkedIn that actually moves the needle for a complete beginner?",
+      "I'm terrified of posting and getting no engagement. How do you handle that feeling?",
+      "How long does it realistically take a beginner to land their first client on LinkedIn?"
+    ]
+  },
+  {
+    "id": "persona_03", "name": "Marcus Johnson", "role": "Freelance Brand Strategist",
+    "experience_level": "intermediate", "primary_goal": "Replace my biggest client who just left — need 3 new retainer clients in 60 days",
+    "communication_style": "urgent", "topic_focus": {"sales": 0.35, "linkedin": 0.25, "content": 0.2, "business": 0.15, "coaching": 0.05},
+    "questions": [
+      "My main retainer client just dropped me. I need 3 new clients in 60 days. What's the fastest play on LinkedIn?",
+      "I've been posting brand strategy content for 8 months but the leads are all small projects, not retainers. What am I positioning wrong?",
+      "When I DM a marketing director, what's the exact line that gets them to say 'tell me more' instead of 'send me your deck'?",
+      "My DMs convert when I get on calls, but I'm only getting 2-3 conversations a week. How do I triple that?",
+      "What's your framework for pricing a retainer in the first DM exchange without scaring them off?",
+      "I have case studies from past clients. Should I lead with those in DMs or is that too salesy?",
+      "How do I use urgency ('I have capacity for one more client') without sounding desperate?",
+      "What's the biggest mistake freelancers make on LinkedIn that keeps them stuck at project-based work?",
+      "I DM'd someone 4 days ago and they viewed my profile but didn't reply. Follow up or wait?",
+      "How do I get referrals from my existing clients without it feeling transactional?"
+    ]
+  },
+  {
+    "id": "persona_04", "name": "Yuki Tanaka", "role": "Content Marketing Manager",
+    "experience_level": "intermediate", "primary_goal": "Turn my personal LinkedIn into a lead source for my agency",
+    "communication_style": "analytical", "topic_focus": {"content": 0.4, "linkedin": 0.3, "sales": 0.15, "business": 0.1, "coaching": 0.05},
+    "questions": [
+      "I post 4x a week about content marketing strategy. I get 2-3K impressions per post but zero inbound leads. What's broken?",
+      "I've tested educational posts, story posts, and controversial takes. Stories get most engagement, educational gets most saves. Which type actually converts?",
+      "What does a conversion-optimized LinkedIn post actually look like structurally? Walk me through the components.",
+      "My profile says 'Content Marketing Manager' but I also do strategy and consulting on the side. Should my headline reflect both or pick one?",
+      "I DM people who engage with my posts but they always say 'great post!' and the conversation dies. How do I pivot?",
+      "Should I be using LinkedIn articles, carousels, or plain text posts for B2B lead gen? Is there data on this?",
+      "I have 200+ DMs sitting in my inbox from people who've reached out over the past year. Is it worth going back to any of them?",
+      "How do you measure whether a piece of content actually generated a lead, not just engagement?",
+      "What's the ratio of content creation to DM outreach you'd recommend for someone trying to build a pipeline?",
+      "I'm seeing competitors grow fast with video but I hate being on camera. Is text-only dead for LinkedIn growth?"
+    ]
+  },
+  {
+    "id": "persona_05", "name": "Carlos Rivera", "role": "Life Coach transitioning to Executive Coaching",
+    "experience_level": "intermediate", "primary_goal": "Rebrand from life coach to executive coach without losing existing audience",
+    "communication_style": "thoughtful", "topic_focus": {"coaching": 0.35, "content": 0.25, "linkedin": 0.2, "business": 0.15, "sales": 0.05},
+    "questions": [
+      "I've been a life coach for 3 years and want to move into executive coaching. How do I rebrand on LinkedIn without confusing my current audience?",
+      "My life coaching clients pay $200/session. Executive coaching commands $500+. How do I justify the jump without sounding greedy?",
+      "What content topics bridge life coaching and executive coaching without alienating either audience?",
+      "Should I create a separate profile for executive coaching or pivot my existing one?",
+      "I have testimonials from life coaching clients. Are those even relevant when pitching to VPs and directors?",
+      "How do I find and DM executives without coming across as a life coach trying to be something I'm not?",
+      "What credentials or positioning actually matter to corporate buyers vs. what I think matters?",
+      "I posted about imposter syndrome in my rebrand and got supportive comments but no calls. What's missing?",
+      "How long does a niche pivot typically take before you see traction on LinkedIn?",
+      "What's the one mistake coaches make when going upmarket that kills their credibility immediately?"
+    ]
+  },
+  {
+    "id": "persona_06", "name": "Fatima Al-Rashid", "role": "Management Consultant",
+    "experience_level": "advanced", "primary_goal": "Build a personal brand that attracts speaking engagements and consulting clients",
+    "communication_style": "polished", "topic_focus": {"content": 0.35, "business": 0.25, "linkedin": 0.2, "sales": 0.15, "coaching": 0.05},
+    "questions": [
+      "I'm a McKinsey alum with my own consulting practice. My LinkedIn is a ghost town because I've been told 'consultants shouldn't market themselves.' How do I undo that mindset?",
+      "What type of content positions me as a thought leader vs. just another consultant selling frameworks?",
+      "I want speaking gigs at industry conferences. How do I use LinkedIn DMs to get on stage without being obvious about it?",
+      "My current clients come through referrals. I want inbound from LinkedIn. What's the minimum posting cadence to make that happen?",
+      "How do I write a LinkedIn headline that signals 'I charge $10K+ for engagements' without saying it directly?",
+      "When I DM a C-suite prospect, should I reference my McKinsey background or lead with their problem?",
+      "I have white papers and research I could repurpose. What's the best format for LinkedIn?",
+      "How do I turn a one-off consulting project into a retainer through the DM conversation itself?",
+      "What's the biggest credibility killer for consultants on LinkedIn? I want to avoid it.",
+      "How do you handle a prospect who says 'I need to think about it' and then goes silent for 3 weeks?"
+    ]
+  },
+  {
+    "id": "persona_07", "name": "Diana Okonkwo", "role": "Career Coach",
+    "experience_level": "beginner", "primary_goal": "Get consistent inbound leads for my career coaching practice",
+    "communication_style": "warm", "topic_focus": {"coaching": 0.4, "linkedin": 0.25, "content": 0.2, "sales": 0.1, "business": 0.05},
+    "questions": [
+      "I help mid-career professionals pivot into tech. My posts get comments from job seekers but none of them turn into coaching clients. What's the gap?",
+      "How do I DM someone who's just been laid off without feeling like I'm preying on their pain?",
+      "I'm nervous about charging $300/hour for career coaching when I've never done it full-time. How do I set my rate with confidence?",
+      "What kind of content proves I can get results without sounding like a testimonial farm?",
+      "I connected with 50 HR managers last week and sent them a message. Only 2 replied. Was my approach wrong?",
+      "Should I offer a free career audit as a lead magnet or does that attract tire-kickers?",
+      "How do I handle someone who says 'I'll reach out when I'm ready' — do I follow up or let them come to me?",
+      "My LinkedIn profile says 'Career Coach' but I also do résumé rewrites. Should I niche down to one service?",
+      "What's the best time of day to post career content on LinkedIn? I keep hearing different things.",
+      "How many conversations should I be having per week to land 2 coaching clients a month?"
+    ]
+  },
+  {
+    "id": "persona_08", "name": "James Whitfield", "role": "Fintech Startup Founder",
+    "experience_level": "advanced", "primary_goal": "Generate B2B partnerships through founder-led LinkedIn",
+    "communication_style": "blunt", "topic_focus": {"business": 0.35, "sales": 0.25, "linkedin": 0.2, "content": 0.15, "coaching": 0.05},
+    "questions": [
+      "I'm the CEO of a fintech startup. My board keeps saying 'build your personal brand.' I hate that phrase. Give me a revenue-focused alternative.",
+      "How do I approach heads of partnerships at banks via DM without getting flagged as spam? Compliance is a concern.",
+      "My content does well but it's all industry analysis. Nobody's picking up the phone. What's the missing piece?",
+      "I have 9,000 followers and a decent engagement rate. How do I actually measure whether any of this drives pipeline?",
+      "What's the DM strategy for someone who absolutely cannot be cheesy or salesy? My industry is conservative.",
+      "Should my co-founder and I both be posting, or should we pick one person as the voice of the company?",
+      "I got a meeting with a VP at a major bank through a DM. How do I prepare for that call so it's not a waste of time?",
+      "How do I use LinkedIn to find and vet potential channel partners without tipping off competitors?",
+      "What's the biggest time-waster founders fall into on LinkedIn? I want to skip it.",
+      "How do I turn a warm intro from a LinkedIn connection into an actual partnership deal?"
+    ]
+  },
+  {
+    "id": "persona_09", "name": "Lena Schmidt", "role": "Wellness Coach",
+    "experience_level": "beginner", "primary_goal": "Fill my group coaching program starting next month",
+    "communication_style": "enthusiastic", "topic_focus": {"sales": 0.3, "content": 0.25, "linkedin": 0.2, "coaching": 0.15, "business": 0.1},
+    "questions": [
+      "I'm launching a 6-week group coaching program for stressed-out corporate women. I need 10 signups in 3 weeks. Where do I start on LinkedIn?",
+      "How do I sell a group program ($500/person) when I've only done 1:1 coaching before? The price feels different.",
+      "What kind of content makes someone think 'I need this program' vs. 'that's nice for her'?",
+      "I've been posting wellness tips but getting followers who want free advice, not paying clients. How do I change the audience?",
+      "Should I hop on DMs with everyone who likes my posts about the program, or is that too aggressive?",
+      "How do I create urgency for a program launch without being pushy? Early-bird discount? Limited spots?",
+      "I'm comfortable talking about burnout but scared to talk about pricing on LinkedIn. How do I get over that?",
+      "What does a successful program launch look like on LinkedIn day-by-day? Give me the sequence.",
+      "After someone says 'I'm interested,' how do I get them to actually pay without multiple follow-ups?",
+      "Is it worth running a free webinar as a lead gen for the program or should I just send people to a sales page?"
+    ]
+  },
+  {
+    "id": "persona_10", "name": "Raj Patel", "role": "IT Consulting Firm Owner",
+    "experience_level": "advanced", "primary_goal": "Generate qualified leads for my $15K/month managed IT services",
+    "communication_style": "pragmatic", "topic_focus": {"sales": 0.35, "business": 0.25, "linkedin": 0.2, "content": 0.15, "coaching": 0.05},
+    "questions": [
+      "I run an IT consulting firm with 12 employees. LinkedIn has never worked for us. Is it worth investing time or should we stick to cold email?",
+      "I sell $15K/month managed IT contracts. My buyers are CFOs and CTOs. What DM approach actually works at that price point?",
+      "Should I post as myself (the founder) or as the company page? Which generates more B2B leads?",
+      "How do I DM a CTO without sounding like every other IT vendor they ignore daily?",
+      "I tried content marketing — wrote 10 posts about cybersecurity. Got zero leads. What technical content actually sells?",
+      "My sales cycle is 3-6 months. How do I use LinkedIn to shorten it?",
+      "What do I say to a prospect who's happy with their current IT provider but 'open to future conversations'?",
+      "How much time should a services firm owner realistically spend on LinkedIn per day to see pipeline impact?",
+      "What's your advice for handling multiple decision-makers in a DM thread? The CTO says yes, the CFO needs convincing.",
+      "Every time I post something technical my existing clients love it but nobody new reaches out. How do I break out of that loop?"
+    ]
+  },
+  {
+    "id": "persona_11", "name": "Sofia Andersson", "role": "Sales Trainer",
+    "experience_level": "intermediate", "primary_goal": "Get corporate training contracts through LinkedIn visibility",
+    "communication_style": "confident", "topic_focus": {"sales": 0.45, "content": 0.2, "linkedin": 0.2, "business": 0.1, "coaching": 0.05},
+    "questions": [
+      "I run sales training workshops for enterprise teams. My DMs to L&D managers get ignored. What subject line actually works?",
+      "Should I post sales tips (to show expertise) or post about training ROI (to appeal to buyers)? Which gets contracts?",
+      "I trained a team at a Fortune 500 company and got great results. How do I share that without breaking confidentiality?",
+      "L&D managers I connect with say 'we'll keep you in mind for next year.' How do I get them to book a pilot now?",
+      "What's the best way to demonstrate training methodology in a LinkedIn post without giving away the whole curriculum?",
+      "How do I price a corporate training engagement in the initial DM without undervaluing myself?",
+      "I have a certification in sales methodology X. Should I lead with that or with results?",
+      "When I post about sales frameworks, I get engagement from other trainers, not from buyers. How do I flip that?",
+      "What's your framework for turning a 1-hour workshop into a 6-month training retainer?",
+      "How do I handle objections about budget in the DM stage before we even get on a call?"
+    ]
+  },
+  {
+    "id": "persona_12", "name": "Omar Hassan", "role": "Real Estate Agent turned Coach",
+    "experience_level": "intermediate", "primary_goal": "Create a second income stream coaching agents on client acquisition",
+    "communication_style": "storyteller", "topic_focus": {"sales": 0.3, "coaching": 0.25, "linkedin": 0.2, "content": 0.15, "business": 0.1},
+    "questions": [
+      "I was a top-performing real estate agent and now I want to coach agents on how to get listings. How do I position myself as a coach not a competitor?",
+      "Real estate agents are skeptical of LinkedIn gurus. How do I DM them in a way that says 'I've actually done this'?",
+      "What content resonates with agents who are drowning in leads but can't close? They need sales skills not more leads.",
+      "I have a framework I used to generate 200+ listings in 5 years. How do I package that into a coaching offer?",
+      "Should I offer a free audit of their LinkedIn profile as a lead gen or does that attract people who never pay?",
+      "How do I price coaching for real estate agents who are used to paying for leads not for skill development?",
+      "What's the one objection agents always have about coaching and how do I handle it before they even raise it?",
+      "I posted about my sales numbers and some agents congratulated me, a few called me a braggart. How do I thread that needle?",
+      "How do I transition DMs with an agent from 'your profile looks great' to 'here's how I can help you sell more'?",
+      "What's the fastest way to get a real estate agent to take coaching seriously? They're wired to want quick fixes."
+    ]
+  },
+  {
+    "id": "persona_13", "name": "Nina Kowalski", "role": "UX Designer building a consulting side business",
+    "experience_level": "beginner", "primary_goal": "Land first 3 consulting clients while keeping my full-time job",
+    "communication_style": "cautious", "topic_focus": {"sales": 0.3, "linkedin": 0.3, "content": 0.2, "business": 0.15, "coaching": 0.05},
+    "questions": [
+      "I'm a full-time UX designer wanting to start consulting on the side. How do I signal availability without my employer finding out?",
+      "How do I DM startup founders about UX help when I have zero consulting testimonials?",
+      "I'm good at my craft but terrible at selling myself. What's the minimum viable sales skill I need to learn?",
+      "What 5 posts would you write to attract my first 3 freelance UX clients?",
+      "Should I charge by the project or by the hour for my first few clients?",
+      "How do I handle a prospect who asks 'what other clients have you worked with' when I haven't had any yet?",
+      "I connected with 30 startup founders last week. What should my first message say?",
+      "How many hours per week should I realistically spend on LinkedIn to build a pipeline while working full-time?",
+      "I'm scared to post my work because my current employer might see it. Is there a way around this?",
+      "What's the biggest mistake you see creative professionals make when they start consulting?"
+    ]
+  },
+  {
+    "id": "persona_14", "name": "Diego Martinez", "role": "Insurance Broker",
+    "experience_level": "advanced", "primary_goal": "Modernize my lead generation beyond referrals",
+    "communication_style": "traditionalist", "topic_focus": {"sales": 0.4, "linkedin": 0.25, "business": 0.2, "content": 0.1, "coaching": 0.05},
+    "questions": [
+      "I've been an insurance broker for 22 years and built my business entirely on referrals. LinkedIn feels like a different world. Where does an old-school guy start?",
+      "Insurance is heavily regulated. What can I actually post about without triggering compliance?",
+      "How do I DM business owners about their insurance without sounding like every other broker pestering them?",
+      "My referrals take 2-3 months to close. Can LinkedIn actually speed that up or is that unrealistic?",
+      "I tried posting once — a story about a claim I helped a client with. My compliance team flagged it. How do other brokers do this?",
+      "Is LinkedIn worth it for someone who sells to business owners over 50 who aren't on the platform?",
+      "What kind of content builds trust with business owners without sounding like a sales pitch?",
+      "How do I transition my referral mindset to LinkedIn without feeling like I'm being pushy with people I know?",
+      "I've seen younger brokers use video. At 58, that feels awkward. Am I at a disadvantage without video?",
+      "What's the one thing you'd tell someone who's skeptical that LinkedIn can work for a traditional industry like insurance?"
+    ]
+  },
+  {
+    "id": "persona_15", "name": "Aisha Diallo", "role": "Public Speaking Coach",
+    "experience_level": "intermediate", "primary_goal": "Fill my group workshops and 1:1 coaching practice",
+    "communication_style": "energetic", "topic_focus": {"sales": 0.25, "content": 0.25, "coaching": 0.2, "linkedin": 0.2, "business": 0.1},
+    "questions": [
+      "I help executives become better public speakers. My target clients are VPs who don't think they need speaking help. How do I reach them?",
+      "Should I post video of myself speaking (showing my expertise) or post tips (teaching)? Which converts better for coaching?",
+      "How do I DM a VP about their speaking without implying they're bad at it?",
+      "My content gets engagement from other speakers and coaches, not from executives. How do I fix my targeting?",
+      "What's the best lead magnet for executive speaking coaching? A webinar? A checklist? A free assessment?",
+      "How do I price a 6-week speaking coaching package in the first DM conversation without a call?",
+      "I had a client who landed a TEDx talk after working with me. How do I share that without being a name-dropper?",
+      "Executives are busy. How do I get a 'not interested' or 'maybe later' — I just want a decision so I can move on.",
+      "What do I say to a prospect who says 'I'm a great speaker already, I don't need coaching'?",
+      "How many DMs per day should I send to fill a workshop of 12 people in 3 weeks?"
+    ]
+  },
+  {
+    "id": "persona_16", "name": "Kenji Nakamura", "role": "Fractional CFO",
+    "experience_level": "advanced", "primary_goal": "Build a pipeline of fractional CFO clients for my practice",
+    "communication_style": "precise", "topic_focus": {"business": 0.35, "sales": 0.3, "linkedin": 0.2, "content": 0.1, "coaching": 0.05},
+    "questions": [
+      "I offer fractional CFO services to startups raising Series A. My buyers are founders who think they can't afford me. How do I price the conversation correctly in a DM?",
+      "What content actually signals 'I understand startup finance' without boring founders with spreadsheets?",
+      "How do I DM a founder who just announced their seed round without looking like every other vendor in their inbox?",
+      "My biggest competitor is 'we'll figure out finance later.' How do I create urgency for financial structure pre-Series A?",
+      "Should I post about financial metrics (showing expertise) or about founder mistakes (showing empathy)?",
+      "How do I handle the objection 'we already have a bookkeeper' when I offer strategic CFO work?",
+      "What's the best LinkedIn headline for a fractional CFO that doesn't scream 'consultant for hire'?",
+      "I've closed 3 clients through warm intros from my network. How do I build a cold DM system on top of that?",
+      "Founders often say 'let me think about it.' What's your specific follow-up sequence for CFO services?",
+      "How much of my content should be educational vs. social proof vs. personal story? What ratio works for B2B services?"
+    ]
+  },
+  {
+    "id": "persona_17", "name": "Chloe Beaumont", "role": "Wedding Planner turned Business Coach",
+    "experience_level": "beginner", "primary_goal": "Launch coaching business after 10 years in weddings",
+    "communication_style": "creative", "topic_focus": {"coaching": 0.35, "business": 0.25, "linkedin": 0.2, "content": 0.15, "sales": 0.05},
+    "questions": [
+      "I planned weddings for 10 years and now I want to coach other wedding pros on business systems. Will anyone take me seriously as a 'coach'?",
+      "How do I DM a fellow wedding professional about their business without sounding like I'm criticizing how they run it?",
+      "My wedding clients trusted me because of my portfolio. Coaching is invisible. How do I prove value without a physical product?",
+      "What content should I post that shows wedding planners I understand their specific pain?",
+      "Should I offer a free consultation or charge for the first session? I don't want to devalue myself.",
+      "How do I transition existing wedding clients into coaching clients without it being awkward?",
+      "My network is all brides and vendors, not coaches or small business owners. Do I need to rebuild from scratch?",
+      "I'm used to charging $5K for a wedding. Coaching at $200/session feels like a downgrade. How do I reframe this?",
+      "How do I handle the imposter syndrome of calling myself a coach after a decade in a different industry?",
+      "What's the fastest way to get a paying client when you're starting from zero credibility in a new niche?"
+    ]
+  },
+  {
+    "id": "persona_18", "name": "Ryan O'Brien", "role": "Tech Recruiter starting a coaching side gig",
+    "experience_level": "intermediate", "primary_goal": "Help job seekers land FAANG roles via LinkedIn optimization",
+    "communication_style": "practical", "topic_focus": {"linkedin": 0.35, "coaching": 0.25, "content": 0.2, "sales": 0.15, "business": 0.05},
+    "questions": [
+      "I've placed 200+ engineers at FAANG companies. I want to coach job seekers on LinkedIn optimization. Do I market to candidates or to companies?",
+      "What content proves I know how to get people hired without violating confidentiality or looking like I'm bragging?",
+      "How do I DM a laid-off engineer without making them feel like a sales target?",
+      "I posted a thread about '5 things your LinkedIn profile is missing' and got 50K impressions but zero paid clients. What went wrong?",
+      "Should I sell a course, a 1:1 audit, or a done-for-you profile rewrite? Which actually converts?",
+      "What do I say to someone who says 'I can optimize my own profile, thanks'?",
+      "How do I get referrals from the engineers I've placed without it feeling transactional?",
+      "My expertise is tech recruiting but I'm not a certified coach. Does that matter to buyers?",
+      "How do I price LinkedIn coaching for engineers who are used to everything being free or covered by their employer?",
+      "What's the one mistake people make on LinkedIn that costs them interviews, and how do I package that into an offer?"
+    ]
+  },
+  {
+    "id": "persona_19", "name": "Isabella Rossi", "role": "E-commerce Brand Founder",
+    "experience_level": "advanced", "primary_goal": "Raise my brand's visibility through founder storytelling",
+    "communication_style": "passionate", "topic_focus": {"content": 0.35, "business": 0.25, "linkedin": 0.2, "sales": 0.15, "coaching": 0.05},
+    "questions": [
+      "I founded a DTC brand doing $2M ARR. I want to use my personal story to attract investors and talent on LinkedIn. How do I start?",
+      "Should my brand's LinkedIn page or my personal profile be the main growth engine? Which actually moves the needle?",
+      "How do I write about the struggles of building a brand without sounding like I'm complaining?",
+      "I have a great origin story but I've told it once and felt like I can't repeat it. How do you recycle content without being repetitive?",
+      "How do I DM potential retail partners without sounding like every other brand trying to get shelf space?",
+      "What content attracts investors vs. what attracts customers? They're different audiences on the same profile.",
+      "My co-founder thinks LinkedIn is a waste of time for DTC brands. What metric would convince them otherwise?",
+      "How do I post about revenue milestones without looking like I'm showing off?",
+      "What's the biggest mistake founders make with their personal LinkedIn that kills investor interest?",
+      "How do I turn a LinkedIn connection who's a potential investor into an actual meeting without pitching too early?"
+    ]
+  },
+  {
+    "id": "persona_20", "name": "Tomás Silva", "role": "Leadership Development Facilitator",
+    "experience_level": "advanced", "primary_goal": "Get corporate contracts for leadership programs",
+    "communication_style": "measured", "topic_focus": {"sales": 0.3, "coaching": 0.25, "content": 0.2, "business": 0.15, "linkedin": 0.1},
+    "questions": [
+      "I design and deliver leadership development programs for mid-size companies. My bottleneck is getting past HR to the CEO. How does LinkedIn help me skip layers?",
+      "What content makes a CEO think 'our leadership team needs this' vs. 'nice post'?",
+      "How do I DM a CEO about leadership development without implying their leadership team is failing?",
+      "I have a proprietary leadership assessment tool. Should I lead with that in DMs or lead with outcomes?",
+      "My sales cycle for corporate programs is 6-9 months. Can LinkedIn shorten that? What's the fastest close you've seen?",
+      "How do I post about a leadership framework without giving away enough that they don't need to hire me?",
+      "What's the right way to price a leadership program in the first conversation without losing leverage?",
+      "I've trained teams at 3 recognizable companies. How do I use that in my profile without sounding like I'm just listing logos?",
+      "When HR says 'we don't have budget,' is that real or a smokescreen? How do I tell the difference?",
+      "How do I use LinkedIn to identify which companies are about to have a leadership crisis before they know it themselves?"
+    ]
+  },
+  {
+    "id": "persona_21", "name": "Zara Iqbal", "role": "Ghostwriter for B2B Founders",
+    "experience_level": "intermediate", "primary_goal": "Raise rates and attract founder clients who pay $5K+/month",
+    "communication_style": "strategic", "topic_focus": {"content": 0.4, "sales": 0.2, "linkedin": 0.2, "business": 0.15, "coaching": 0.05},
+    "questions": [
+      "I ghostwrite for B2B founders and charge $3K/month. I want to get to $7K/month. My work is great but my positioning isn't attracting premium clients. What's wrong?",
+      "How do I DM a founder who's posting regularly but poorly, without insulting their current content?",
+      "What portfolio pieces should I share to signal 'I work with serious founders' not 'I write generic LinkedIn posts'?",
+      "Founders often say 'I can write my own content.' How do I show them the opportunity cost without being combative?",
+      "Should I brand myself as a ghostwriter or a 'content strategist'? Which commands higher rates?",
+      "How do I use case studies from past clients without breaking NDAs or sounding like I'm name-dropping?",
+      "What's the best way to demonstrate ROI of good content in the DM stage before they've hired me?",
+      "How do I price a trial month without devaluing my ongoing rate?",
+      "I'm competing with agencies that offer ghostwriting + design + strategy. How does a solo operator win?",
+      "When a founder goes dark after initial interest, what's your specific re-engagement sequence?"
+    ]
+  },
+  {
+    "id": "persona_22", "name": "Ethan Park", "role": "Sales Development Rep",
+    "experience_level": "beginner", "primary_goal": "Get promoted from SDR to AE by building a LinkedIn pipeline",
+    "communication_style": "ambitious", "topic_focus": {"sales": 0.4, "linkedin": 0.35, "content": 0.15, "business": 0.05, "coaching": 0.05},
+    "questions": [
+      "I'm an SDR at a SaaS company and I want to use LinkedIn to book meetings instead of cold calling. What's the exact playbook?",
+      "How do I DM a VP of Sales who gets 200+ connection requests a day? What actually stands out?",
+      "My manager thinks LinkedIn outreach is a waste of time. How do I prove it works without getting in trouble?",
+      "Should I post content as an SDR or will leadership think I'm not doing my job? How do other SDRs handle this?",
+      "What's the best opening line for a DM to a prospect who just got funding?",
+      "How many DMs per day should an SDR send to hit 15+ qualified meetings per month from LinkedIn?",
+      "When a prospect responds but doesn't book a meeting, how do I keep the convo alive?",
+      "I have a prospect who said 'not now, reach out in Q2.' It's Q2. What do I say?",
+      "How do I use the SDR-to-AE promotion story as content without sounding like I'm just trying to get promoted?",
+      "What's the biggest difference between an SDR who books meetings from LinkedIn and one who doesn't?"
+    ]
+  },
+  {
+    "id": "persona_23", "name": "Valentina Petrova", "role": "Online Course Creator",
+    "experience_level": "intermediate", "primary_goal": "Sell my $1K course on LinkedIn without running ads",
+    "communication_style": "direct", "topic_focus": {"sales": 0.3, "content": 0.25, "linkedin": 0.2, "business": 0.15, "coaching": 0.1},
+    "questions": [
+      "I have a $1K course on sales negotiation. I've sold 40 copies through ads but zero organically on LinkedIn. What's the organic playbook?",
+      "How do I DM someone who would clearly benefit from my course without making them feel targeted?",
+      "What content pre-sells a $1K course without me having to write 'link in bio' on every post?",
+      "How do I handle the objection 'I can learn this for free on YouTube' in a DM conversation?",
+      "Should I drip content from the course as free samples or keep it exclusive? What builds more trust?",
+      "How many free touches (posts, comments, DMs) before I ask someone to buy a $1K course?",
+      "What's your framework for pricing a digital course vs. a coaching program on LinkedIn?",
+      "I have a launch scheduled for next month. Walk me through the LinkedIn launch sequence day-by-day.",
+      "How do I use student testimonials in DMs without coming across as 'everyone loves my course'?",
+      "When someone says 'I'll buy it later,' what's your specific follow-up cadence?"
+    ]
+  },
+  {
+    "id": "persona_24", "name": "Henry Osei", "role": "Nonprofit Executive Director",
+    "experience_level": "beginner", "primary_goal": "Use LinkedIn to attract donors and board members",
+    "communication_style": "mission-driven", "topic_focus": {"content": 0.3, "business": 0.25, "linkedin": 0.25, "sales": 0.15, "coaching": 0.05},
+    "questions": [
+      "I run a nonprofit and need to use LinkedIn to attract donors. Is it appropriate to DM someone about donating or is that too direct?",
+      "What content makes a donor pay attention vs. just another nonprofit asking for money?",
+      "How do I DM a high-net-worth individual about board service without sounding transactional?",
+      "My impact metrics are strong but my posts get almost no engagement. Am I telling the story wrong?",
+      "Should I post about the problem we solve (the need) or the impact we've made (the results)? Which drives donations?",
+      "How do I build relationships with potential donors on LinkedIn without ever asking for money directly?",
+      "I connected with a philanthropist who viewed my profile but didn't engage. Should I DM them?",
+      "How do I use storytelling about the people we help without exploiting their stories?",
+      "What's the one metric on LinkedIn that actually correlates with donor interest?",
+      "How do I transition a LinkedIn connection who's liked a few posts into a coffee meeting?"
+    ]
+  },
+  {
+    "id": "persona_25", "name": "Grace Kim", "role": "Health Coach",
+    "experience_level": "intermediate", "primary_goal": "Scale from 1:1 to group coaching programs",
+    "communication_style": "nurturing", "topic_focus": {"sales": 0.3, "content": 0.25, "coaching": 0.2, "linkedin": 0.15, "business": 0.1},
+    "questions": [
+      "I have a full 1:1 coaching practice at $300/session and I want to launch a group program. How do I sell a $1.5K group program to people used to paying per session?",
+      "What content convinces someone that group coaching is as effective as 1:1? My clients push back on this.",
+      "How do I promote a group program without alienating my existing 1:1 clients?",
+      "Should I create a separate LinkedIn presence for the group program or use my existing profile?",
+      "What's the right DM approach for someone who's been following my content for months but never bought anything?",
+      "How do I handle the objection 'group coaching won't give me enough personal attention'?",
+      "I have a waitlist of 5 people for 1:1. Should I pitch them the group program or keep them for higher-paying 1:1?",
+      "What does a successful group program launch on LinkedIn look like? Timelines, posts, DMs?",
+      "How do I price the group program so it feels like a deal compared to 1:1 but still profitable?",
+      "What's the biggest mistake coaches make when transitioning from 1:1 to group, and how do I avoid it?"
+    ]
+  },
+  {
+    "id": "persona_26", "name": "Liam Gallagher", "role": "Construction Company Owner",
+    "experience_level": "beginner", "primary_goal": "Win commercial contracts through LinkedIn relationships",
+    "communication_style": "skeptical", "topic_focus": {"sales": 0.35, "business": 0.3, "linkedin": 0.2, "content": 0.1, "coaching": 0.05},
+    "questions": [
+      "I own a commercial construction company. Is LinkedIn actually useful for winning contracts or is it just for white-collar professionals?",
+      "How do I DM a developer about a project without looking like every other contractor begging for work?",
+      "What should a construction company post on LinkedIn that doesn't bore people? Pictures of buildings?",
+      "I tried LinkedIn once. Connected with some architects. Didn't know what to say next. What's the follow-up?",
+      "My buyers are developers and GCs in their 50s and 60s. Are they even on LinkedIn?",
+      "How do I position my company as a premium contractor without listing our rates publicly?",
+      "I have 20 years of experience and a portfolio of $50M+ projects. How do I put that on LinkedIn without showing off?",
+      "Should I post as myself (the owner) or as the company page? Which one wins bids?",
+      "What's the one thing I can do on LinkedIn this week that might actually lead to a conversation about a project?",
+      "How do I follow up with a developer who said 'we'll keep you in mind for the next one'?"
+    ]
+  },
+  {
+    "id": "persona_27", "name": "Maya Lindström", "role": "Diversity & Inclusion Consultant",
+    "experience_level": "advanced", "primary_goal": "Get retained by 3 large companies for DEI strategy",
+    "communication_style": "principled", "topic_focus": {"sales": 0.3, "content": 0.25, "business": 0.2, "linkedin": 0.15, "coaching": 0.1},
+    "questions": [
+      "I consult on DEI strategy for enterprise companies. The problem: my DMs to CHROs get ignored because everyone's inbox is full of DEI vendors. How do I stand out?",
+      "What content signals strategic DEI thinking vs. performative DEI posting? The line is thin and I want to stay on the right side.",
+      "How do I DM a CHRO about DEI without implying their current efforts are insufficient?",
+      "I have measurable results from a past engagement — 30% increase in diverse hires. How do I share that without violating client confidentiality?",
+      "How do I handle the objection 'we already have a DEI program' when their program is clearly performative?",
+      "Should I post about DEI thought leadership or about case studies? Which actually gets me in the room?",
+      "What's the best way to identify which companies are genuinely ready for DEI work vs. just checking a box?",
+      "How do I price DEI strategy consulting in the first conversation when budgets vary wildly?",
+      "DEI is a politically charged topic. How do I post about it without alienating potential clients?",
+      "How do I turn a LinkedIn connection with a Chief People Officer into a retained engagement?"
+    ]
+  },
+  {
+    "id": "persona_28", "name": "Noah Bennett", "role": "Financial Advisor",
+    "experience_level": "intermediate", "primary_goal": "Generate 5-10 qualified appointments per month from LinkedIn",
+    "communication_style": "trustworthy", "topic_focus": {"sales": 0.35, "linkedin": 0.25, "content": 0.2, "business": 0.15, "coaching": 0.05},
+    "questions": [
+      "I'm a financial advisor targeting high-income earners ($200K+). My compliance team reviews every post. How do I build trust on LinkedIn within those guardrails?",
+      "What content makes affluent prospects think 'this advisor gets me' without promising specific returns?",
+      "How do I DM someone who just sold their company or got a big promotion without looking like I'm chasing their money?",
+      "My best clients come from referrals where trust is already there. Can LinkedIn build that same trust from scratch?",
+      "How do I handle the 'I already have a financial advisor' objection in a DM conversation?",
+      "Should I post about lifestyle (the life my clients live) or about numbers (the returns they get)?",
+      "I posted about a client who retired early (with permission) and compliance approved it. Zero engagement. Is this content wrong or just unlucky?",
+      "How do I use LinkedIn to warm up a cold referral so they're ready to talk when I reach out?",
+      "What's the right frequency of posting for a regulated professional who can't post daily?",
+      "How do I build a LinkedIn network of affluent prospects when my current network is mostly fellow advisors?"
+    ]
+  },
+  {
+    "id": "persona_29", "name": "Sophie Turner", "role": "Yoga Teacher turned Business Coach for Wellness Pros",
+    "experience_level": "beginner", "primary_goal": "Build a coaching business from my yoga community",
+    "communication_style": "gentle", "topic_focus": {"coaching": 0.35, "business": 0.25, "sales": 0.2, "content": 0.15, "linkedin": 0.05},
+    "questions": [
+      "I've been a yoga teacher for 8 years and want to coach other yoga teachers on building a sustainable business. My yoga community loves me but will they pay me for business advice?",
+      "How do I DM a fellow yoga teacher about their business without sounding like I think I know better?",
+      "What content shows yoga teachers I understand their specific financial struggles without making them feel bad?",
+      "I'm great at teaching yoga but I've never made more than $50K/year. Can I still coach others on business?",
+      "Should I offer a free workshop to yoga teachers or a paid program from day one?",
+      "How do I transition from being 'the yoga teacher who also does business' to 'the business coach for yoga teachers'?",
+      "My current following is mostly students, not teachers. Do I need a new audience or can I convert my existing one?",
+      "How do I price coaching for yoga teachers who are used to $15/class?",
+      "What's the biggest mistake wellness professionals make when trying to make more money?",
+      "How do I handle the guilt of charging yoga teachers for advice when I was once broke myself?"
+    ]
+  },
+  {
+    "id": "persona_30", "name": "Catherine Walsh", "role": "B2B SaaS Head of Growth",
+    "experience_level": "advanced", "primary_goal": "Reduce CAC by making founder-LinkedIn a primary channel",
+    "communication_style": "metrics-driven", "topic_focus": {"linkedin": 0.35, "business": 0.3, "content": 0.2, "sales": 0.1, "coaching": 0.05},
+    "questions": [
+      "I'm Head of Growth at a B2B SaaS company. I want our CEO to post on LinkedIn as a growth channel. His resistance is 'I don't have time.' How do I calculate ROI to convince him?",
+      "We're spending $50K/month on paid ads. If we redirected 10% of that to executive LinkedIn content, what's the expected CAC impact?",
+      "How do I set up a LinkedIn content engine for a CEO who hates writing? Ghostwriting? Thought leadership?",
+      "What's the right metric to track for executive LinkedIn: pipeline generated, meetings booked, or something else?",
+      "How do I get our VP of Sales to post on LinkedIn without forcing them and getting bad content?",
+      "What does a successful B2B SaaS executive LinkedIn strategy look like in month 1, 3, 6?",
+      "How do I attribute a deal to LinkedIn when the buyer touches 5 channels? What attribution model works?",
+      "Our CEO posted once and an angry customer commented publicly. He now refuses to post. What do I tell him?",
+      "What's the average ramp time for an executive LinkedIn account to generate measurable pipeline?",
+      "How do I convince a skeptical C-suite that LinkedIn is a growth channel, not a vanity metric?"
+    ]
+  }
+]

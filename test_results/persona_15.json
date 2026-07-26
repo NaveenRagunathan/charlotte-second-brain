@@ -1,0 +1,140 @@
+{
+  "persona_id": "persona_15",
+  "persona_profile": {
+    "id": "persona_15",
+    "name": "Aisha Diallo",
+    "role": "Public Speaking Coach",
+    "experience_level": "intermediate",
+    "primary_goal": "Fill my group workshops and 1:1 coaching practice",
+    "communication_style": "energetic",
+    "topic_focus": {
+      "sales": 0.25,
+      "content": 0.25,
+      "coaching": 0.2,
+      "linkedin": 0.2,
+      "business": 0.1
+    }
+  },
+  "test_started_at": "2026-06-28T16:02:17.015556+00:00",
+  "test_ended_at": "2026-06-28T16:04:02.442491+00:00",
+  "questions": [
+    {
+      "index": 1,
+      "topic": "linkedin",
+      "question": "I help executives become better public speakers. My target clients are VPs who don't think they need speaking help. How do I reach them?",
+      "timestamp_sent": "2026-06-28T16:02:17.044917+00:00",
+      "timestamp_received": "2026-06-28T16:02:27.193533+00:00",
+      "latency_ms": 10148,
+      "http_status": 200,
+      "response_text": "You're trying to reach VPs who think they're already great speakers. That's a tough nut to crack, but it's doable if you're strategic.\n\nBuyers decide before they even talk to you, and that decision happens the moment they discover you on LinkedIn. So, your LinkedIn presence needs to be sharp.\n\nHere's the deal: posting content alone isn't enough. You need to be in the DMs. Source 1 makes it clear that while content warms people up, you can't rely on inbound leads alone. Nine out of ten potential clients won't just come to you, especially if they're a bit sensitive about admitting they need help, like with public speaking. They're lurkers.\n\nYou need a system. Create content that speaks directly to the problems VPs actually have with public speaking, even if they don't realize it. Think about the consequences of poor speaking \u2013 missed opportunities, lack of influence, not getting their ideas across effectively.\n\nThen, you engage. Source 3 talks about commenting on posts from top creators and peers where your target audience hangs out. Do that. Get visible.\n\nBut the real magic happens in the DMs. Identify who's engaging with your content, viewing your profile, or even voting in polls. These are people showing intent. Reach out to them directly. Don't send generic messages. Personalize it. Show you understand their world and their potential blind spots.\n\nSource 2 highlights that you need to be ready for \"no.\" Not everyone will say yes. But if you're having quality conversations with the right people, your close rate can be strong. Aim for efficiency, not just volume.\n\nTactical takeaway for today: Identify three people in your network or who follow you who fit the VP profile. Look at their recent activity. Send them a personalized DM referencing something specific they've posted or a common connection, and then subtly introduce a relevant insight about executive communication that might make them pause and think.",
+      "error": null
+    },
+    {
+      "index": 2,
+      "topic": "content",
+      "question": "Should I post video of myself speaking (showing my expertise) or post tips (teaching)? Which converts better for coaching?",
+      "timestamp_sent": "2026-06-28T16:02:32.194774+00:00",
+      "timestamp_received": "2026-06-28T16:02:38.035918+00:00",
+      "latency_ms": 5841,
+      "http_status": 200,
+      "response_text": "You're asking about video content for your coaching business, and I've got a strong take on this.\n\nVideo converts better, period. Source 1 and Source 2 both hammer this home. People remember video, and it connects you on a human level. It's not just for influencers; it's a powerful tool for coaches like you.\n\nNow, to your specific question: showing yourself speaking versus posting tips. Both can work, but showing yourself speaking directly to your audience, sharing your expertise, is what builds authority and trust. Source 1 says video converts viewers to clients. Source 2 even suggests turning your top posts into quick videos and sending them as DMs \u2013 that's a direct conversion play.\n\nThe mistake most people make is overthinking it and aiming for perfection. Stop that. Your fear of video is costing you clients.\n\nMy tactical takeaway for you today: Pick one of your most popular written posts and turn it into a short video of you speaking about it. Don't worry about fancy production. Just get on camera and share your insights.\n\nI haven't covered the specific nuances of video for coaching versus other industries in my content yet, but here's my take: For coaching, authenticity and demonstrating your expertise through your own voice and presence is paramount. It\u2019s about building that personal connection that leads to a client relationship.",
+      "error": null
+    },
+    {
+      "index": 3,
+      "topic": "sales",
+      "question": "How do I DM a VP about their speaking without implying they're bad at it?",
+      "timestamp_sent": "2026-06-28T16:02:43.036844+00:00",
+      "timestamp_received": "2026-06-28T16:02:49.430467+00:00",
+      "latency_ms": 6393,
+      "http_status": 200,
+      "response_text": "You want to DM a VP about their speaking without making it sound like a critique? Here's the deal: the most expensive mistake on LinkedIn is a DM that feels like a pitch. Buyers decide when they feel in control, not when you're explaining, convincing, and pushing for a call.\n\nYou need to invite them into a conversation, not hit them with a sales pitch. People are impatient and want to go straight for the jugular, but that doesn't stick. You have to be genuinely interested in solving a problem and building a relationship.\n\nMy advice is to reference something specific from their LinkedIn profile or their posts. Show that you've done your homework and are interested in them. Don't be salesy. Engage them in small talk first.\n\nHere's your tactical takeaway for today: Before you send that DM, find three specific things about their LinkedIn profile or recent activity to reference. This shows you've done your research and aren't sending a generic, templated message.",
+      "error": null
+    },
+    {
+      "index": 4,
+      "topic": "content",
+      "question": "My content gets engagement from other speakers and coaches, not from executives. How do I fix my targeting?",
+      "timestamp_sent": "2026-06-28T16:02:54.430812+00:00",
+      "timestamp_received": "2026-06-28T16:03:01.389046+00:00",
+      "latency_ms": 6958,
+      "http_status": 200,
+      "response_text": "You're stuck in the content loop, just like Nico was. You're getting engagement, but it's not from the right people. That's a dangerous trap.\n\nThe problem isn't your content itself, it's who you're attracting with it. You need to be clear on who you serve. If your DMs aren't converting, you're likely targeting the wrong fits.\n\nYou need to re-engineer your content to attract executives, not just other speakers and coaches. Stop creating general \"growth content\" and start creating content that speaks directly to the pain points and aspirations of executives.\n\nMy take is that you need to be crystal clear on your ideal client profile. Who are these executives? What are their biggest challenges? What keeps them up at night? Your content needs to address those specific issues.\n\nTactical takeaway: Stop posting for engagement and start posting to attract your ideal executive client. Ask yourself: \"Does this post speak directly to an executive's problem or desire?\" If the answer is no, don't post it.\n\nI haven't covered specific content examples for executives in my content yet, but here's my take: focus on the business outcomes you help them achieve, not just the general concepts of coaching or speaking.",
+      "error": null
+    },
+    {
+      "index": 5,
+      "topic": "coaching",
+      "question": "What's the best lead magnet for executive speaking coaching? A webinar? A checklist? A free assessment?",
+      "timestamp_sent": "2026-06-28T16:03:06.390925+00:00",
+      "timestamp_received": "2026-06-28T16:03:12.405492+00:00",
+      "latency_ms": 6014,
+      "http_status": 200,
+      "response_text": "I haven't covered lead magnets specifically in my content yet, but here's my take based on what I do know about attracting high-value clients.\n\nForget the generic webinars and checklists. Those are for people who don't understand how to sell high-ticket offers. Your buyers aren't looking for more education; they're looking for clarity and authority.\n\nThe best \"lead magnet\" for executive speaking coaching is a strategic conversation that positions you as the expert. It's about demonstrating you understand their challenges and can deliver executive-level results, not just teach them techniques.\n\nThink about Jessica, the executive coach. She stopped selling her methodology and started leading with outcomes. That's what resonates with senior buyers. They don't need to \"think about it\" when they feel confident you can solve their biggest problems.\n\nYour tactical takeaway today: Instead of creating a downloadable, focus on how you can initiate a high-value conversation. This might be through a targeted DM that addresses a specific pain point you've identified, or by offering a brief, strategic insight in a comment on a prospect's post. Authority is built in the DMs, not in a PDF.",
+      "error": null
+    },
+    {
+      "index": 6,
+      "topic": "sales",
+      "question": "How do I price a 6-week speaking coaching package in the first DM conversation without a call?",
+      "timestamp_sent": "2026-06-28T16:03:17.405954+00:00",
+      "timestamp_received": "2026-06-28T16:03:23.523189+00:00",
+      "latency_ms": 6117,
+      "http_status": 200,
+      "response_text": "I haven't covered pricing a specific package in a DM conversation in my content yet, but here's my take.\n\nYou absolutely can and should price your offers in the DM. Buyers decide before the sales call, remember? If you're having a genuine conversation and they're clearly interested, you need to be able to state your price.\n\nHere's the tactical takeaway for today: When you're in a DM conversation and you've identified a struggle and probed what they've tried, you can then introduce your offer and its price. Don't shy away from it. If you've built curiosity and they've confirmed a pain point, they're looking for a solution. State the value and the investment clearly.",
+      "error": null
+    },
+    {
+      "index": 7,
+      "topic": "coaching",
+      "question": "I had a client who landed a TEDx talk after working with me. How do I share that without being a name-dropper?",
+      "timestamp_sent": "2026-06-28T16:03:28.524479+00:00",
+      "timestamp_received": "2026-06-28T16:03:34.524873+00:00",
+      "latency_ms": 6000,
+      "http_status": 200,
+      "response_text": "You want to leverage that win without sounding like you're bragging. Here's how you do it.\n\nInstead of saying \"My client got a TEDx talk,\" you share a relevant win casually.\n\nTry this: \"Quick one: a client in your industry just landed a TEDx talk. I thought of what you mentioned about [their goal] on our call.\"\n\nThis is proof without the pitch. It reminds them you exist and that you get results, without being weird about it. It connects their goals to a tangible outcome you've helped someone achieve.",
+      "error": null
+    },
+    {
+      "index": 8,
+      "topic": "sales",
+      "question": "Executives are busy. How do I get a 'not interested' or 'maybe later' \u2014 I just want a decision so I can move on.",
+      "timestamp_sent": "2026-06-28T16:03:39.526479+00:00",
+      "timestamp_received": "2026-06-28T16:03:44.617049+00:00",
+      "latency_ms": 5090,
+      "http_status": 200,
+      "response_text": "You want a decision, not a maybe. I get it. You're not here to waste time.\n\nHere's the deal: Executives are busy, yes, but they're also evaluating. They come to LinkedIn to think and decide. Your job is to make that decision easier for them, not harder.\n\nYou're asking how to get a clear \"no\" or \"yes\" so you can move on. The problem isn't getting the \"not interested\" \u2013 it's that most people are too afraid to ask for it directly or they're sending generic messages that don't warrant any response at all.\n\nYou need to be the expert, like a doctor. You don't offer a patient three different treatments and let them pick. You diagnose and prescribe. In your DMs, you need to show you've done your homework and understand their specific problem.\n\nStop sending templated DMs. That's how you get ignored or, worse, damage your reputation. You need to personalize your outreach, reference things from their profile or posts, and engage them in a real conversation. Build a relationship first.\n\nMy tactical takeaway for you today: Before you send a single DM, spend five minutes researching the person. Find one specific thing you can reference \u2013 a recent post, a shared connection, something in their profile. Lead with that specific observation, not a sales pitch. This shows you're interested in them, not just a transaction.",
+      "error": null
+    },
+    {
+      "index": 9,
+      "topic": "coaching",
+      "question": "What do I say to a prospect who says 'I'm a great speaker already, I don't need coaching'?",
+      "timestamp_sent": "2026-06-28T16:03:49.618621+00:00",
+      "timestamp_received": "2026-06-28T16:03:51.174266+00:00",
+      "latency_ms": 1555,
+      "http_status": 200,
+      "response_text": "You don't say anything about coaching. That's the mistake. You've already lost the deal the moment you start selling.\n\nYour job isn't to convince them they need coaching. It's to hold the frame that you're the prize. They need to prove they're ready for what you offer.\n\nSo instead of responding to their statement, ask another question. Let them do the convincing. The person who cares less about closing controls the close. Premium clients only buy from people who don't need them to.\n\nTactical takeaway: The next time a prospect pushes back, pause. Ask another question instead of defending your service.",
+      "error": null
+    },
+    {
+      "index": 10,
+      "topic": "sales",
+      "question": "How many DMs per day should I send to fill a workshop of 12 people in 3 weeks?",
+      "timestamp_sent": "2026-06-28T16:03:56.175368+00:00",
+      "timestamp_received": "2026-06-28T16:04:02.442005+00:00",
+      "latency_ms": 6266,
+      "http_status": 200,
+      "response_text": "I haven't covered that in my content yet, but here's my take.\n\nYou're asking about a specific number for DMs to fill a workshop, and honestly, focusing on a number is the wrong way to approach this. It\u2019s not about sending a certain volume of messages. It\u2019s about the quality and personalization of those messages.\n\nSource 2 clearly states it's \"much better to send a personalized DM which shows that you've done your homework and that you're interested in that person or that business that you want to work with rather than you just being hey I'm interesting on I great.\"\n\nInstead of chasing a number, focus on having meaningful conversations. Source 1 mentions you're \"only one good DM away from your next best client.\" That means one well-crafted, personalized DM can make all the difference.\n\nMy tactical takeaway for you today is this: Stop thinking about how many DMs to send. Instead, identify 5-10 ideal prospects each day who would genuinely benefit from your workshop. Then, spend your time researching them and crafting a personalized message that speaks directly to their needs and shows you understand their challenges. That\u2019s how you fill your workshop, not by sending generic messages.",
+      "error": null
+    }
+  ],
+  "summary": {
+    "total_questions": 10,
+    "successful": 10,
+    "failed": 0,
+    "avg_latency_ms": 6038,
+    "max_latency_ms": 10148,
+    "min_latency_ms": 1555
+  }
+}

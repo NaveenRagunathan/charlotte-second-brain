@@ -1,6 +1,6 @@
 """
 Charlotte Lloyd Second Brain - RAG-powered chat app.
-FastAPI + TF-IDF + Gemini 2.5 Flash-Lite via Vertex AI (ADC auth).
+FastAPI + TF-IDF + Gemini 2.5 Flash-Lite via Gemini API.
 Trained on LinkedIn posts, website content, and podcast transcripts.
 """
 
@@ -13,27 +13,17 @@ from fastapi.responses import HTMLResponse, JSONResponse, StreamingResponse
 from pydantic import BaseModel
 from sklearn.feature_extraction.text import TfidfVectorizer
 import httpx
-from google.oauth2 import service_account
-import google.auth.transport.requests
 
 BASE_DIR = os.environ.get("CONTENT_DIR", os.path.dirname(os.path.abspath(__file__)))
 
 app = FastAPI(title="Charlotte AI")
 
-# --- Service account setup from env var ---
-SCOPES = ["https://www.googleapis.com/auth/cloud-platform"]
-_credentials = None
-
-google_creds_json = os.environ.get("GOOGLE_CREDENTIALS_JSON")
-if google_creds_json:
-    try:
-        sa_info = json.loads(google_creds_json)
-        _credentials = service_account.Credentials.from_service_account_info(
-            sa_info, scopes=SCOPES
-        )
-        print(f"Loaded service account: {sa_info.get('client_email', 'unknown')}")
-    except Exception as e:
-        print(f"Failed to load service account: {e}")
+# --- Gemini API key from env ---
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+if GEMINI_API_KEY:
+    print("Gemini API key loaded.")
+else:
+    print("WARNING: GEMINI_API_KEY not set.")
 
 # --- Load all content ---
 all_docs = []
@@ -56,27 +46,18 @@ vectorizer = TfidfVectorizer(stop_words="english", max_features=10000)
 embeddings = vectorizer.fit_transform([d["text"] for d in all_docs])
 print(f"TF-IDF matrix shape: {embeddings.shape}")
 
-# --- Gemini / Vertex AI config ---
+# --- Gemini API config ---
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash-lite")
-VERTEX_REGION = os.environ.get("VERTEX_REGION", "us-central1")
-VERTEX_PROJECT = os.environ.get("VERTEX_PROJECT", "")
-VERTEX_API_URL = (
-    f"https://{VERTEX_REGION}-aiplatform.googleapis.com/v1"
-    f"/projects/{VERTEX_PROJECT}/locations/{VERTEX_REGION}"
-    f"/publishers/google/models/{GEMINI_MODEL}:streamGenerateContent?alt=sse"
+GEMINI_STREAM_URL = (
+    f"https://generativelanguage.googleapis.com/v1beta"
+    f"/models/{GEMINI_MODEL}:streamGenerateContent?alt=sse&key={GEMINI_API_KEY}"
 )
-VERTEX_API_URL_SYNC = VERTEX_API_URL.replace(":streamGenerateContent", ":generateContent")
+GEMINI_SYNC_URL = (
+    f"https://generativelanguage.googleapis.com/v1beta"
+    f"/models/{GEMINI_MODEL}:generateContent?key={GEMINI_API_KEY}"
+)
 
-# --- Auth ---
-def get_auth_token():
-    global _credentials
-    if _credentials is None:
-        return None
-    if not _credentials.valid:
-        _credentials.refresh(google.auth.transport.requests.Request())
-    return _credentials.token
-
-API_KEY_AVAILABLE = _credentials is not None and bool(VERTEX_PROJECT)
+API_KEY_AVAILABLE = bool(GEMINI_API_KEY)
 
 SYSTEM_INSTRUCTION = """You are Charlotte Lloyd. 23 years in B2B sales. Built my business at 43 while still employed. Left corporate at 45. Now I help coaches, consultants, and founders get clients on LinkedIn and close high-value deals.
 
@@ -368,7 +349,7 @@ async def chat_stream(req: ChatRequest):
     if not API_KEY_AVAILABLE:
         return JSONResponse(
             status_code=500,
-            content={"error": "VERTEX_PROJECT not set. Set VERTEX_PROJECT and GOOGLE_CREDENTIALS_JSON in Render Environment Variables."}
+            content={"error": "GEMINI_API_KEY not set. Set GEMINI_API_KEY in Render Environment Variables."}
         )
 
     query = req.message.strip()
@@ -387,22 +368,14 @@ async def chat_stream(req: ChatRequest):
     }
 
     async def generate():
-        try:
-            token = get_auth_token()
-        except Exception as e:
-            yield f"data: {json.dumps({'error': f'Auth failed: {str(e)}'})}\n\n"
-            yield "data: [DONE]\n\n"
-            return
-
         headers = {
             "Content-Type": "application/json",
-            "Authorization": f"Bearer {token}",
         }
         try:
             async with httpx.AsyncClient() as client:
                 async with client.stream(
                     "POST",
-                    VERTEX_API_URL,
+                    GEMINI_STREAM_URL,
                     headers=headers,
                     json=payload,
                     timeout=60,
@@ -447,7 +420,7 @@ async def chat_sync(req: ChatRequest):
     if not API_KEY_AVAILABLE:
         return JSONResponse(
             status_code=500,
-            content={"error": "VERTEX_PROJECT not set."}
+            content={"error": "GEMINI_API_KEY not set."}
         )
     query = req.message.strip()
     if not query:
@@ -459,11 +432,10 @@ async def chat_sync(req: ChatRequest):
         "generationConfig": {"temperature": 0.3, "maxOutputTokens": 1200}
     }
     try:
-        token = get_auth_token()
         async with httpx.AsyncClient() as client:
             resp = await client.post(
-                VERTEX_API_URL_SYNC,
-                headers={"Content-Type": "application/json", "Authorization": f"Bearer {token}"},
+                GEMINI_SYNC_URL,
+                headers={"Content-Type": "application/json"},
                 json=payload,
                 timeout=60,
             )

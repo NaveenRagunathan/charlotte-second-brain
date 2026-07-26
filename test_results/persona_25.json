@@ -1,0 +1,140 @@
+{
+  "persona_id": "persona_25",
+  "persona_profile": {
+    "id": "persona_25",
+    "name": "Grace Kim",
+    "role": "Health Coach",
+    "experience_level": "intermediate",
+    "primary_goal": "Scale from 1:1 to group coaching programs",
+    "communication_style": "nurturing",
+    "topic_focus": {
+      "sales": 0.3,
+      "content": 0.25,
+      "coaching": 0.2,
+      "linkedin": 0.15,
+      "business": 0.1
+    }
+  },
+  "test_started_at": "2026-06-28T16:02:17.309670+00:00",
+  "test_ended_at": "2026-06-28T16:04:01.110059+00:00",
+  "questions": [
+    {
+      "index": 1,
+      "topic": "coaching",
+      "question": "I have a full 1:1 coaching practice at $300/session and I want to launch a group program. How do I sell a $1.5K group program to people used to paying per session?",
+      "timestamp_sent": "2026-06-28T16:02:17.338420+00:00",
+      "timestamp_received": "2026-06-28T16:02:24.584008+00:00",
+      "latency_ms": 7245,
+      "http_status": 200,
+      "response_text": "You're asking how to transition clients from a per-session model to a group program. This is a common hurdle, and the key is shifting their perception of value.\n\nHere's the tactical takeaway: Stop selling the sessions, start selling the transformation.\n\nYour current clients are used to a transactional exchange \u2013 time for money. They don't wake up wanting to buy a \"group program.\" They wake up wanting the results your program delivers.\n\nThink about it like this: When someone says they're overwhelmed with tech, you don't say \"My program simplifies everything.\" You say, \"Tell me more about the tech that's overwhelming you.\" You make them feel heard and draw them into the problem you solve.\n\nApply that to your group program launch. Don't lead with the price or the format. Lead with the outcome. What does $1.5K actually get them? Is it $10k+ months? Is it freedom? Is it a simplified business?\n\nYour content needs to pre-sell this transformation. Show them the destination, not the vehicle. If your content consistently highlights the wins and the journey your clients take, by the time they're in a conversation with you, the sale is already happening.\n\nYou've got a $300/session practice. That means your clients are already investing in themselves. You just need to show them how this group program is the accelerated path to the bigger results they're seeking.\n\nI haven't covered specific pricing strategies for transitioning from 1:1 to group programs in my content yet, but here's my take: Focus on the value and the transformation, not the price point or the format.",
+      "error": null
+    },
+    {
+      "index": 2,
+      "topic": "coaching",
+      "question": "What content convinces someone that group coaching is as effective as 1:1? My clients push back on this.",
+      "timestamp_sent": "2026-06-28T16:02:29.586425+00:00",
+      "timestamp_received": "2026-06-28T16:02:36.196259+00:00",
+      "latency_ms": 6609,
+      "http_status": 200,
+      "response_text": "I haven't covered that in my content yet, but here's my take.\n\nYou're not going to convince anyone group coaching is as effective as 1:1 with just posts. Buyers decide before the sales call, and that decision is made in the DMs.\n\nYour content needs to build curiosity and start conversations, not just state facts. Source 2 says every post should have a purpose: build curiosity, start more DMs, and move leads closer to a buying decision. If your content isn't sparking conversations, it's time to switch it up.\n\nInstead of trying to convince them in your posts, focus on building trust and nurturing relationships in the DMs. Source 2 emphasizes going deep, not wide, and nurturing relationships in the DMs. You need to have human conversations. Source 2 explicitly states that content alone won't bring clients \u2013 conversations will.\n\nWhen you're in the DMs, you can address their specific concerns about group coaching versus 1:1. You can explain how group programs or masterminds allow you to serve more clients without working longer hours, build predictable monthly revenue, and focus on growth, not just delivery. That's how you build authority and close deals, not by hoping they'll figure it out from a post.\n\nYour tactical takeaway today: Stop trying to convince people in your posts. Instead, create content that sparks curiosity and prompts a DM. Then, in the DMs, have a human conversation to address their specific objections about group coaching.",
+      "error": null
+    },
+    {
+      "index": 3,
+      "topic": "coaching",
+      "question": "How do I promote a group program without alienating my existing 1:1 clients?",
+      "timestamp_sent": "2026-06-28T16:02:41.198201+00:00",
+      "timestamp_received": "2026-06-28T16:02:47.907169+00:00",
+      "latency_ms": 6708,
+      "http_status": 200,
+      "response_text": "You're asking how to promote a group program without alienating your 1:1 clients. My take is that you don't need to worry about alienating them if you're doing it right. The problem isn't promoting a group program, it's that most people fumble the sales process.\n\nHere's the thing: your existing 1:1 clients are likely seeing massive results because you're giving them deep, high-touch attention. That's what makes your premium offers work. If you start pushing a group program that dilutes that, then yes, you'll have a problem.\n\nBut if you frame it correctly, it's not an issue. My content shows that the \"scaling experts\" push group programs and passive income courses because they want to automate and mass-produce mediocrity. That's not what builds a premium brand.\n\nInstead of thinking about how to \"promote\" a group program, think about how it serves your existing clients or a similar client who wants a different format.\n\nHere's your tactical takeaway: Stop pitching and start mirroring. If a 1:1 client mentions they're feeling overwhelmed by the pace or cost of 1:1, don't immediately jump to \"my group program is cheaper.\" Instead, say something like, \"Tell me more about what feels overwhelming about the current pace.\" This makes them feel heard and opens the door to discussing alternative solutions, like a group program that might offer a different structure or price point, without making them feel like you're pushing them out of the premium experience they value.\n\nYou don't need more leads, you need to stop fumbling the ones you have. Focus on the destination, not the vehicle.",
+      "error": null
+    },
+    {
+      "index": 4,
+      "topic": "coaching",
+      "question": "Should I create a separate LinkedIn presence for the group program or use my existing profile?",
+      "timestamp_sent": "2026-06-28T16:02:52.910172+00:00",
+      "timestamp_received": "2026-06-28T16:02:59.780064+00:00",
+      "latency_ms": 6869,
+      "http_status": 200,
+      "response_text": "You're asking if you should split your LinkedIn presence for a group program. My take is absolutely not.\n\nSource 3 makes it clear that \"scaling experts\" push for group programs and automation, often at the expense of genuine connection and impact. They preach things like \"only do group programs\" and \"automate everything,\" which I think is complete BS. It dilutes your insight, makes your impact theoretical, and compromises results.\n\nThe goal is to build a premium business and brand by staying high-touch, delivering real breakthroughs, and building relationships. This is best achieved by going deeper, not wider. Source 1 also emphasizes that authority is built through one-on-one conversations in the DMs, especially for high-ticket offers.\n\nCreating a separate profile for a group program would fragment your audience and dilute the authority you've built on your primary profile. It goes against the principle of building deep relationships and providing high-touch service. Focus on leveraging your existing, established presence to connect with clients and deliver exceptional value, whether that's in a 1:1 setting or a carefully managed group.\n\nYour tactical takeaway for today: Stop thinking about creating more \"things\" and start thinking about how you can go deeper with the clients you already have or are attracting.",
+      "error": null
+    },
+    {
+      "index": 5,
+      "topic": "linkedin",
+      "question": "What's the right DM approach for someone who's been following my content for months but never bought anything?",
+      "timestamp_sent": "2026-06-28T16:03:04.782050+00:00",
+      "timestamp_received": "2026-06-28T16:03:10.705251+00:00",
+      "latency_ms": 5923,
+      "http_status": 200,
+      "response_text": "You've got someone who's been consuming your content for months but hasn't bought. That's a prime opportunity, and you need to stop treating them like a stranger.\n\nHere's the tactical takeaway: Start by acknowledging their engagement. Reference something specific from their profile or a recent post of theirs. Don't just say \"thanks for following.\" Make it about them.\n\nYou see, people are drawn to conversations where they feel seen and understood. If they've been following you, they've likely identified a pain point that you address. Your job is to gently uncover that.\n\nThink about the SPICE framework. The first 'S' is for \"Start the conversation\" and \"Identify a struggle or a compliment.\" If they've been following for months, they're likely a \"lurker\" \u2013 90% of buyers are lurkers, as Source 2 points out. They might not comment publicly, but they're watching.\n\nSo, when you reach out, don't be like that person sending templated DMs. That's a reputation killer. Instead, be specific. Mention a post of theirs you found interesting or a commonality you noticed. Then, you can pivot to how you help solve problems.\n\nThe key is to build a relationship, not just make a sale. People don't want to talk to someone who just wants to sell to them. They want someone who is genuinely interested in solving their problems.\n\nI haven't covered specific examples of how to reference their profile in my content yet, but the principle is to show you've done your homework and you're not sending a generic message.",
+      "error": null
+    },
+    {
+      "index": 6,
+      "topic": "coaching",
+      "question": "How do I handle the objection 'group coaching won't give me enough personal attention'?",
+      "timestamp_sent": "2026-06-28T16:03:15.705718+00:00",
+      "timestamp_received": "2026-06-28T16:03:19.291621+00:00",
+      "latency_ms": 3585,
+      "http_status": 200,
+      "response_text": "You're asking about handling an objection that comes up when you're offering group coaching. This is a common one, and it's not really about the price or the format, but about the buyer's fear of not getting what they need.\n\nSource 2 tells us that buyers are often objecting to change itself, not your offer. When someone says \"group coaching won't give me enough personal attention,\" they're likely confused comfort with progress. They might be scared of making the wrong decision on something intangible, like the perceived lack of individual focus.\n\nYour tactical takeaway today is this: Instead of directly defending group coaching, reframe the conversation around the results and the structure that ensures attention. Highlight how your group coaching model is designed to provide focused support and accountability, even within a group setting. You need to help them see what they've already told you \u2013 that their concern is about the quality of attention, not necessarily the quantity of one-on-one time.\n\nI haven't covered specific scripts for this exact objection in my content yet, but here's my take based on what I do know.",
+      "error": null
+    },
+    {
+      "index": 7,
+      "topic": "coaching",
+      "question": "I have a waitlist of 5 people for 1:1. Should I pitch them the group program or keep them for higher-paying 1:1?",
+      "timestamp_sent": "2026-06-28T16:03:24.292847+00:00",
+      "timestamp_received": "2026-06-28T16:03:27.244475+00:00",
+      "latency_ms": 2951,
+      "http_status": 200,
+      "response_text": "You've got a waitlist of five people for your 1:1 offers. That's a good start, but let's be clear: you don't have a lead problem, you have a closing problem. This is about maximizing the value of the people who are already interested.\n\nHere's my take: You should absolutely keep them for your higher-paying 1:1 offers. Here's why.\n\nYour content, specifically Source 2, highlights that people aren't waking up wanting to buy a program. They want the outcome \u2013 the $10k+ months, the freedom. Your 1:1 clients are likely further down the funnel, having already seen your content and understanding the transformation you provide. They're not just looking for a group program; they're looking for a dedicated solution to their specific problems.\n\nSource 3 reinforces this by stating that prospects need to see the value instantly and that you should use DMs and follow-ups to convert high-paying clients. A waitlist indicates they're already leaning in. Pitching them a group program might dilute the perceived value of your premium 1:1 offering. You want to sell the destination, not just a vehicle.\n\nMy tactical takeaway for you today is this: Instead of pitching the group program, focus on nurturing those five individuals for your 1:1. In your next communication with them, reiterate the specific, high-value outcomes they can expect from your 1:1 coaching. Use language that mirrors their desires, just like Source 2 suggests with \"mirroring\" instead of \"pitching.\" Ask them what specific results they're looking to achieve with your 1:1 support. This will help you understand their needs better and position your 1:1 offer as the ultimate solution.",
+      "error": null
+    },
+    {
+      "index": 8,
+      "topic": "linkedin",
+      "question": "What does a successful group program launch on LinkedIn look like? Timelines, posts, DMs?",
+      "timestamp_sent": "2026-06-28T16:03:32.245083+00:00",
+      "timestamp_received": "2026-06-28T16:03:38.472234+00:00",
+      "latency_ms": 6227,
+      "http_status": 200,
+      "response_text": "I haven't covered that in my content yet, but here's my take.\n\nA successful group program launch on LinkedIn is all about building anticipation and demonstrating value before you even ask for the sale. You're not just posting about it; you're having conversations.\n\nThink about it this way: buyers decide before the sales call. They discover you and your offer through your consistent presence and engagement.\n\nHere's how you can approach it:\n\n-   Pre-Launch Buzz: Start by engaging with your ideal clients where they are. Look at your peers and competitors \u2013 who is commenting on their posts? Engage with those people. They're already showing interest in the topics you cover. Also, explore LinkedIn events and groups related to your program's niche. People in these spaces are actively looking to invest in themselves. Reach out to attendees and participants, comment on their activity, and start building rapport. This is how you warm up cold leads.\n-   Value-Driven Content: Don't just announce your program. Share insights, tips, and frameworks that directly address the pain points your program solves. Use your posts to highlight the transformation your clients experience. You can even share your own journey, like how writing down goals and visualizing outcomes has helped you. This builds trust and positions you as an authority.\n-   DM Strategy is Key: This is where the real magic happens for high-ticket offers. Once you've identified potential clients through your engagement (commenters on peer posts, event attendees, group members), initiate conversations in the DMs. Don't jump straight into a sales pitch. Use the \"P.I.C.E.\" framework from Source 2.\n    -   Probe: Ask questions to understand their challenges. Why is this a problem for them?\n    -   Identify: What's preventing them from solving it on their own?\n    -   Confirm: What is their desired state? What does success look like without this problem?\n    -   Engage to Invite: Once you've identified a pain point and their desired outcome, invite them to a call to explore how you can help. Be clear it's not a coffee chat.\n-   Launch Phase: As you get closer to opening the doors, you can be more direct about the program. Share testimonials, case studies, and details about the curriculum. Continue to use DMs to answer specific questions and guide interested individuals towards enrollment.\n\nTactical takeaway for today: Identify three people who have commented on a competitor's post in your niche. Send them a connection request with a personalized note referencing their comment. Then, follow up with a DM asking a probing question about the topic they commented on.",
+      "error": null
+    },
+    {
+      "index": 9,
+      "topic": "coaching",
+      "question": "How do I price the group program so it feels like a deal compared to 1:1 but still profitable?",
+      "timestamp_sent": "2026-06-28T16:03:43.472896+00:00",
+      "timestamp_received": "2026-06-28T16:03:50.660324+00:00",
+      "latency_ms": 7187,
+      "http_status": 200,
+      "response_text": "You're asking about pricing your group program to feel like a deal while staying profitable. This is a common point of friction for many entrepreneurs.\n\nHere's the deal: you need to price based on the value and outcomes you deliver, not what you think people can afford. Source 1 is clear on this. Most people undercharge because they're afraid. Stop that.\n\nYour high-ticket price is the selling point. Source 2 hammers this home. If your 1:1 is premium, your group program should reflect that premium value too, just in a different format. You're not offering a discount; you're offering a different way to access the same transformation.\n\nThink about it this way: if your 1:1 is, say, $5,000 for a specific outcome, your group program should still be a significant investment. It's not about making it cheap, it's about making it an obvious choice for someone who wants the results but maybe can't swing the full 1:1 investment right now.\n\nHere's your tactical takeaway for today:\nStop thinking about \"deal\" and start thinking about \"value.\" What's the transformation your group program delivers? Price it based on that transformation. If you're charging $500 for a group program that delivers the same $30K months your 1:1 does, you're leaving money on the table and attracting the wrong kind of client.",
+      "error": null
+    },
+    {
+      "index": 10,
+      "topic": "coaching",
+      "question": "What's the biggest mistake coaches make when transitioning from 1:1 to group, and how do I avoid it?",
+      "timestamp_sent": "2026-06-28T16:03:55.661369+00:00",
+      "timestamp_received": "2026-06-28T16:04:01.109706+00:00",
+      "latency_ms": 5448,
+      "http_status": 200,
+      "response_text": "I haven't covered that in my content yet, but here's my take.\n\nThe biggest mistake coaches make when transitioning from 1:1 to group coaching is trying to sell their service too soon. You're not selling your group program in the DMs, you're selling the meeting. Focus on getting them to sell back to you why they need your help. Ask them questions like, \"Do you have a problem?\" \"How long have you had this problem?\" \"Can you convince me you need to fix it?\" This process helps them realize they need your help, rather than you pushing your service on them.\n\nYour tactical takeaway today is to stop trying to sell your group program in the initial DMs. Instead, focus on starting a real conversation and getting the prospect to articulate their problem and need for a solution.",
+      "error": null
+    }
+  ],
+  "summary": {
+    "total_questions": 10,
+    "successful": 10,
+    "failed": 0,
+    "avg_latency_ms": 5875,
+    "max_latency_ms": 7245,
+    "min_latency_ms": 2951
+  }
+}

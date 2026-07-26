@@ -1,0 +1,140 @@
+{
+  "persona_id": "persona_11",
+  "persona_profile": {
+    "id": "persona_11",
+    "name": "Sofia Andersson",
+    "role": "Sales Trainer",
+    "experience_level": "intermediate",
+    "primary_goal": "Get corporate training contracts through LinkedIn visibility",
+    "communication_style": "confident",
+    "topic_focus": {
+      "sales": 0.45,
+      "content": 0.2,
+      "linkedin": 0.2,
+      "business": 0.1,
+      "coaching": 0.05
+    }
+  },
+  "test_started_at": "2026-06-28T16:02:16.896135+00:00",
+  "test_ended_at": "2026-06-28T16:04:02.443212+00:00",
+  "questions": [
+    {
+      "index": 1,
+      "topic": "sales",
+      "question": "I run sales training workshops for enterprise teams. My DMs to L&D managers get ignored. What subject line actually works?",
+      "timestamp_sent": "2026-06-28T16:02:16.925769+00:00",
+      "timestamp_received": "2026-06-28T16:02:25.654314+00:00",
+      "latency_ms": 8728,
+      "http_status": 200,
+      "response_text": "I haven't covered specific subject lines for L&D managers in my content yet, but here's my take.\n\nYou're getting ignored because you're likely coming across as just another vendor. L&D managers are bombarded with pitches. You need to cut through the noise by showing you understand their world and can offer a tangible solution to their problems.\n\nYour subject line needs to be about them, not you. It should hint at a specific outcome or a common pain point they experience. Think about what keeps them up at night regarding sales training. Is it low adoption rates? Inconsistent performance? Difficulty measuring ROI?\n\nHere's a tactical takeaway you can act on today: Instead of a generic \"Sales Training Proposal,\" try a subject line that focuses on a specific, desirable outcome. For example, \"Boosting Enterprise Sales Performance: A New Approach\" or \"Reducing Sales Training Drop-off Rates for [Their Industry].\" This signals you've done your homework and are offering a solution, not just a service.",
+      "error": null
+    },
+    {
+      "index": 2,
+      "topic": "sales",
+      "question": "Should I post sales tips (to show expertise) or post about training ROI (to appeal to buyers)? Which gets contracts?",
+      "timestamp_sent": "2026-06-28T16:02:30.654663+00:00",
+      "timestamp_received": "2026-06-28T16:02:37.319657+00:00",
+      "latency_ms": 6664,
+      "http_status": 200,
+      "response_text": "You're asking about what kind of content gets contracts. Here's the deal: posting sales tips to show expertise is a common mistake. It\u2019s like showing off your tools instead of showing how you build something amazing. Buyers don't buy your expertise; they buy the outcome you deliver.\n\nYou should absolutely be posting about training ROI. That's what appeals to buyers. They want to know what's in it for them, what results they can expect. Source 1 mentions optimizing for \"actually getting clients\" and that there's a difference between that and optimizing for growth or followers. Training ROI directly speaks to the client's needs and the value you provide.\n\nHere's your tactical takeaway for today: Instead of posting a generic sales tip, reframe it to highlight the ROI. For example, if you're tempted to post \"Always ask discovery questions,\" turn it into something like, \"Asking the right discovery questions can uncover hidden needs, leading to a 20% increase in deal size by ensuring you're solving their biggest pain points.\" This connects your expertise directly to the buyer's desired outcome.",
+      "error": null
+    },
+    {
+      "index": 3,
+      "topic": "sales",
+      "question": "I trained a team at a Fortune 500 company and got great results. How do I share that without breaking confidentiality?",
+      "timestamp_sent": "2026-06-28T16:02:42.320933+00:00",
+      "timestamp_received": "2026-06-28T16:02:48.489984+00:00",
+      "latency_ms": 6169,
+      "http_status": 200,
+      "response_text": "You're asking how to leverage a big win without spilling secrets. This is common.\n\nHere's the deal: you don't need to name names or reveal proprietary details to show you get results. Focus on the transformation and the process.\n\nThink about the core problem you solved for that Fortune 500 team. Was it inconsistent lead flow? Poor conversion rates? Lack of visibility? Whatever it was, that's your hook.\n\nInstead of saying \"I trained XYZ Corp and they saw a 20% increase in sales,\" you say something like:\n\n\"I recently worked with a large enterprise team struggling with inconsistent sales performance. We implemented a new framework focused on [mention the core skill or strategy, e.g., objection handling, value proposition articulation] and within [timeframe, e.g., three months], they saw a significant uplift in their conversion rates. The key was shifting their focus from [what they were doing wrong] to [what they started doing right].\"\n\nThis highlights the problem, your solution, and the positive outcome, all without breaking confidentiality. It's about selling the destination, not the specific vehicle that got you there.\n\nYour tactical takeaway today: Identify the core problem you solved for that Fortune 500 team and reframe your success story around that problem and the general solution, not the client's specific identity or internal metrics.",
+      "error": null
+    },
+    {
+      "index": 4,
+      "topic": "sales",
+      "question": "L&D managers I connect with say 'we'll keep you in mind for next year.' How do I get them to book a pilot now?",
+      "timestamp_sent": "2026-06-28T16:02:53.491032+00:00",
+      "timestamp_received": "2026-06-28T16:03:00.056937+00:00",
+      "latency_ms": 6565,
+      "http_status": 200,
+      "response_text": "You're getting the classic \"let's revisit this later\" brush-off. That means you haven't clearly demonstrated the immediate value and urgency for them to act now.\n\nBuyers decide before they even talk to you, and if they're not seeing a clear, present need, they'll push it off. You need to shift from being a potential future solution to an immediate problem-solver.\n\nHere's your tactical takeaway for today: Stop talking about \"next year.\" In your DMs, focus on identifying their current pain points and the immediate success goals they have. Ask questions that uncover what's costing them time, money, or opportunities right now. If you can pinpoint a specific, urgent challenge that your L&D solutions can fix, you can then confidently say, \"I know I can help you with this now. Why don't we hop on a call to explore how a pilot program could address that immediately?\"\n\nI haven't covered specific L&D manager objections in my content yet, but here's my take: The principle is the same across all high-ticket offers. You need to create urgency by highlighting the immediate cost of inaction.",
+      "error": null
+    },
+    {
+      "index": 5,
+      "topic": "linkedin",
+      "question": "What's the best way to demonstrate training methodology in a LinkedIn post without giving away the whole curriculum?",
+      "timestamp_sent": "2026-06-28T16:03:05.057636+00:00",
+      "timestamp_received": "2026-06-28T16:03:11.636860+00:00",
+      "latency_ms": 6579,
+      "http_status": 200,
+      "response_text": "You want to show people what you do without handing over the keys to the kingdom. I get it. The most expensive mistake on LinkedIn is giving away too much too soon, especially in a DM.\n\nHere's how you do it: tease the results of your methodology, not the step-by-step.\n\nThink about what your training achieves. Does it help people land high-intent calls? Does it help them close deals without being pushy? Does it build authority in the DMs?\n\nFocus on those outcomes. You can mention that your methodology helps clients build questions to qualify fast, or that it creates opening messages that don't trigger defenses. You can even hint at a \"simple flow\" or \"exact pivots\" that lead to natural meeting bookings.\n\nThe key is to highlight the benefit and the transformation, not the exact exercises or scripts. You're showing them the destination, not giving them the full map.\n\nTactical takeaway: In your next LinkedIn post, instead of saying \"We teach X, Y, and Z,\" say \"My clients use my methodology to achieve X, Y, and Z.\" Focus on the outcome.",
+      "error": null
+    },
+    {
+      "index": 6,
+      "topic": "linkedin",
+      "question": "How do I price a corporate training engagement in the initial DM without undervaluing myself?",
+      "timestamp_sent": "2026-06-28T16:03:16.637860+00:00",
+      "timestamp_received": "2026-06-28T16:03:23.315100+00:00",
+      "latency_ms": 6677,
+      "http_status": 200,
+      "response_text": "I haven't covered pricing corporate training engagements in the initial DM in my content yet, but here's my take.\n\nYou absolutely should not be dropping prices in the DMs. That's a surefire way to signal you don't value your own expertise. Premium buyers don't decide based on a quick price drop; they decide when they feel in control and understand the value you bring.\n\nYour goal in the DM isn't to close the deal or even to give a price. It's to move the conversation forward to a point where you can have a proper discovery call where you can understand their needs and they can understand how you solve their specific problems.\n\nThink about it like this: Nico was posting daily, getting engagement, but not closing deals. The shift was pulling back from top-of-funnel content and prioritizing conversations over likes. That led to $72K closed. You need to do the same. Don't give away the farm in the DMs. Focus on building authority and creating a desire for your solution.\n\nMy tactical takeaway for you today is this: Instead of thinking about how to price in the DM, focus on asking questions that uncover their pain points and demonstrate your understanding of their challenges. This builds trust and positions you as the expert, making them eager to hear your proposal on a call.",
+      "error": null
+    },
+    {
+      "index": 7,
+      "topic": "sales",
+      "question": "I have a certification in sales methodology X. Should I lead with that or with results?",
+      "timestamp_sent": "2026-06-28T16:03:28.317453+00:00",
+      "timestamp_received": "2026-06-28T16:03:34.183667+00:00",
+      "latency_ms": 5866,
+      "http_status": 200,
+      "response_text": "You should absolutely lead with results. Your certification is a feature, not a benefit. Senior buyers don't need to be educated on your methodology; they need to see the outcomes you deliver.\n\nThink about Jessica, the executive coach. She stopped selling her coaching methodology and started leading with executive-level results. That's what got her deals closed. When you lead with the specific, painful problem you solve and the tangible outcomes you create, potential clients understand immediately what you do and how you can help them.\n\nYour tactical takeaway for today is to reframe your messaging. Instead of saying \"I have a certification in sales methodology X,\" say \"I help [your ideal client] achieve [specific, quantifiable result] by [briefly mention your unique approach, not the methodology name].\"",
+      "error": null
+    },
+    {
+      "index": 8,
+      "topic": "sales",
+      "question": "When I post about sales frameworks, I get engagement from other trainers, not from buyers. How do I flip that?",
+      "timestamp_sent": "2026-06-28T16:03:39.184558+00:00",
+      "timestamp_received": "2026-06-28T16:03:40.661625+00:00",
+      "latency_ms": 1477,
+      "http_status": 200,
+      "response_text": "You're stuck in the content loop, just like Nico was. Posting about sales frameworks is great for visibility with other trainers, but it's not attracting the buyers you want. You're optimizing for engagement, not for revenue.\n\nThe problem is you're focused on top-of-funnel content that gets likes from peers, not on content that signals buying intent. You need to shift your focus from just posting to having conversations.\n\nHere's the tactical takeaway: Stop posting about sales frameworks and start posting about the results your frameworks help clients achieve. Instead of \"Here's my sales framework,\" try \"How I helped a client close $72K by implementing this specific strategy.\" Highlight the transformation, not just the tool. This will attract buyers who are looking for solutions, not just information.",
+      "error": null
+    },
+    {
+      "index": 9,
+      "topic": "sales",
+      "question": "What's your framework for turning a 1-hour workshop into a 6-month training retainer?",
+      "timestamp_sent": "2026-06-28T16:03:45.663653+00:00",
+      "timestamp_received": "2026-06-28T16:03:50.845789+00:00",
+      "latency_ms": 5182,
+      "http_status": 200,
+      "response_text": "I haven't covered that in my content yet, but here's my take.\n\nYou're asking about scaling a workshop into a long-term retainer, which is smart. The key is to identify the core problem your workshop solves and then build a deeper, more comprehensive solution around it.\n\nYour workshop, \"How to Sell your High Ticket Service in an Unpredictable Market,\" is a great starting point. It addresses the pain of inconsistent growth and the frustration with \"Hope Marketing.\" You promise a sales process that fits personality, value-rich conversations, and elegant buyer attraction without chasing.\n\nTo turn this into a 6-month retainer, you need to expand on these promises. Think about what happens after the workshop. Clients still need ongoing support, accountability, and deeper dives into specific challenges.\n\nHere's a framework:\n\n- Module 1: Foundation & Strategy (Month 1-2)\n  - Deep dive into the sales process from the workshop.\n  - Personalized strategy development based on their specific niche and ideal client.\n  - Refine their positioning and messaging for maximum impact.\n\n- Module 2: Implementation & Refinement (Month 3-4)\n  - Focus on consistent execution of the sales process.\n  - Practice leading value-rich conversations and handling objections.\n  - Develop advanced outreach and networking strategies.\n\n- Module 3: Scaling & Optimization (Month 5-6)\n  - Analyze results and identify areas for optimization.\n  - Explore diversification strategies for lead generation.\n  - Build systems for long-term, sustainable growth.\n\nThis structure takes the initial insights from your workshop and provides the ongoing support and accountability needed for true transformation and sustained results.\n\nYour tactical takeaway today: Identify the next logical step for someone who has completed your workshop. What problem do they still have that your retainer can solve?",
+      "error": null
+    },
+    {
+      "index": 10,
+      "topic": "sales",
+      "question": "How do I handle objections about budget in the DM stage before we even get on a call?",
+      "timestamp_sent": "2026-06-28T16:03:55.846404+00:00",
+      "timestamp_received": "2026-06-28T16:04:02.442319+00:00",
+      "latency_ms": 6595,
+      "http_status": 200,
+      "response_text": "You're asking about handling budget objections in the DM stage, which is exactly where the real selling happens. Buyers decide before they even talk to you, so you need to be proactive.\n\nSource 1 is clear on this: \"Price objections are usually value comparison gaps.\" When someone says \"it's too expensive\" in the DMs, they're not necessarily saying you're too high. They're comparing you to something else, and you haven't made the value clear enough.\n\nYour competitor isn't getting lucky, they're mastering \"Pre-emptive Sell Control,\" as Source 2 puts it. This means they're addressing potential objections, including budget, before they become a roadblock. They \"made ROI and COI impossible to ignore.\"\n\nSource 3 talks about building an AI Head of Sales. While that's about systems, the principle applies to you directly. You can't be running sales from memory or just sending generic info. You need to be prepared with relevant messaging.\n\nHere's your tactical takeaway for today:\n\nWhen a prospect brings up budget in the DMs, don't back down or try to justify your price. Instead, ask a clarifying question that forces a comparison. Use something like: \"Compared to what? Doing nothing, hiring internally, or another option?\" This immediately surfaces where the perceived value gap is and allows you to address it head-on, rather than letting it become a reason to disengage.",
+      "error": null
+    }
+  ],
+  "summary": {
+    "total_questions": 10,
+    "successful": 10,
+    "failed": 0,
+    "avg_latency_ms": 6050,
+    "max_latency_ms": 8728,
+    "min_latency_ms": 1477
+  }
+}

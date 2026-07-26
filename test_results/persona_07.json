@@ -1,0 +1,140 @@
+{
+  "persona_id": "persona_07",
+  "persona_profile": {
+    "id": "persona_07",
+    "name": "Diana Okonkwo",
+    "role": "Career Coach",
+    "experience_level": "beginner",
+    "primary_goal": "Get consistent inbound leads for my career coaching practice",
+    "communication_style": "warm",
+    "topic_focus": {
+      "coaching": 0.4,
+      "linkedin": 0.25,
+      "content": 0.2,
+      "sales": 0.1,
+      "business": 0.05
+    }
+  },
+  "test_started_at": "2026-06-28T16:02:16.778165+00:00",
+  "test_ended_at": "2026-06-28T16:04:01.859307+00:00",
+  "questions": [
+    {
+      "index": 1,
+      "topic": "coaching",
+      "question": "I help mid-career professionals pivot into tech. My posts get comments from job seekers but none of them turn into coaching clients. What's the gap?",
+      "timestamp_sent": "2026-06-28T16:02:16.809069+00:00",
+      "timestamp_received": "2026-06-28T16:02:24.599116+00:00",
+      "latency_ms": 7790,
+      "http_status": 200,
+      "response_text": "Your content isn't broken, your sales process is. You're getting engagement, which is good, but you're not converting that attention into income.\n\nThe gap is that you're likely focusing on visibility and engagement rather than having a system to turn those comments into paying clients. People are interacting with your content, but they aren't seeing you as the solution to their problem in a way that leads to a paid engagement.\n\nHere's the tactical takeaway: Start focusing on your DM strategy. When someone comments on your post, don't just reply with a generic \"thanks.\" Instead, use that comment as an opening to ask a question that probes their pain point further and naturally leads to a conversation about how you can help them pivot into tech. This is how you build authority in the DMs and convert interest into clients.",
+      "error": null
+    },
+    {
+      "index": 2,
+      "topic": "linkedin",
+      "question": "How do I DM someone who's just been laid off without feeling like I'm preying on their pain?",
+      "timestamp_sent": "2026-06-28T16:02:29.599684+00:00",
+      "timestamp_received": "2026-06-28T16:02:36.617808+00:00",
+      "latency_ms": 7018,
+      "http_status": 200,
+      "response_text": "I haven't covered that specific scenario in my content yet, but here's my take.\n\nYou don't prey on pain, you offer solutions. The key is to approach it with empathy and a genuine desire to help, not to exploit a difficult situation.\n\nUse the SPICE framework. Start by acknowledging their situation with genuine care. You can say something like, \"Hey [Name], I saw your update about being laid off. That sounds like a really tough situation, and I wanted to reach out and see how you're doing.\" This is your \"Start\" \u2013 acknowledging their situation.\n\nThen, you need to \"Probe\" their pain, but not in a way that feels intrusive. Instead of asking \"What are your challenges?\", which is too generic, you can ask something more specific to their situation. If you know their industry or role, you could ask, \"Given your background in [their field], how are you thinking about your next steps?\" or \"What's on your mind as you navigate this transition?\" This allows them to share their struggles if they're comfortable.\n\nThe \"Identify\" part is crucial. If they express concerns about finding a new role, or pivoting their career, you can then identify what might be preventing them from solving it on their own. For example, if they mention struggling with networking or articulating their value, you can then explore that.\n\n\"Confirm\" their desired state. What does success look like for them now? Is it landing a similar role, or exploring a new path? Understanding their ideal outcome helps you tailor your approach.\n\nFinally, \"Engage\" them for a meeting. If you've identified a genuine need and you have a solution that can help them, you can say, \"I have some thoughts on how to approach [their specific challenge] during this transition. Would you be open to a brief call to explore some strategies?\" This is not a sales pitch, it's an offer to share insights.\n\nYour tactical takeaway today: When reaching out to someone in a difficult situation, lead with empathy and a genuine offer of support, not a sales pitch. Frame your questions around understanding their situation and desired outcome, rather than directly asking about their problems.",
+      "error": null
+    },
+    {
+      "index": 3,
+      "topic": "coaching",
+      "question": "I'm nervous about charging $300/hour for career coaching when I've never done it full-time. How do I set my rate with confidence?",
+      "timestamp_sent": "2026-06-28T16:02:41.618702+00:00",
+      "timestamp_received": "2026-06-28T16:02:47.903344+00:00",
+      "latency_ms": 6284,
+      "http_status": 200,
+      "response_text": "You're nervous about charging $300/hour because you're letting your own mindset hold you back. Competitors don't stop you from charging your worth, and they certainly don't make you doubt your value. It's you. Source 2 is crystal clear on this.\n\nThe key is to believe in the value you provide. You need to focus on long-term gains and know your worth. Your mindset shapes everything, and when you're committed to growth and leading with conviction, clients can feel it and trust your direction.\n\nHere's your tactical takeaway for today: Stop focusing on whether you've done it \"full-time\" and start focusing on the results you can deliver. Your rate should be based on the transformation you provide, not the hours you've logged in a specific job title.\n\nI haven't covered specific pricing strategies for new coaches in my content yet, but here's my take: Your confidence in your pricing comes from understanding the ROI your clients will get from your coaching. If you can help someone land a job that pays them significantly more than $300/hour, then your rate is more than justified.",
+      "error": null
+    },
+    {
+      "index": 4,
+      "topic": "coaching",
+      "question": "What kind of content proves I can get results without sounding like a testimonial farm?",
+      "timestamp_sent": "2026-06-28T16:02:52.907026+00:00",
+      "timestamp_received": "2026-06-28T16:02:59.797518+00:00",
+      "latency_ms": 6890,
+      "http_status": 200,
+      "response_text": "You want to prove you get results without sounding like a testimonial farm? Easy. Stop focusing on what others say about you and start showing what you do.\n\nAwards are nice, sure, but they're just validation of past performance. What matters is the impact you're making right now. That's what gets people excited.\n\nThink about it. Instead of a generic \"This coach doubled their income!\", talk about the specific problem you solved for them and the tangible outcome they achieved.\n\nFor example, Source 1 mentions a coach who went from $2K months to $20K months. That's good. But if you can frame it as \"Helped a coach overcome their fear of charging premium prices, leading to a 10x revenue increase in 3 months,\" that's way more powerful. It shows how you did it, not just that you did it.\n\nYour content should be about the lessons learned from your client wins. What was the objection they had? What was the strategy that unlocked their success? What's the \"boring stuff\" you did that they can replicate?\n\nSource 2 talks about posting about objections and how deals were sold. That's gold. It's not a testimonial; it's a case study in action. It shows your expertise by dissecting the process.\n\nAnd Source 3 nails it with \"Focus on HUMAN conversations, not just content.\" Every post should aim to build curiosity and start a DM conversation. If your content isn't sparking those conversations, it's not doing its job.\n\nHere's your tactical takeaway for today:\n\nIdentify one client win from your past. Instead of asking for a testimonial, dissect the process that led to that win. Create a post that shares the key lesson or strategy you used, focusing on the problem, the solution, and the quantifiable result. Make it about the how, not just the what.",
+      "error": null
+    },
+    {
+      "index": 5,
+      "topic": "coaching",
+      "question": "I connected with 50 HR managers last week and sent them a message. Only 2 replied. Was my approach wrong?",
+      "timestamp_sent": "2026-06-28T16:03:04.799268+00:00",
+      "timestamp_received": "2026-06-28T16:03:10.695863+00:00",
+      "latency_ms": 5896,
+      "http_status": 200,
+      "response_text": "Your approach wasn't necessarily wrong, but it sounds like you're stuck in a volume game and not focusing on the fundamentals that actually convert.\n\nYou connected with 50 people and only got 2 replies. That's a 4% response rate. You're likely sending out generic messages and then waiting. That's not how you build authority or close high-ticket deals.\n\nThe truth is, consistently converting clients takes more than just sending messages. It's about starting daily conversations with higher-caliber buyers, understanding them, making them feel heard, and following up with care. It takes effort and a willingness to focus on relationships, not just transactions.\n\nMy biggest takeaway for you today is this: Stop focusing on the number of connections and start focusing on the quality of your conversations. Instead of just sending a message and hoping for the best, aim to start 5-10 meaningful daily conversations. Understand their pain points before you even think about pitching.\n\nThis is how you build a business with consistent and sustainable clients, not by blasting cold DMs or relying on hacks.",
+      "error": null
+    },
+    {
+      "index": 6,
+      "topic": "coaching",
+      "question": "Should I offer a free career audit as a lead magnet or does that attract tire-kickers?",
+      "timestamp_sent": "2026-06-28T16:03:15.696647+00:00",
+      "timestamp_received": "2026-06-28T16:03:19.219244+00:00",
+      "latency_ms": 3522,
+      "http_status": 200,
+      "response_text": "You're asking about a free career audit as a lead magnet. Here's my take:\n\nThe problem isn't the offer itself, it's the story you tell yourself about it. If you believe a free audit will attract tire-kickers, that's exactly what you'll get. You need to reframe your mindset. Instead of \"people won't pay high-ticket for this,\" think \"I attract clients who see the value in my work.\"\n\nYour goal is to build authority and trust in the DMs, not just on your profile. A free career audit can be a powerful way to do this if you use it to prove your value and lead people to a solution. It's about conversations, not just collecting leads.\n\nHere's the tactical takeaway for today: When someone engages with your free career audit, don't just send them a report. Use it as an opportunity to start a conversation in the DMs. Ask them about their biggest challenges related to the audit findings and listen. This is where you can offer guidance and demonstrate your expertise, moving them closer to seeing the value in your paid services.\n\nI haven't covered specific lead magnet strategies in detail yet, but my core belief is that distribution beats perfection. Show up, have conversations, and refine your approach based on who you're talking to.",
+      "error": null
+    },
+    {
+      "index": 7,
+      "topic": "linkedin",
+      "question": "How do I handle someone who says 'I'll reach out when I'm ready' \u2014 do I follow up or let them come to me?",
+      "timestamp_sent": "2026-06-28T16:03:24.220120+00:00",
+      "timestamp_received": "2026-06-28T16:03:26.590234+00:00",
+      "latency_ms": 2370,
+      "http_status": 200,
+      "response_text": "You absolutely follow up. Letting them come to you is a rookie mistake that costs deals.\n\nSource 1 shows exactly this. I almost lost $150K because I was too passive, thinking prospects would \"come back when they're ready.\" They didn't. It took one last, well-timed message to close the deal. The fortune is in the follow-up, not in waiting.\n\nSource 2 also hammers this home. You're not there to be \"nice\" and wait. You're there to lead. If you give prospects too much space, you get ghosted. You need to confidently guide them to a decision.\n\nSource 3 highlights that the \"magic\" of inbound only works if the middle of your sales process is tight. This includes how you follow up without begging.\n\nYour tactical takeaway today: Stop waiting. Send a follow-up message that isn't pushy but is strategic. Remind them of the value and ask a direct question to move them forward.",
+      "error": null
+    },
+    {
+      "index": 8,
+      "topic": "linkedin",
+      "question": "My LinkedIn profile says 'Career Coach' but I also do r\u00e9sum\u00e9 rewrites. Should I niche down to one service?",
+      "timestamp_sent": "2026-06-28T16:03:31.593343+00:00",
+      "timestamp_received": "2026-06-28T16:03:37.229910+00:00",
+      "latency_ms": 5636,
+      "http_status": 200,
+      "response_text": "You absolutely should niche down. Your LinkedIn profile is your storefront, and right now it's confusing. You're a career coach who also does r\u00e9sum\u00e9 rewrites. That's like a restaurant advertising \"Italian food\" and then also \"car repair.\" It doesn't make sense.\n\nFrom what I've seen, people who try to be everything to everyone end up being nothing to anyone. You need to be crystal clear about who you help and how you help them. When you're clear, the right people will find you. Source 2 mentions that you don't need a huge following to make money, but you do need to identify who you can speak to. If you're selling a high-ticket offer, those one-on-one conversations in the DMs are what bring in clients.\n\nIf you're a career coach, focus on that. If you're a r\u00e9sum\u00e9 writer, focus on that. You can always add services later once you've established yourself and refined your offer, just like I did. Source 3 talks about how I got clients and then refined my offer. Don't try to do it all at once.\n\nYour tactical takeaway today is to pick ONE service to highlight on your LinkedIn profile. Update your headline and your \"About\" section to reflect that single service. Make it so clear that a stranger can understand exactly what you do and who you help within five seconds of landing on your profile.",
+      "error": null
+    },
+    {
+      "index": 9,
+      "topic": "linkedin",
+      "question": "What's the best time of day to post career content on LinkedIn? I keep hearing different things.",
+      "timestamp_sent": "2026-06-28T16:03:42.230397+00:00",
+      "timestamp_received": "2026-06-28T16:03:50.721659+00:00",
+      "latency_ms": 8491,
+      "http_status": 200,
+      "response_text": "I haven't covered specific posting times in my content yet, but here's my take.\n\nYou're asking about the best time to post career content on LinkedIn, and honestly, everyone's giving you different advice because there's no magic bullet. What matters more than the exact hour is your strategy.\n\nYou need to be optimizing for getting clients, not just followers. If you're posting random content without a strategy, it doesn't matter when you post it, it's not going to work. You need to be speaking to your ideal client's problems and offering solutions.\n\nThink about it this way, 90% of buyers are lurkers. They're not going to comment on your posts, but they are watching. They might view your profile, engage with a poll, or see your content consistently. That's where the opportunity is.\n\nSo, instead of stressing about the perfect time, focus on creating content that resonates and then actively engaging with the people who show intent. Warm outreach and having real conversations in the DMs are what convert.\n\nYour tactical takeaway for today: Stop chasing the \"best time to post.\" Instead, identify three specific problems your ideal career coaching clients are facing and create one post addressing each of those problems. Then, engage with at least 10 people who have interacted with your content or viewed your profile.",
+      "error": null
+    },
+    {
+      "index": 10,
+      "topic": "coaching",
+      "question": "How many conversations should I be having per week to land 2 coaching clients a month?",
+      "timestamp_sent": "2026-06-28T16:03:55.722038+00:00",
+      "timestamp_received": "2026-06-28T16:04:01.857721+00:00",
+      "latency_ms": 6135,
+      "http_status": 200,
+      "response_text": "I haven't covered that in my content yet, but here's my take.\n\nYou need to be having consistent conversations, not just a number. The goal isn't a specific number of chats, it's about quality and consistency. Source 2 states that 90% of their clients come when they initiate the conversation. This means you need to be actively reaching out.\n\nThe key is to start real conversations, not sell immediately. Avoid boring, lazy, or too direct messages. Personalize your outreach and focus on understanding the other person's situation. If your DMs aren't converting, you're likely targeting the wrong people or selling too soon.\n\nSource 1 emphasizes that building a skill like sales takes time and discipline. You can't expect overnight results. It's about repetition and sticking with the process. Don't get caught up in the dopamine trap of likes and follows; focus on actual conversations that lead to clients.\n\nMy tactical takeaway for you today is this: Stop focusing on a magic number of conversations. Instead, commit to sending out a set number of personalized outreach messages every single day. Make it a routine.",
+      "error": null
+    }
+  ],
+  "summary": {
+    "total_questions": 10,
+    "successful": 10,
+    "failed": 0,
+    "avg_latency_ms": 6003,
+    "max_latency_ms": 8491,
+    "min_latency_ms": 2370
+  }
+}

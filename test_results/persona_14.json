@@ -1,0 +1,140 @@
+{
+  "persona_id": "persona_14",
+  "persona_profile": {
+    "id": "persona_14",
+    "name": "Diego Martinez",
+    "role": "Insurance Broker",
+    "experience_level": "advanced",
+    "primary_goal": "Modernize my lead generation beyond referrals",
+    "communication_style": "traditionalist",
+    "topic_focus": {
+      "sales": 0.4,
+      "linkedin": 0.25,
+      "business": 0.2,
+      "content": 0.1,
+      "coaching": 0.05
+    }
+  },
+  "test_started_at": "2026-06-28T16:02:16.985853+00:00",
+  "test_ended_at": "2026-06-28T16:04:00.127312+00:00",
+  "questions": [
+    {
+      "index": 1,
+      "topic": "linkedin",
+      "question": "I've been an insurance broker for 22 years and built my business entirely on referrals. LinkedIn feels like a different world. Where does an old-school guy start?",
+      "timestamp_sent": "2026-06-28T16:02:17.015178+00:00",
+      "timestamp_received": "2026-06-28T16:02:25.606423+00:00",
+      "latency_ms": 8591,
+      "http_status": 200,
+      "response_text": "Alright, let's cut through the noise. You've got 22 years of experience, which is gold. LinkedIn might feel like a different world, but the principles of building relationships and trust are the same, whether it's in person or online.\n\nYou're coming from a referral-based business, which means you already know how to connect with people. The mistake most people make on LinkedIn is either getting too friendly and staying there, or going straight for the hard sell. You don't want to be that guy sending a blank connection request and then immediately asking about their video performance, right? That's a fast track to being ignored.\n\nThink about how you build rapport in person. You find common ground, you ask questions, you listen. You can do the exact same thing on LinkedIn. Start with a personalized connection request. Look at their profile. What have they achieved? How long have they been in business? Find something genuine to comment on. A PS in your message can be a great way to add a personal touch, like mentioning a place you'd like to visit that they live in.\n\nOnce they accept, don't jump straight into business. Warm up the conversation with a bit of chitchat. Then, you can segue into a business-related question. Since you're in insurance, you could ask something like, \"Since we're on the topic of running a business, how are you finding it?\" or \"How are you finding managing your business risks these days?\" It's an open-ended question that invites a response without being pushy.\n\nYour tactical takeaway for today: Send out three personalized connection requests. Find one specific thing on each person's profile to comment on, and include a PS with a personal touch.",
+      "error": null
+    },
+    {
+      "index": 2,
+      "topic": "linkedin",
+      "question": "Insurance is heavily regulated. What can I actually post about without triggering compliance?",
+      "timestamp_sent": "2026-06-28T16:02:30.607834+00:00",
+      "timestamp_received": "2026-06-28T16:02:37.492476+00:00",
+      "latency_ms": 6884,
+      "http_status": 200,
+      "response_text": "I haven't covered that in my content yet, but here's my take.\n\nYou're asking about posting content in a regulated industry like insurance. The key here is to focus on value and insights, not specific product pitches. Think about the problems your ideal clients are facing and how you can offer solutions or perspectives that don't require you to name specific policies or guarantees.\n\nFor example, instead of posting about a particular life insurance policy, you could talk about the importance of financial planning for families or the common mistakes people make when thinking about long-term financial security. You can share general tips on risk management or the benefits of having a financial safety net.\n\nThe goal is to build authority and trust by demonstrating your expertise and understanding of your clients' needs. This is what will attract them to you. Then, you can move those conversations into the DMs where you can have more personalized discussions and address specific needs, always within compliance guidelines.\n\nYour tactical takeaway today is this: Identify one common pain point your ideal insurance clients have that isn't tied to a specific product. Create a post that offers a general insight or tip related to that pain point.",
+      "error": null
+    },
+    {
+      "index": 3,
+      "topic": "sales",
+      "question": "How do I DM business owners about their insurance without sounding like every other broker pestering them?",
+      "timestamp_sent": "2026-06-28T16:02:42.493396+00:00",
+      "timestamp_received": "2026-06-28T16:02:48.683568+00:00",
+      "latency_ms": 6190,
+      "http_status": 200,
+      "response_text": "You're asking about how to approach business owners for insurance without sounding like a typical broker. This is exactly where most people miss the mark on LinkedIn.\n\nThe most expensive mistake on LinkedIn is sending a DM that feels like a pitch. You're doing all the work for the buyer \u2013 explaining, convincing, following up, pushing for a call. That's not how premium buyers decide. They decide when they feel in control.\n\nInstead of leading with what you sell, focus on creating warm conversations. Buyers decide when they discover you and feel you understand their world, not when you try to sell them something.\n\nYour tactical takeaway today is this: Stop pitching and start building authority in the DMs. Focus on conversations that help the buyer sell themselves on the need for your service, rather than you trying to convince them.",
+      "error": null
+    },
+    {
+      "index": 4,
+      "topic": "sales",
+      "question": "My referrals take 2-3 months to close. Can LinkedIn actually speed that up or is that unrealistic?",
+      "timestamp_sent": "2026-06-28T16:02:53.685610+00:00",
+      "timestamp_received": "2026-06-28T16:03:00.567885+00:00",
+      "latency_ms": 6882,
+      "http_status": 200,
+      "response_text": "You're asking if LinkedIn can speed up your referral closing time, and the answer is a resounding yes. It's not unrealistic at all.\n\nYour current situation with referrals taking 2-3 months to close is exactly what I talk about. It's a prime example of growth depending too much on timing and referrals, which is exactly what Source 3 highlights. When you rely solely on referrals, you don't control when the next opportunity appears. Leads go cold, conversations drift, and good offers become easy to forget.\n\nLinkedIn, when used strategically, turns client acquisition into a system, not a hope. Buyers decide the moment they discover you. By being active and visible on LinkedIn, you ensure you're the person they remember when the problem becomes urgent. This dramatically shortens the sales cycle because you're not waiting for a referral to come in and for them to remember you. You're actively building that memory and presence.\n\nMy tactical takeaway for you today is this: Start engaging with potential clients and referral partners on LinkedIn by commenting thoughtfully on their posts. This gets you seen and builds familiarity, making them more likely to think of you when they need your services, cutting down that 2-3 month lag.",
+      "error": null
+    },
+    {
+      "index": 5,
+      "topic": "content",
+      "question": "I tried posting once \u2014 a story about a claim I helped a client with. My compliance team flagged it. How do other brokers do this?",
+      "timestamp_sent": "2026-06-28T16:03:05.568822+00:00",
+      "timestamp_received": "2026-06-28T16:03:11.639110+00:00",
+      "latency_ms": 6070,
+      "http_status": 200,
+      "response_text": "I haven't covered that in my content yet, but here's my take.\n\nYou're trying to get clients, right? Not just likes or follows. If you're posting for conversion, you need to focus on one big pain point your clients have, the negative consequences of not fixing it, and then how you solve it.\n\nYour compliance team flagging a client story means you're likely sharing too much specific detail that could be a privacy issue. Instead of a full client story, focus on the problem and the outcome in a more generalized way.\n\nFor example, instead of saying \"I helped John Doe close a $500k deal by doing X, Y, Z,\" you could say: \"Many brokers struggle with [specific pain point]. The consequence is they leave significant revenue on the table, leading to [negative consequence]. I help clients overcome this by [briefly mention your solution framework, not specific client details].\"\n\nThis way, you're still highlighting the problem and your solution, but without risking compliance issues.\n\nYour tactical takeaway today: Reframe your client success posts to focus on the problem and the outcome in a generalized way, rather than specific client details.",
+      "error": null
+    },
+    {
+      "index": 6,
+      "topic": "sales",
+      "question": "Is LinkedIn worth it for someone who sells to business owners over 50 who aren't on the platform?",
+      "timestamp_sent": "2026-06-28T16:03:16.643927+00:00",
+      "timestamp_received": "2026-06-28T16:03:22.123118+00:00",
+      "latency_ms": 5479,
+      "http_status": 200,
+      "response_text": "Look, if your ideal clients aren't on LinkedIn, then LinkedIn isn't worth it for you. It's that simple. My entire strategy is built on meeting clients where they are and having conversations that convert. If your target audience is elsewhere, you need to be elsewhere too.\n\nMy tactical takeaway for you today is this: Stop wasting time on platforms where your ideal clients aren't actively engaging. Identify where they are spending their time and focus your energy there.",
+      "error": null
+    },
+    {
+      "index": 7,
+      "topic": "sales",
+      "question": "What kind of content builds trust with business owners without sounding like a sales pitch?",
+      "timestamp_sent": "2026-06-28T16:03:27.124091+00:00",
+      "timestamp_received": "2026-06-28T16:03:28.784396+00:00",
+      "latency_ms": 1660,
+      "http_status": 200,
+      "response_text": "You build trust with business owners by showing up consistently and having real conversations. It's not about the perfect offer from day one, it's about getting out there and refining as you go.\n\nMy content is built on the idea that authority is built in the DMs, not just in the posts. When I started creating content, I didn't have a specific business idea in mind. I just started sharing what I knew, and people started reaching out to me. They saw my content, shared it with their teams, and that's how the business grew.\n\nThe key is to be present, not perfect. Clients can feel when you're showing up fully. Ask better questions, be curious, and celebrate the small wins. That's how you build connection and offer better solutions.\n\nTactical takeaway: Share a lesson you learned from a client interaction this week in a post. Don't name names, but focus on the insight and how it changed your perspective.",
+      "error": null
+    },
+    {
+      "index": 8,
+      "topic": "linkedin",
+      "question": "How do I transition my referral mindset to LinkedIn without feeling like I'm being pushy with people I know?",
+      "timestamp_sent": "2026-06-28T16:03:33.785379+00:00",
+      "timestamp_received": "2026-06-28T16:03:37.039015+00:00",
+      "latency_ms": 3253,
+      "http_status": 200,
+      "response_text": "You're sitting on a gold mine on LinkedIn and you don't even realize it. You don't need a massive following to make money. The key is those one-on-one conversations in the DMs. That's where clients are made, especially for high-ticket offers.\n\nYou're worried about being pushy, but that's a mindset barrier. You need to believe in yourself and your service. If you don't believe in how you can help people, you'll never be good at sales. Your mission and your mindset have to be aligned.\n\nStop thinking about being pushy. Start thinking about solving a problem and building a relationship. People are buying you. They want to hear from you, not some outsourced generic outreach.\n\nHere's your tactical takeaway for today: Before you send a DM, reference three specific things from their LinkedIn profile or recent posts. Show them you've actually looked at their content and are genuinely interested in them, not just trying to sell them something. This is how you build authority and trust, not by being pushy.",
+      "error": null
+    },
+    {
+      "index": 9,
+      "topic": "content",
+      "question": "I've seen younger brokers use video. At 58, that feels awkward. Am I at a disadvantage without video?",
+      "timestamp_sent": "2026-06-28T16:03:42.039947+00:00",
+      "timestamp_received": "2026-06-28T16:03:50.151486+00:00",
+      "latency_ms": 8111,
+      "http_status": 200,
+      "response_text": "You're absolutely at a disadvantage if you're avoiding video. It doesn't matter if you're 58 or 28.\n\nYour fear of video is costing you clients. Period. The younger brokers you see are smart because they understand that video connects you on a human level and it converts viewers to clients. In fact, 80% of people remember a video they watched in the last month.\n\nI know it can feel intimidating, and you might be worried about how you'll come across. I've spoken to hundreds of business owners and consultants who feel the same way. But you're missing the point entirely. Stop trying to be perfect and start being strategic.\n\nLinkedIn needs video. Data shows faces build trust faster than logos. And while the platform is still figuring out how to fully integrate video, you can use it strategically right now. Treat video as bottom-funnel, not growth. Use it to deepen trust with people who already know you, not to chase reach.\n\nYour first video won't be perfect, but your competitors are already showing up on video while you're still \"planning.\"\n\nMy tactical takeaway for you today is this: Find your top-performing text posts and turn them into quick videos. Tools like OpusClip can help you do this easily, scoring your video, suggesting hooks, and editing. Just you, talking to your audience. No fancy equipment needed.",
+      "error": null
+    },
+    {
+      "index": 10,
+      "topic": "linkedin",
+      "question": "What's the one thing you'd tell someone who's skeptical that LinkedIn can work for a traditional industry like insurance?",
+      "timestamp_sent": "2026-06-28T16:03:55.153240+00:00",
+      "timestamp_received": "2026-06-28T16:04:00.126956+00:00",
+      "latency_ms": 4973,
+      "http_status": 200,
+      "response_text": "Look, I get it. Insurance feels old school, right? But here's the thing: people decide to buy from you the moment they discover you on LinkedIn. It's not about the industry, it's about how you show up.\n\nI built an internationally recognized business by ditching the \"right\" way and embracing my own narrative. I didn't have the fancy credentials or the linear path, but I had lived experience. I used LinkedIn because it rewarded substance over aesthetics, clarity over charisma.\n\nMy tactical takeaway for you today is this: Stop trying to sell a vibe. Start having real conversations in the DMs. That's where authority is built, and that's how you'll convert high-ticket clients, no matter how \"traditional\" your industry seems.",
+      "error": null
+    }
+  ],
+  "summary": {
+    "total_questions": 10,
+    "successful": 10,
+    "failed": 0,
+    "avg_latency_ms": 5809,
+    "max_latency_ms": 8591,
+    "min_latency_ms": 1660
+  }
+}

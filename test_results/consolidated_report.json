@@ -1,0 +1,99 @@
+{
+  "test_run_id": "2facbd19",
+  "config": {
+    "NUM_PERSONAS": 30,
+    "QUESTIONS_PER_PERSONA": 10,
+    "INTERVAL_SECONDS": 5,
+    "TIME_MODE": "fast",
+    "OUTPUT_DIR": "/home/letbu/charlotte-second-brain/test_results",
+    "TOPICS": [
+      "sales",
+      "linkedin",
+      "content",
+      "coaching",
+      "business"
+    ],
+    "ENDPOINT": "https://charlotte-second-brain.onrender.com/chat"
+  },
+  "total_personas": 30,
+  "total_questions_sent": 300,
+  "overall_success_rate": 1.0,
+  "overall_avg_latency_ms": 6357,
+  "overall_p50_latency_ms": 6504,
+  "overall_p95_latency_ms": 9273,
+  "overall_max_latency_ms": 17740,
+  "overall_min_latency_ms": 1477,
+  "errors_by_type": {
+    "timeout": 0,
+    "5xx": 0,
+    "rate_limited": 0,
+    "other": 0
+  },
+  "latency_by_topic": {
+    "sales": {
+      "avg_ms": 6306,
+      "count": 87
+    },
+    "linkedin": {
+      "avg_ms": 6370,
+      "count": 94
+    },
+    "content": {
+      "avg_ms": 6395,
+      "count": 41
+    },
+    "coaching": {
+      "avg_ms": 6374,
+      "count": 60
+    },
+    "business": {
+      "avg_ms": 6391,
+      "count": 18
+    }
+  },
+  "concurrency_observed": "All 30 personas started within a shared window. First request: 2026-06-28T16:02:16.625438+00:00, last: 2026-06-28T16:04:11.456575+00:00. Total wall-clock: 114.9s.",
+  "total_wall_clock_seconds": 114.9,
+  "fastest_persona": {
+    "persona_id": "persona_02",
+    "avg_latency_ms": 5384,
+    "name": "Priya Sharma"
+  },
+  "slowest_persona": {
+    "persona_id": "persona_19",
+    "avg_latency_ms": 6928,
+    "name": "Isabella Rossi"
+  },
+  "any_failed_personas": [],
+  "raw_file_index": [
+    "persona_01.json",
+    "persona_02.json",
+    "persona_03.json",
+    "persona_04.json",
+    "persona_05.json",
+    "persona_06.json",
+    "persona_07.json",
+    "persona_08.json",
+    "persona_09.json",
+    "persona_10.json",
+    "persona_11.json",
+    "persona_12.json",
+    "persona_13.json",
+    "persona_14.json",
+    "persona_15.json",
+    "persona_16.json",
+    "persona_17.json",
+    "persona_18.json",
+    "persona_19.json",
+    "persona_20.json",
+    "persona_21.json",
+    "persona_22.json",
+    "persona_23.json",
+    "persona_24.json",
+    "persona_25.json",
+    "persona_26.json",
+    "persona_27.json",
+    "persona_28.json",
+    "persona_29.json",
+    "persona_30.json"
+  ]
+}

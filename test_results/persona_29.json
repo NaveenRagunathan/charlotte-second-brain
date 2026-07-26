@@ -1,0 +1,140 @@
+{
+  "persona_id": "persona_29",
+  "persona_profile": {
+    "id": "persona_29",
+    "name": "Sophie Turner",
+    "role": "Yoga Teacher turned Business Coach for Wellness Pros",
+    "experience_level": "beginner",
+    "primary_goal": "Build a coaching business from my yoga community",
+    "communication_style": "gentle",
+    "topic_focus": {
+      "coaching": 0.35,
+      "business": 0.25,
+      "sales": 0.2,
+      "content": 0.15,
+      "linkedin": 0.05
+    }
+  },
+  "test_started_at": "2026-06-28T16:02:17.425547+00:00",
+  "test_ended_at": "2026-06-28T16:04:10.337412+00:00",
+  "questions": [
+    {
+      "index": 1,
+      "topic": "coaching",
+      "question": "I've been a yoga teacher for 8 years and want to coach other yoga teachers on building a sustainable business. My yoga community loves me but will they pay me for business advice?",
+      "timestamp_sent": "2026-06-28T16:02:17.453980+00:00",
+      "timestamp_received": "2026-06-28T16:02:26.565299+00:00",
+      "latency_ms": 9111,
+      "http_status": 200,
+      "response_text": "You're asking if your yoga community will pay you for business advice, and I haven't covered that specific niche in my content yet, but here's my take.\n\nYour yoga community loves you, which is a fantastic starting point. But the question isn't whether they can pay you, it's whether they will pay you for business advice. This comes down to the story you're telling yourself and them about your offer.\n\nMost coaches and consultants struggle with sales not because their offer is bad, but because of the story they tell themselves about selling. You might be thinking, \"My yoga teachers won't pay for business advice,\" or \"I don't want to sound pushy.\" That's the roadblock.\n\nYou need to rewrite that story. Instead of \"My yoga teachers won't pay for business advice,\" try \"I attract yoga teachers who see the value in building a sustainable business.\" Instead of \"I don't want to sound pushy,\" think \"I guide yoga teachers to the right decision with confidence.\"\n\nThe key is to shift from thinking about \"selling\" to \"leading.\" You're not trying to convince them; you're guiding them to a better outcome. If your yoga community trusts you for their practice, they can trust you for business growth.\n\nYour tactical takeaway today is to reframe your mindset around selling your business coaching. Stop seeing it as asking for money and start seeing it as offering a valuable solution that your community desperately needs.\n\nIf you're struggling with how to position your offer and have those conversations, that's exactly what I help coaches and consultants with.",
+      "error": null
+    },
+    {
+      "index": 2,
+      "topic": "business",
+      "question": "How do I DM a fellow yoga teacher about their business without sounding like I think I know better?",
+      "timestamp_sent": "2026-06-28T16:02:31.568709+00:00",
+      "timestamp_received": "2026-06-28T16:02:37.531401+00:00",
+      "latency_ms": 5962,
+      "http_status": 200,
+      "response_text": "You're asking about approaching a fellow yoga teacher about their business without sounding like you're condescending. This is a common pitfall, and honestly, most people get it wrong.\n\nThe biggest mistake you can make is sending a DM that feels like a pitch, like you're trying to convince them of something. That's not how premium buyers decide, and it certainly won't work with a peer. They decide when they feel in control.\n\nInstead of trying to sell them something or tell them what they're doing wrong, focus on building a relationship and solving a problem. You need to be genuinely interested in them and their business. People don't want to talk to someone who just wants to sell to them.\n\nHere's what you can do today:\n\nInvite them into a conversation. Start with small talk. Reference something specific you've seen on their LinkedIn profile or in their posts. Show them you've done your homework and that you're not sending a templated message. This is how you build authority and trust in the DMs, not just in your posts. It's about having real conversations.",
+      "error": null
+    },
+    {
+      "index": 3,
+      "topic": "content",
+      "question": "What content shows yoga teachers I understand their specific financial struggles without making them feel bad?",
+      "timestamp_sent": "2026-06-28T16:02:42.532618+00:00",
+      "timestamp_received": "2026-06-28T16:02:49.101207+00:00",
+      "latency_ms": 6568,
+      "http_status": 200,
+      "response_text": "I haven't covered that in my content yet, but here's my take.\n\nYou need to speak to the reality of their income fluctuations. Think about content that acknowledges the feast-or-famine nature of a yoga teacher's income. You could talk about how inconsistent class bookings can lead to financial stress, or how the seasonality of certain wellness trends impacts their earnings.\n\nThe key is to frame it around the opportunity for stability and growth, not dwelling on the struggle itself. For example, you could create a post or a short video discussing how to build a more predictable revenue stream beyond just studio classes, or how to leverage their expertise to create passive income.\n\nMy tactical takeaway for you today is this: Create a piece of content that highlights the challenge of inconsistent income for yoga teachers, but immediately pivots to a solution or a forward-looking strategy. Don't just point out the problem; offer a glimpse of the way out.",
+      "error": null
+    },
+    {
+      "index": 4,
+      "topic": "coaching",
+      "question": "I'm great at teaching yoga but I've never made more than $50K/year. Can I still coach others on business?",
+      "timestamp_sent": "2026-06-28T16:02:54.103109+00:00",
+      "timestamp_received": "2026-06-28T16:03:00.568130+00:00",
+      "latency_ms": 6465,
+      "http_status": 200,
+      "response_text": "Absolutely you can coach others on business. Age doesn't define you, and your experience teaching yoga has given you valuable skills. You've likely seen firsthand how consistency and practice lead to mastery, just like a professional golfer or a top salesperson.\n\nThe key is to treat selling your coaching services like a skill, not a hobby. You don't get better by hoping for clients; you get better by practicing the right things.\n\nHere's your tactical takeaway for today: Stop thinking about your yoga teaching as separate from your business coaching. Instead, identify the transferable skills and lessons learned from your years of teaching. How did you build rapport with students? How did you help them achieve their goals? How did you handle challenges and plateaus? Frame these experiences as valuable insights you can now share with entrepreneurs who are looking to grow their own businesses. Your \"success leaves clues\" from your yoga career, and those clues are exactly what potential clients are looking for.",
+      "error": null
+    },
+    {
+      "index": 5,
+      "topic": "coaching",
+      "question": "Should I offer a free workshop to yoga teachers or a paid program from day one?",
+      "timestamp_sent": "2026-06-28T16:03:05.569936+00:00",
+      "timestamp_received": "2026-06-28T16:03:11.704622+00:00",
+      "latency_ms": 6134,
+      "http_status": 200,
+      "response_text": "You're asking about a free workshop versus a paid program from day one. Look, the content I've shared is pretty clear on this.\n\nYou need to sell first, build after. Higher-ticket clients aren't waiting for your perfect offer, they're waiting for you to show up and prove your value. A free workshop is just another way to hide behind \"progress\" instead of making real connections.\n\nMy take is this: stop planning and start doing. You don't need a big audience or a perfect offer to get started. You need confidence built by doing, and conversations with the right people.\n\nHere's your tactical takeaway for today: Message 10 potential clients every single day. Ask them about their challenges and listen. That's how you start building authority and proving your value, not by giving away free stuff.",
+      "error": null
+    },
+    {
+      "index": 6,
+      "topic": "coaching",
+      "question": "How do I transition from being 'the yoga teacher who also does business' to 'the business coach for yoga teachers'?",
+      "timestamp_sent": "2026-06-28T16:03:16.705337+00:00",
+      "timestamp_received": "2026-06-28T16:03:23.927411+00:00",
+      "latency_ms": 7222,
+      "http_status": 200,
+      "response_text": "You're asking about positioning yourself clearly so people know exactly what you do and who you serve. This is crucial for attracting the right clients.\n\nHere's the deal: You're sitting on a gold mine with your current experience. You've been there, you understand the yoga teacher's struggles. That's your superpower. The key is to stop being \"the yoga teacher who also does business\" and start being \"the business coach for yoga teachers.\"\n\nYou need to make it crystal clear in your LinkedIn profile, your content, and especially in your DMs that you help yoga teachers build businesses that work for them, not drain them. Think about the \"freedom\" aspect I talk about in Source 2. You're not just teaching yoga; you're teaching yoga teachers how to build a life they don't want to exit from, a business that supports their goals.\n\nThe transition happens by consistently communicating this specific niche. Stop talking about general business advice and start talking about the specific challenges yoga teachers face and how you solve them.\n\nYour tactical takeaway today is to update your LinkedIn headline and About section. Make it explicit: \"Business Coach for Yoga Teachers\" or something similar that clearly states your niche and who you serve. Don't be vague. Be specific.",
+      "error": null
+    },
+    {
+      "index": 7,
+      "topic": "content",
+      "question": "My current following is mostly students, not teachers. Do I need a new audience or can I convert my existing one?",
+      "timestamp_sent": "2026-06-28T16:03:28.929871+00:00",
+      "timestamp_received": "2026-06-28T16:03:37.076292+00:00",
+      "latency_ms": 8146,
+      "http_status": 200,
+      "response_text": "You're asking if you need a new audience or if you can convert your existing one. Look, your current following is mostly students, not teachers. That's a clear mismatch if you're trying to serve teachers.\n\nHere's the deal: You don't need a massive audience to make big sales. What you need is the right audience. Source 1 says it perfectly: \"Don't chase attention \u2014 turn the attention you already have into clients.\" But that attention needs to be from the people who actually buy what you sell.\n\nIf your goal is to work with teachers, and you have a following of students, you're essentially trying to sell a high-ticket offer to people who likely don't have the budget or the need for it. It\u2019s like trying to sell a luxury car to someone who just got their learner's permit.\n\nYou need to shift your focus to attracting and engaging with teachers. This means your content needs to speak directly to their pain points, aspirations, and challenges. Source 3 touches on this by saying, \"Post relevant content on LinkedIn. Something that aligns with what I just researched.\" You need to research what teachers care about and create content that resonates with them.\n\nTactical takeaway for today: Stop creating content for students. Start creating content that speaks directly to teachers. What are their biggest struggles right now? What are their career goals? What keeps them up at night? Create one post today that addresses one of those specific points.",
+      "error": null
+    },
+    {
+      "index": 8,
+      "topic": "coaching",
+      "question": "How do I price coaching for yoga teachers who are used to $15/class?",
+      "timestamp_sent": "2026-06-28T16:03:42.076983+00:00",
+      "timestamp_received": "2026-06-28T16:03:50.934551+00:00",
+      "latency_ms": 8857,
+      "http_status": 200,
+      "response_text": "I haven't covered pricing for yoga teachers specifically in my content yet, but here's my take based on what I do know about selling high-value offers.\n\nYou're asking about pricing for yoga teachers who are used to $15/class. This is a classic case of people undervaluing their expertise because they're used to a transactional, low-ticket model. My entire philosophy is built on attracting clients who can afford and value high-ticket offers, and that starts with your positioning and messaging.\n\nYou need to shift their perception from \"yoga class provider\" to \"business growth expert for yoga instructors.\" If you're coaching them on how to scale their business, diversify their income streams, or build a sustainable coaching practice, that's not worth $15. That's worth significantly more.\n\nThink about my 5 Pillars. If you're not clear on your positioning and messaging (Pillar 1), you'll struggle to command higher prices. You need to articulate the specific outcome you deliver and speak to a painful, specific problem that yoga teachers face when trying to grow beyond just teaching classes.\n\nMy advice is to stop thinking about pricing based on what they currently charge for a class. Instead, price based on the transformation and the return on investment you provide. If you can help a yoga teacher double their income, build a membership, or land corporate clients, that's a massive value proposition that justifies a premium price.\n\nTactical takeaway for today: Redefine your offer. Instead of \"coaching for yoga teachers,\" frame it as \"Business Acceleration for Yoga Professionals\" or \"Scale Your Yoga Business Beyond the Mat.\" Focus on the business outcomes, not the yoga teaching itself.",
+      "error": null
+    },
+    {
+      "index": 9,
+      "topic": "coaching",
+      "question": "What's the biggest mistake wellness professionals make when trying to make more money?",
+      "timestamp_sent": "2026-06-28T16:03:55.935010+00:00",
+      "timestamp_received": "2026-06-28T16:04:01.423646+00:00",
+      "latency_ms": 5488,
+      "http_status": 200,
+      "response_text": "The biggest mistake wellness professionals make when trying to make more money is not using video. You're missing out on a massive opportunity to connect with people on a human level and convert them into clients.\n\nVideo isn't just for influencers. It's a powerful tool that helps people remember what they see, and it can directly lead to sales. If you're worried about how you'll come across, remember that 50% of my business comes from video, and I used to feel the same way.\n\nMy tactical takeaway for you today is this: Start incorporating video into your LinkedIn content. Even if it feels intimidating at first, the connection and conversion power are undeniable.",
+      "error": null
+    },
+    {
+      "index": 10,
+      "topic": "coaching",
+      "question": "How do I handle the guilt of charging yoga teachers for advice when I was once broke myself?",
+      "timestamp_sent": "2026-06-28T16:04:06.424299+00:00",
+      "timestamp_received": "2026-06-28T16:04:10.336412+00:00",
+      "latency_ms": 3912,
+      "http_status": 200,
+      "response_text": "I haven't covered that in my content yet, but here's my take.\n\nYou're confusing discomfort with danger. Charging yoga teachers for advice when you were once broke is not a real threat to your business or your life. It's just imaginary fear, a bruised ego. Source 2 makes this crystal clear.\n\nThink about it: a knife to your throat is real danger. Someone saying no to your offer, or feeling a bit guilty about your pricing, is not. You survived real danger, so you can absolutely handle this.\n\nYour mindset is the biggest threat to your business, not your past financial situation. Source 3 tells us this directly. Believing in the value you provide and knowing your worth are crucial for growth.\n\nHere's your tactical takeaway for today: Reframe your thinking. Instead of guilt, focus on the value you deliver. You've been there, you understand their struggles, and now you have the solutions. That's incredibly valuable. Own it.",
+      "error": null
+    }
+  ],
+  "summary": {
+    "total_questions": 10,
+    "successful": 10,
+    "failed": 0,
+    "avg_latency_ms": 6786,
+    "max_latency_ms": 9111,
+    "min_latency_ms": 3912
+  }
+}

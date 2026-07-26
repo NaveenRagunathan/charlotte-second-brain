@@ -1,0 +1,140 @@
+{
+  "persona_id": "persona_28",
+  "persona_profile": {
+    "id": "persona_28",
+    "name": "Noah Bennett",
+    "role": "Financial Advisor",
+    "experience_level": "intermediate",
+    "primary_goal": "Generate 5-10 qualified appointments per month from LinkedIn",
+    "communication_style": "trustworthy",
+    "topic_focus": {
+      "sales": 0.35,
+      "linkedin": 0.25,
+      "content": 0.2,
+      "business": 0.15,
+      "coaching": 0.05
+    }
+  },
+  "test_started_at": "2026-06-28T16:02:17.396439+00:00",
+  "test_ended_at": "2026-06-28T16:04:08.589747+00:00",
+  "questions": [
+    {
+      "index": 1,
+      "topic": "linkedin",
+      "question": "I'm a financial advisor targeting high-income earners ($200K+). My compliance team reviews every post. How do I build trust on LinkedIn within those guardrails?",
+      "timestamp_sent": "2026-06-28T16:02:17.425246+00:00",
+      "timestamp_received": "2026-06-28T16:02:26.525959+00:00",
+      "latency_ms": 9100,
+      "http_status": 200,
+      "response_text": "You're asking how to build trust on LinkedIn when you're a financial advisor with compliance to navigate. This is a common challenge, but it's absolutely doable.\n\nHere's the deal: Buyers decide before they even talk to you. Your LinkedIn presence is where that decision starts. Your content, your positioning, and the conversations people have about you \u2013 that's what builds trust. The sales call doesn't create trust; it confirms it.\n\nYour compliance team reviewing posts is a hurdle, but it doesn't mean you can't be effective. You need to focus on providing value and demonstrating your expertise within those boundaries.\n\nTactical takeaway for today: Instead of just posting generic financial advice, focus on sharing insights about the process of financial planning and the value of working with a trusted advisor. Think about the common questions and concerns your high-income clients have, and address those in a way that's compliant. For example, you could talk about the importance of long-term financial strategy, the benefits of diversification, or how to approach retirement planning, without giving specific investment advice. This demonstrates your knowledge and builds confidence without crossing compliance lines.\n\nI haven't covered specific compliance strategies in my content yet, but here's my take: leverage your expertise by focusing on education and process.",
+      "error": null
+    },
+    {
+      "index": 2,
+      "topic": "sales",
+      "question": "What content makes affluent prospects think 'this advisor gets me' without promising specific returns?",
+      "timestamp_sent": "2026-06-28T16:02:31.526394+00:00",
+      "timestamp_received": "2026-06-28T16:02:38.344134+00:00",
+      "latency_ms": 6817,
+      "http_status": 200,
+      "response_text": "You're asking about content that resonates with affluent prospects, making them feel understood without making specific return promises.\n\nThe key here isn't about promising returns, it's about demonstrating you understand their world and their challenges. Source 2 hits this directly: \"Your content isn\u2019t broken. Your sales process is.\" Many coaches are showing up daily but not cashing in because they don't know how to turn attention into income. This is the core problem affluent prospects face too \u2013 they have attention, maybe even a growing audience, but they aren't converting it into the results they want.\n\nYou need to refine your messaging and content strategy to focus on closing, not just creating. Source 3 talks about how people started reaching out because they saw content that said \"we need to be doing exactly what this person says.\" This is about showing you have the answers and the system.\n\nAffluent prospects want to know you can help them scale without necessarily working more hours, just like Laura in Source 2. They want a better system, not just more content. Show them you understand their struggle of pouring time into things with no financial return.\n\nYour tactical takeaway for today is this: Stop focusing on what you do and start focusing on the transformation you provide. Frame your content around the problems affluent prospects are experiencing \u2013 the frustration of not converting attention into income, the desire to scale without burnout, the feeling of being stuck despite consistent effort. Show them you understand their specific pain points.",
+      "error": null
+    },
+    {
+      "index": 3,
+      "topic": "sales",
+      "question": "How do I DM someone who just sold their company or got a big promotion without looking like I'm chasing their money?",
+      "timestamp_sent": "2026-06-28T16:02:43.344952+00:00",
+      "timestamp_received": "2026-06-28T16:02:49.977226+00:00",
+      "latency_ms": 6632,
+      "http_status": 200,
+      "response_text": "You want to DM someone who just sold their company or got a big promotion without looking like a vulture. I get it. This is about timing and tact, not about chasing a payday.\n\nHere's how you approach it:\n\nFirst, acknowledge their achievement. Don't ignore it. People want to be recognized for their wins. You can say something like, \"Huge congratulations on the recent sale of [Company Name]!\" or \"Massive congratulations on your promotion to [New Role]!\"\n\nThen, pivot to genuine curiosity and offer value. Instead of asking about their next move or implying you want a piece of their success, focus on what you can learn from them or how you might be able to support their new chapter.\n\nFor example, if they sold their company, you could say, \"I've been following your journey with [Company Name] and am so impressed by what you've built. I'd love to hear any insights you might have on scaling a business in [Industry] when you have a moment.\"\n\nIf it's a promotion, you could say, \"Congratulations on the new role at [New Company]! I'm always interested in how leaders approach [relevant challenge, e.g., team development, strategic growth] in new positions. If you ever have a moment to share your perspective, I'd be all ears.\"\n\nThe key is to be specific, reference something you've observed about them or their company, and make it about them, not about you. This shows you've done your homework and are genuinely interested in their expertise or experience.\n\nYour tactical takeaway for today: Before you send any DM, ask yourself: \"Am I making this about them or about me?\" If it's about you, rewrite it.",
+      "error": null
+    },
+    {
+      "index": 4,
+      "topic": "linkedin",
+      "question": "My best clients come from referrals where trust is already there. Can LinkedIn build that same trust from scratch?",
+      "timestamp_sent": "2026-06-28T16:02:54.977633+00:00",
+      "timestamp_received": "2026-06-28T16:03:00.984176+00:00",
+      "latency_ms": 6006,
+      "http_status": 200,
+      "response_text": "Yes, LinkedIn absolutely can build that same trust from scratch. Your best clients coming from referrals is a testament to the power of trust, but relying solely on that is a mistake.\n\nSource 1 makes it clear: buyers don't start deciding on the call, they start deciding the moment they discover you. Your content, your positioning, and your reputation on LinkedIn are what build that initial trust. The sales call then just confirms it.\n\nYou have to earn the right to be seen, trusted, and hired on LinkedIn. It\u2019s not about hoping for business, it\u2019s about building a system. Source 3 highlights that posting and engagement aren't enough; you need content that earns trust, attention, and conversion.\n\nMy tactical takeaway for you today is this: Stop thinking of LinkedIn as just a place to post. Start actively building trust through your content and, more importantly, through direct conversations in the DMs. That's where the real client acquisition happens.",
+      "error": null
+    },
+    {
+      "index": 5,
+      "topic": "sales",
+      "question": "How do I handle the 'I already have a financial advisor' objection in a DM conversation?",
+      "timestamp_sent": "2026-06-28T16:03:05.985155+00:00",
+      "timestamp_received": "2026-06-28T16:03:12.176040+00:00",
+      "latency_ms": 6190,
+      "http_status": 200,
+      "response_text": "You're asking about handling an objection in a DM, and I haven't covered that specific objection in my content yet, but here's my take.\n\nYour buyer is not objecting to your price, your offer, or your timing. They are usually objecting to change itself. This is the pattern I see over and over. When someone says \"I already have a financial advisor,\" they're not necessarily saying your services are bad. They're often saying they're comfortable with their current situation and are hesitant about the discomfort of change.\n\nThink about it like this:\n- \"I'm in a good place now\" usually means they've confused comfort with progress.\n- \"Let me do some maths and get back to you\" usually means they are buying time to talk themselves out of the decision.\n\nSo, when you hear \"I already have a financial advisor,\" it's likely not about the advisor themselves. It's about the fear of making a wrong decision, or the effort involved in switching.\n\nYour tactical takeaway today is this: Instead of trying to rebut their statement about having an advisor, focus on uncovering the underlying discomfort or fear. Ask a question that helps them see if their current situation is truly progress or just comfort. For example, you could ask something like, \"That's great you have an advisor. What's the biggest challenge you're currently facing with your financial strategy?\" This shifts the conversation from their existing solution to their unmet needs.",
+      "error": null
+    },
+    {
+      "index": 6,
+      "topic": "linkedin",
+      "question": "Should I post about lifestyle (the life my clients live) or about numbers (the returns they get)?",
+      "timestamp_sent": "2026-06-28T16:03:17.176478+00:00",
+      "timestamp_received": "2026-06-28T16:03:23.524002+00:00",
+      "latency_ms": 6347,
+      "http_status": 200,
+      "response_text": "You should absolutely post about the returns your clients get. Numbers are what matter to your ideal client. They're looking for results, not just a pretty picture.\n\nSource 1 clearly states that \"numbers don't matter in the way you think\" when it comes to your own follower count or post impressions. It emphasizes that \"it's about quality sometimes on social media than quantity.\" This means the right people seeing your content is far more important than a viral post reaching a broad, irrelevant audience.\n\nSource 2, while a personal story, highlights the disconnect between the perceived \"dream\" and the reality. Your clients aren't buying a lifestyle; they're buying a solution to a problem, and that solution translates into tangible results, which are often expressed in numbers.\n\nYour goal is to attract clients who are serious about achieving specific outcomes. Showing them the concrete returns they can expect is how you resonate with them and prompt action.\n\nTactical takeaway: For your next post, focus on a specific, quantifiable result a client achieved. Instead of showing a \"lifestyle,\" showcase the \"return\" \u2013 like a percentage increase in revenue, a reduction in costs, or a specific milestone reached.",
+      "error": null
+    },
+    {
+      "index": 7,
+      "topic": "linkedin",
+      "question": "I posted about a client who retired early (with permission) and compliance approved it. Zero engagement. Is this content wrong or just unlucky?",
+      "timestamp_sent": "2026-06-28T16:03:28.527354+00:00",
+      "timestamp_received": "2026-06-28T16:03:35.604326+00:00",
+      "latency_ms": 7076,
+      "http_status": 200,
+      "response_text": "Your content is likely not \"wrong,\" but it's definitely not strategic if your goal is to get clients. You're stuck in the content loop, thinking that posting about client wins will automatically bring in more business. It's a dangerous trap, and most coaches and consultants fall into it.\n\nThe problem is that you're focusing on visibility and engagement, not conversion. While it's great that you got compliance approval and your client retired early, that story doesn't speak directly to the problems your ideal client is facing or the solutions you offer. It's random content, not a strategic piece designed to attract high-intent buyers.\n\nYou mentioned that posting consistently for three to six months, combined with engaging with top creators and peers where your target audience hangs out, started to move things. That's because you weren't just posting; you were strategically building authority and getting seen by the right people.\n\nHere's your tactical takeaway for today: Stop posting just to post. Refocus your content on conversion, not just visibility. Instead of just sharing a client win, frame it around the problem your client had, how you helped them solve it, and the tangible results they achieved. Make it about them, not just the story.",
+      "error": null
+    },
+    {
+      "index": 8,
+      "topic": "linkedin",
+      "question": "How do I use LinkedIn to warm up a cold referral so they're ready to talk when I reach out?",
+      "timestamp_sent": "2026-06-28T16:03:40.608173+00:00",
+      "timestamp_received": "2026-06-28T16:03:48.922246+00:00",
+      "latency_ms": 8314,
+      "http_status": 200,
+      "response_text": "You want to warm up a cold referral so they're ready to talk. This is smart. Buyers decide before the sales call, and that moment often happens on LinkedIn.\n\nHere's how you do it:\n\nFirst, check for warm paths. This is the absolute best place to start. Look at your 1st-degree connections and see who you already know inside the target organization. Ask them for a referral. You'd be surprised how many doors are already ajar.\n\nIf you don't have a direct warm path, you need to build rapport before you even think about asking for a meeting.\n\n- Engage with their content. If they've posted recently, leave a thoughtful comment that shows you understand their context. If they aren't active, engage with company posts. This shows you're paying attention.\n- Look at events. If you're a career coach, for example, search for events related to careers or leadership. Even if it's a past event, you can still see who attended. Reach out and say you saw they attended and ask how they found it. This starts a conversation.\n- Check out groups. People in groups are often looking to invest in themselves. Engage in discussions there.\n\nThe key is to be human and clear. Audio DMs can stand out more than long walls of text. You're not just sending a message; you're starting a relationship.\n\nYour tactical takeaway today: Before you send any outreach message, find one piece of content the person has posted in the last 30 days and leave a genuine, insightful comment.",
+      "error": null
+    },
+    {
+      "index": 9,
+      "topic": "linkedin",
+      "question": "What's the right frequency of posting for a regulated professional who can't post daily?",
+      "timestamp_sent": "2026-06-28T16:03:53.923623+00:00",
+      "timestamp_received": "2026-06-28T16:03:59.874862+00:00",
+      "latency_ms": 5951,
+      "http_status": 200,
+      "response_text": "You're asking about posting frequency for a regulated professional who can't post daily. Here's the deal: consistency is key, but it's not about posting daily if that's not feasible or appropriate for your industry.\n\nSource 2 clearly states, \"if you're posting content and you're not let's say you're posting five times a week and you're not getting any traction I would rather you posted less three times a week but with the right message.\" This is your answer.\n\nFocus on quality over quantity. If you can't post daily, aim for three high-impact posts per week. Make sure each post is optimized for conversion, not just for likes or follows.\n\nYour tactical takeaway today: Identify one core problem your ideal client faces, then create three posts around it.\n- Post 1: Describe the problem and its pain points.\n- Post 2: Detail the negative consequences of not solving that problem.\n- Post 3: Share a solution, either your own experience or a client success story.",
+      "error": null
+    },
+    {
+      "index": 10,
+      "topic": "linkedin",
+      "question": "How do I build a LinkedIn network of affluent prospects when my current network is mostly fellow advisors?",
+      "timestamp_sent": "2026-06-28T16:04:04.876804+00:00",
+      "timestamp_received": "2026-06-28T16:04:08.589268+00:00",
+      "latency_ms": 3712,
+      "http_status": 200,
+      "response_text": "You're asking how to build a network of affluent prospects when your current connections are mostly fellow advisors. This is a common problem, and the answer lies in shifting your focus from quantity to quality and strategic connection.\n\nYour network is your pipeline, not a popularity contest. If you're currently surrounded by peers, you're likely missing out on high-intent prospects. The key is to intentionally build a network that includes those who can actually become clients.\n\nHere's what you need to do:\n\nBuild a Strategic Network. This means actively seeking out and connecting with people who fit your Ideal Client Profile (ICP). You need to segment your network. Aim for:\n- 20% high-intent prospects. These are the people you want to do business with.\n- 30% peers for visibility.\n- 30% supporters to boost engagement.\n- 20% distributors to amplify reach.\n\nDon't just accept every connection request. Be selective. When you do connect with a prospect, make sure your messaging is clear and speaks directly to their problems. You need to move beyond just having connections and start having conversations that lead to revenue.\n\nMy tactical takeaway for you today is this: Dedicate 15 minutes each day to identifying and sending personalized connection requests to 5-10 individuals who fit your affluent prospect profile. Don't just send a generic request. Reference something specific on their profile or in their content to make it personal. This is how you start building a pipeline you control.",
+      "error": null
+    }
+  ],
+  "summary": {
+    "total_questions": 10,
+    "successful": 10,
+    "failed": 0,
+    "avg_latency_ms": 6614,
+    "max_latency_ms": 9100,
+    "min_latency_ms": 3712
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "persona_id": "persona_18",
+  "persona_profile": {
+    "id": "persona_18",
+    "name": "Ryan O'Brien",
+    "role": "Tech Recruiter starting a coaching side gig",
+    "experience_level": "intermediate",
+    "primary_goal": "Help job seekers land FAANG roles via LinkedIn optimization",
+    "communication_style": "practical",
+    "topic_focus": {
+      "linkedin": 0.35,
+      "coaching": 0.25,
+      "content": 0.2,
+      "sales": 0.15,
+      "business": 0.05
+    }
+  },
+  "test_started_at": "2026-06-28T16:02:17.102533+00:00",
+  "test_ended_at": "2026-06-28T16:04:06.171933+00:00",
+  "questions": [
+    {
+      "index": 1,
+      "topic": "linkedin",
+      "question": "I've placed 200+ engineers at FAANG companies. I want to coach job seekers on LinkedIn optimization. Do I market to candidates or to companies?",
+      "timestamp_sent": "2026-06-28T16:02:17.132335+00:00",
+      "timestamp_received": "2026-06-28T16:02:24.583698+00:00",
+      "latency_ms": 7451,
+      "http_status": 200,
+      "response_text": "You're in a prime position to coach job seekers on LinkedIn optimization, especially with your FAANG placement experience. The question of whether to market to candidates or companies is critical for your client acquisition strategy.\n\nBased on my experience and what I've seen work, you should absolutely market to the candidates. Here's why:\n\nYour core value proposition is helping individuals land jobs at FAANG companies. Candidates are the ones actively seeking this transformation. They are the ones who feel the pain of job searching, the frustration of not getting noticed, and the desire for that FAANG offer. They are the ones who will invest in a solution that gets them there.\n\nThink about it \u2013 companies hire recruiters to find talent. While companies might invest in training for their internal teams, they aren't typically looking to hire a coach to optimize individual candidate profiles for them. Your expertise is in guiding the job seeker through the process, making them the ideal candidate for those top-tier roles.\n\nMy own journey on LinkedIn started with me needing to adapt to online selling after years of in-person networking. I had to learn how to do outreach and leverage platforms like LinkedIn. This shift is exactly what job seekers are facing today. They need someone who understands the online landscape and can guide them to success.\n\nYour tactical takeaway for today: Focus your LinkedIn profile and content squarely on the job seeker. Speak directly to their pain points, their aspirations, and the specific transformation you offer. Use language that resonates with engineers aiming for FAANG. Your headline, your \"About\" section, and your posts should all scream \"I help engineers land FAANG jobs through LinkedIn optimization.\"\n\nI haven't covered specific examples of marketing to candidates versus companies in my content yet, but here's my take: your expertise is in empowering the individual to navigate the system, not in navigating the system for the company. That's where your client pipeline will be strongest.",
+      "error": null
+    },
+    {
+      "index": 2,
+      "topic": "linkedin",
+      "question": "What content proves I know how to get people hired without violating confidentiality or looking like I'm bragging?",
+      "timestamp_sent": "2026-06-28T16:02:29.585194+00:00",
+      "timestamp_received": "2026-06-28T16:02:36.196713+00:00",
+      "latency_ms": 6611,
+      "http_status": 200,
+      "response_text": "You're asking about showcasing your expertise in getting people hired without oversharing or sounding boastful. This is a common challenge, and it comes down to how you frame your experience.\n\nYour content should focus on the lessons learned and the strategies employed, not on specific client names or outcomes that could breach confidentiality. Think about the common objections you overcome, the unique approaches you take to candidate sourcing, or the insights you have into what hiring managers are really looking for.\n\nFor example, instead of saying \"I got John Doe hired at Google,\" you could say something like: \"I recently helped a client navigate a highly competitive hiring process for a top tech company. The key was understanding the subtle nuances of their interview questions and tailoring their responses to highlight specific problem-solving skills. Many candidates miss this, focusing only on technical ability.\"\n\nThis approach demonstrates your knowledge and skill without revealing sensitive details. It shows you understand the hiring landscape and can guide clients through it effectively.\n\nYour tactical takeaway for today: Identify one common hiring challenge your clients face. Then, create a short LinkedIn post or a DM message that outlines a general strategy or insight you use to address that challenge, focusing on the process and principles rather than specific client results.",
+      "error": null
+    },
+    {
+      "index": 3,
+      "topic": "sales",
+      "question": "How do I DM a laid-off engineer without making them feel like a sales target?",
+      "timestamp_sent": "2026-06-28T16:02:41.201623+00:00",
+      "timestamp_received": "2026-06-28T16:02:47.906957+00:00",
+      "latency_ms": 6705,
+      "http_status": 200,
+      "response_text": "You want to connect with a laid-off engineer on LinkedIn without making them feel like a target. That's smart. The biggest mistake people make is sending a DM that feels like a pitch. Nobody wants to be sold to, especially when they're in a vulnerable position.\n\nBuyers decide when they feel in control, not when you're pushing a call or trying to convince them. The key is to build authority and trust in the DMs by having real conversations.\n\nHere's your tactical takeaway for today: Start by acknowledging their situation with empathy. Instead of jumping into what you offer, ask an open-ended question about their experience or what they're exploring next. For example, \"Hey [Name], I saw your update about your transition. How are you feeling about what's next?\" This shows you're human and genuinely interested, not just looking for a quick sale.\n\nI haven't covered specific messaging for laid-off individuals in my content yet, but my take is that genuine connection and understanding always come first.",
+      "error": null
+    },
+    {
+      "index": 4,
+      "topic": "linkedin",
+      "question": "I posted a thread about '5 things your LinkedIn profile is missing' and got 50K impressions but zero paid clients. What went wrong?",
+      "timestamp_sent": "2026-06-28T16:02:52.909588+00:00",
+      "timestamp_received": "2026-06-28T16:02:58.928614+00:00",
+      "latency_ms": 6019,
+      "http_status": 200,
+      "response_text": "You're focusing on the wrong metric. 50K impressions is vanity. It means people saw your stuff, not that they're ready to buy from you.\n\nHere's the reality: Buyers decide before the sales call, and that decision happens when they discover you on LinkedIn. Your profile is where that discovery happens. If your profile isn't designed to convert, all the impressions in the world won't bring you clients.\n\nYou mentioned your thread was about what a LinkedIn profile is missing. That's good content, but if your profile itself isn't optimized to capture that interest and guide people towards a conversation, you're leaving money on the table.\n\nYou need to stop just \"posting\" and start building authority in the DMs. Content is just the appetizer; the main course is the conversation.\n\nTactical takeaway for today: Go to your LinkedIn profile right now. Does it clearly state who you help, what problem you solve, and what the outcome is for your clients? If not, fix it. Make it crystal clear what you do and who you serve. That's the first step to turning impressions into clients.",
+      "error": null
+    },
+    {
+      "index": 5,
+      "topic": "linkedin",
+      "question": "Should I sell a course, a 1:1 audit, or a done-for-you profile rewrite? Which actually converts?",
+      "timestamp_sent": "2026-06-28T16:03:03.931523+00:00",
+      "timestamp_received": "2026-06-28T16:03:07.105274+00:00",
+      "latency_ms": 3173,
+      "http_status": 200,
+      "response_text": "You're asking about what converts, and that's the right question. Forget the offer for a second. The real conversion happens in the DMs, not in your posts or on your website.\n\nHere's the deal: You don't need a perfect offer to get high-ticket clients. You need conversations. Source 3 clearly states that \"Building before selling is a trap.\" Most people are hiding behind content and tweaking their profiles instead of actually talking to potential clients.\n\nThe mistake people make is they think they need to have everything figured out before they even talk to someone. They're waiting for a perfect offer, a big audience, or endless content. That's procrastination disguised as progress.\n\nWhat actually converts is showing up, proving your value, and leading people to a solution. Source 2 talks about how bad outreach, like templated DMs, risks your reputation. Instead, you need to invite people into a conversation, engage them in small talk, and be genuinely interested in solving their problems. Reference things from their profile or posts, be specific. That's what makes people say, \"Nice. Nobody does that.\"\n\nSo, to answer your question about selling a course, a 1:1 audit, or a done-for-you rewrite \u2013 it doesn't matter which one you choose yet. What matters is that you start having conversations. Source 3 says, \"Message 10 potential clients every single day.\" Get on calls, help them for free to prove your value, and then refine your offer based on what they need.\n\nMy tactical takeaway for you today is this: Stop overthinking the offer. Pick one of those options, and then focus on messaging 10 potential clients every single day. Ask them about their challenges and listen. That's where you'll find out what actually converts.",
+      "error": null
+    },
+    {
+      "index": 6,
+      "topic": "linkedin",
+      "question": "What do I say to someone who says 'I can optimize my own profile, thanks'?",
+      "timestamp_sent": "2026-06-28T16:03:12.105953+00:00",
+      "timestamp_received": "2026-06-28T16:03:14.409813+00:00",
+      "latency_ms": 2303,
+      "http_status": 200,
+      "response_text": "You're asking about how to respond when someone pushes back on your offer, specifically saying they can handle their LinkedIn profile themselves. This is a common objection, and it's all about digging deeper.\n\nYou need to acknowledge their statement and then probe further. My SPICE framework is perfect for this.\n\nHere's how you handle it:\n\nStart the conversation by acknowledging their statement. Then, identify a struggle or offer a compliment. In this case, you can compliment their initiative.\n\nSo, you might say something like: \"That's great you're taking charge of your profile! It shows you're proactive. Out of interest, what specific areas are you focusing on optimizing?\"\n\nThis opens the door to understanding their current approach and where they might still need help, even if they don't realize it yet. You're not dismissing their ability, you're showing genuine interest and looking for the underlying pain point.\n\nYour tactical takeaway today is to always probe deeper when someone says they can do it themselves. Ask \"what\" or \"how\" to uncover their actual needs.",
+      "error": null
+    },
+    {
+      "index": 7,
+      "topic": "linkedin",
+      "question": "How do I get referrals from the engineers I've placed without it feeling transactional?",
+      "timestamp_sent": "2026-06-28T16:03:19.412009+00:00",
+      "timestamp_received": "2026-06-28T16:03:23.523605+00:00",
+      "latency_ms": 4111,
+      "http_status": 200,
+      "response_text": "I haven't covered that in my content yet, but here's my take.\n\nYou're asking about referrals, and I've seen this trap before. Relying on referrals is like saying \"Referrals have always worked\" \u2013 it sounds good, but it means you don't control when the next opportunity appears. That's expensive because leads go cold and good offers get forgotten.\n\nYou need a system for client acquisition, not just hoping for referrals. Buyers choose who they remember, not just who they see first.\n\nMy tactical takeaway for you today is this: Stop waiting for referrals and start building a pipeline you control. Focus on creating demand before you need it and selling without shrinking. That's how you build real freedom.",
+      "error": null
+    },
+    {
+      "index": 8,
+      "topic": "coaching",
+      "question": "My expertise is tech recruiting but I'm not a certified coach. Does that matter to buyers?",
+      "timestamp_sent": "2026-06-28T16:03:28.526257+00:00",
+      "timestamp_received": "2026-06-28T16:03:35.603393+00:00",
+      "latency_ms": 7077,
+      "http_status": 200,
+      "response_text": "Your expertise in tech recruiting is exactly what buyers are looking for. The fact that you're not a certified coach is irrelevant. What matters is your ability to solve their problems.\n\nSource 1 shows a brand strategist who was brilliant at her job but struggled with sales. The solution wasn't more expertise, but a shift in how she presented it. She stopped focusing on her process and started focusing on the client's problem, turning pitches into consultations. This led to significant deals.\n\nSource 2 highlights that people don't buy programs, they buy outcomes. They want $10k+ months or freedom, not a \"12-week program.\" Your buyers want to solve their tech recruiting challenges, not hire a certified coach.\n\nYour tactical takeaway today is to stop thinking about your credentials and start thinking about the specific problems your tech recruiting expertise solves for your clients. Frame your conversations around their pain points and how you can deliver the results they desire.",
+      "error": null
+    },
+    {
+      "index": 9,
+      "topic": "coaching",
+      "question": "How do I price LinkedIn coaching for engineers who are used to everything being free or covered by their employer?",
+      "timestamp_sent": "2026-06-28T16:03:40.606463+00:00",
+      "timestamp_received": "2026-06-28T16:03:58.346902+00:00",
+      "latency_ms": 17740,
+      "http_status": 200,
+      "response_text": "You're asking about pricing LinkedIn coaching for engineers who expect things to be free or employer-covered. This is a common challenge, but it boils down to demonstrating value that transcends their usual experience.\n\nYour buyers aren't ignoring your LinkedIn DMs, they're just not reading them if they don't see immediate value. Engineers are used to their employer footing the bill for training and development. Your job is to show them why investing in your coaching is different and essential for their personal future, not just their current role.\n\nHere's the tactical takeaway: Stop thinking about \"free\" or \"employer-covered.\" Instead, focus on the tangible outcomes your coaching delivers that directly impact their career trajectory and earning potential.\n\nYou need to build the ability for them to create opportunity themselves. This means knowing how to reposition themselves, creating demand before they need it, and selling without shrinking. If they're used to their employer building their future, you need to show them how to build their own.\n\nYour content should speak to the \"gap between where you are and where you want to be.\" For engineers, this might be moving into leadership, starting their own ventures, or commanding higher salaries. Frame your coaching as the bridge to that future, not just another course they won't implement.\n\nI haven't covered specific pricing models for engineers in my content yet, but here's my take: You price based on the transformation you provide. If your coaching helps an engineer land a $30k deal or secure a leadership role with a significant salary increase, the value far outweighs the cost of your coaching. You need to communicate that value proposition clearly and consistently.\n\nOne good DM can lead to a meaningfully better life, and for these engineers, that next best client interaction could be the one where they realize their personal career growth is their responsibility, and your coaching is the key.",
+      "error": null
+    },
+    {
+      "index": 10,
+      "topic": "linkedin",
+      "question": "What's the one mistake people make on LinkedIn that costs them interviews, and how do I package that into an offer?",
+      "timestamp_sent": "2026-06-28T16:04:03.348768+00:00",
+      "timestamp_received": "2026-06-28T16:04:06.171718+00:00",
+      "latency_ms": 2822,
+      "http_status": 200,
+      "response_text": "The biggest mistake people make on LinkedIn is delaying action and clarity, which costs them revenue, traction, and trust. They get stuck tweaking their offer or message, thinking more time will solve it, when the real issue is a lack of sharpness in their offer, a message that makes buyers work too hard, or a sales process that relies on guesswork. This delay is expensive because it drains time, money, and energy.\n\nTo package this into an offer, you need to focus on the cost of inaction. Instead of asking \"Can you afford to wait?\", ask \"What exactly will be different in four weeks that is not available to you right now?\" This forces a diagnosis of the invisible costs.\n\nYour offer should be about bringing clarity and sharpness to their offer, message, and sales process. It's about moving them from confusion and guesswork to a clear roadmap where hard work actually leads to results, not just circles. You're selling the end of delay and the beginning of momentum.\n\nThe tactical takeaway for you today is to start asking your prospects, \"What is this costing you right now if nothing changes?\" Use that question to uncover the invisible costs of their current situation and highlight the value of your solution.",
+      "error": null
+    }
+  ],
+  "summary": {
+    "total_questions": 10,
+    "successful": 10,
+    "failed": 0,
+    "avg_latency_ms": 6401,
+    "max_latency_ms": 17740,
+    "min_latency_ms": 2303
+  }
+}
